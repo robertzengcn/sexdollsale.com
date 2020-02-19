@@ -1,0 +1,72 @@
+2015-09-09 01:22:46
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 90.00
+    [ITEMAMT] => 90.00
+    [L_NUMBER0] => SD078
+    [L_NAME0] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY0] => 1
+    [L_AMT0] => 90.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => Taylor Goldsberry
+    [SHIPTOSTREET] => 4444 victory dr.
+    [SHIPTOCITY] => Houston
+    [SHIPTOZIP] => 77088
+    [SHIPTOSTATE] => TX
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => Tgoldsberry90@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-56A77702YE2987233
+    [TIMESTAMP] => 2015-09-09T07:22:46Z
+    [CORRELATIONID] => b5f705f32f19e
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 000000
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 482ms -- Success
+

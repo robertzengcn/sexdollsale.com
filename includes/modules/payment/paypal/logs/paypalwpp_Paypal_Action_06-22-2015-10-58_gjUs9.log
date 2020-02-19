@@ -1,0 +1,145 @@
+Jun-22-2015 10:58:11 (1434992291)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 1199
+    [ITEMAMT] => 1199
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 1199
+    [ITEMAMT] => 1199
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => footjob sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 1199
+)
+
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 1,199.00
+    [AMT] => 1,199.00
+    [ITEMAMT] => 1,199.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => d05d992ebb4775b9ba791581c92428e6
+    [customers_host_address] => ec2-54-163-171-215.compute-1.amazonaws.com
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1431] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 1199
+            [weight] => 20
+            [cartID] => 82872
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-06-22
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 54.163.171.215
+    [new_products_id_in_cart] => 1431
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 20
+    [total_count] => 1
+)
+
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Jun-22-2015 10:58:11 (1434992291)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 1,199.00
+    [ITEMAMT] => 1,199.00
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => footjob sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 1,199.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

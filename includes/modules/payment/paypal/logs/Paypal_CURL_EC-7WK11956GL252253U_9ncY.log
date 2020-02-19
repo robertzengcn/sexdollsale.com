@@ -1,0 +1,74 @@
+2014-04-23 12:32:43
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {GetExpressCheckoutDetails} 
+Array
+(
+    [TOKEN] => EC-7WK11956GL252253U
+    [METHOD] => GetExpressCheckoutDetails
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-7WK11956GL252253U
+    [PHONENUM] => +86 18059949858
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2014-04-23T12:32:42Z
+    [CORRELATIONID] => ba8a28cfae7a1
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10567876
+    [EMAIL] => amigatoy@gmail.com
+    [PAYERID] => QVYKHWYNWPZUY
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => JianZe
+    [LASTNAME] => Zeng
+    [COUNTRYCODE] => CN
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+    [SHIPTOCOUNTRYNAME] => China
+    [ADDRESSSTATUS] => Unconfirmed
+    [CURRENCYCODE] => GBP
+    [AMT] => 781.43
+    [ITEMAMT] => 781.43
+    [SHIPPINGAMT] => 0.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [L_NAME0] => half body sex doll [1431]
+    [L_NUMBER0] => SDL002
+    [L_QTY0] => 1
+    [L_TAXAMT0] => 0.00
+    [L_AMT0] => 781.43
+    [L_ITEMWEIGHTVALUE0] =>    0.00000
+    [L_ITEMLENGTHVALUE0] =>    0.00000
+    [L_ITEMWIDTHVALUE0] =>    0.00000
+    [L_ITEMHEIGHTVALUE0] =>    0.00000
+    [CURL_ERRORS] => 
+)
+
+
+GetExpressCheckoutDetails, Elapsed: 716ms -- Success
+

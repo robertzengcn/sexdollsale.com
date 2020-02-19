@@ -1,0 +1,219 @@
+#mainWrapper {
+	overflow: hidden;
+}
+
+.checkout-columns {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.checkout-leftcolumn,
+.checkout-rightcolumn {
+	float: none;
+}
+
+.checkout-leftcolumn.split-column,
+.checkout-rightcolumn.split-column {
+	float: left;
+    width: 100%;
+}
+
+.checkout-leftcolumn.split-column {
+	margin-right: 4%;
+}
+
+/* non split */
+
+.fec-block-checkout {
+	margin-bottom: 30px;
+}
+
+#checkout .fec-button-container {
+	/*clear: right;
+	float: right;
+	padding-bottom: 30px;
+	position: relative;
+	top: -10px*/
+	margin-top: 20px;
+	float: right;
+}
+
+/* checkout */
+#checkout { 
+    overflow: hidden;
+    padding: 0 15px 0
+}
+
+    #checkout h1 {
+        margin: 15px 0;
+    }
+
+    #checkout_payment {
+        margin: 0;
+    }
+        
+        /* discount */
+        .fec-discount .fec-field-inline {
+            overflow: hidden;
+            position: relative;
+        }
+
+            .fec-discount .fec-field-inline input[type="text"],
+            .fec-discount .fec-field-inline input[type="checkbox"],
+            .fec-discount .fec-field-inline input[type="radio"] {
+                float: left;
+                width: 40%
+            }
+
+            .fec-discount .fec-field-inline input[type="text"] {
+            	margin-top: 20px
+            }
+
+            .fec-discount .fec-field-inline input[type="text"] + label {
+            	font-weight: bold;
+            	left: 0;
+			    position: absolute;
+			    top: -3px;
+            }
+
+            .fec-discount .fec-field-inline input[type="checkbox"],
+            .fec-discount .fec-field-inline input[type="radio"] {
+				clear: left;
+				height: 13px;
+				margin: 0 9px 0 0;
+            	width: 13px
+            }
+
+            .fec-discount .fec-field-inline label {
+				float: left;
+				font-weight: normal;
+				/* margin bottom is set in this class .fec-box-check-radio because they have the same function */
+				width: auto;
+            }
+	
+            .fec-discount .fec-field-inline .buttonRow {
+                clear: left;
+			    float: left;
+			    font-size: 12px;
+			    margin: 0;
+			    width: auto;
+            }
+
+            .fec-discount .fec-field-inline input[type="text"] ~ .buttonRow {
+            	clear: none;
+            	margin: 20px 0 0 10px
+            }
+
+            	.fec-container .fec-field-inline .cssButton,
+            	.fec-container .fec-field-inline .cssButtonHover,
+            	.fec-container .fec-field-inline .cssButtonHover:hover {
+					background: #000;
+					padding: 5px 6px;
+					position: relative;
+					top: -1px
+				}
+				
+				.fec-container .fec-field-inline .cssButtonHover,
+				.fec-container .fec-field-inline .cssButtonHover:hover {
+					background: #676767;
+				}
+
+        /* shipping */
+             
+			.fec-shipping-method span {
+				color: #000;
+				display: block;
+				font-size: 12px;
+				font-weight: bold;
+				margin-bottom: 8px
+			}
+            
+            /* values */
+            .fec-shipping-value {
+                float: right;
+			    font-size: 12px;
+			    font-weight: bold;
+			    margin-top: -2px;
+            }
+        
+		/* comments */
+		#checkoutComments textarea {
+			height: 100px
+		}
+
+        /* payment */
+        .fec-payment-method-option {
+            font-size: 12px;
+            font-weight: bold;
+        }
+			
+			/* credit card info */
+			.fec-credit-card-info {
+				padding-left: 22px
+			}
+
+				.fec-credit-card-info .inputLabel {
+					font-weight: normal;
+				}
+
+				.fec-credit-card-info input[type="text"] {
+					width: 237px
+				}
+
+				.fec-credit-card-info select[id*="year"],
+				.fec-credit-card-info select[id*="month"] {
+					float: left;
+					width: 84px
+				}
+
+				.fec-credit-card-info select[id*="month"] {
+					margin-right: 12px;
+					width: 141px
+				}
+
+				.fec-credit-card-info input[id*="cv"] {
+					width: 75px 
+				}
+
+		/* table gifs */
+		#cartWrapExplain a {
+			position: relative;
+			bottom: auto;
+			display: block;
+			right: auto;
+			text-align: right;
+			margin: -27px 0 20px;
+			width: 100%
+		}
+
+		/* gift option */
+        .fec-table-gifts .fec-box-check-radio label {
+			display: block;
+			float: none;
+			overflow: hidden;
+			width: auto;
+        }
+
+        .fec-box-check-radio label .fec-gift-price {
+            float: right;
+        }
+
+        .fec-box-check-radio label ul {
+            margin: 5px 0 4px 2px;
+            padding-left: 12px    
+        }
+		
+.finalcheck{
+float: left;
+color:#F00;
+font-weight:blod;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+2016-02-12 02:06:24
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {GetExpressCheckoutDetails} 
+Array
+(
+    [TOKEN] => EC-2DM18796AE1747205
+    [METHOD] => GetExpressCheckoutDetails
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-2DM18796AE1747205
+    [PHONENUM] => 832-691-2256
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2016-02-12T21:06:24Z
+    [CORRELATIONID] => dc30ea038f80c
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [EMAIL] => achyut.maddur@gmail.com
+    [PAYERID] => 4KS98EZLV9H9E
+    [PAYERSTATUS] => unverified
+    [FIRSTNAME] => achyut
+    [LASTNAME] => mohan
+    [COUNTRYCODE] => US
+    [SHIPTONAME] => achyut mohan
+    [SHIPTOSTREET] => 13102 fallsview lane apt#5015
+    [SHIPTOCITY] => houston
+    [SHIPTOSTATE] => TX
+    [SHIPTOZIP] => 77077
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOCOUNTRYNAME] => United States
+    [ADDRESSSTATUS] => Confirmed
+    [CURRENCYCODE] => USD
+    [AMT] => 95.00
+    [ITEMAMT] => 95.00
+    [SHIPPINGAMT] => 0.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [INSURANCEOPTIONOFFERED] => false
+    [L_NAME0] => Anna 3 holes blow up sex doll for male [1435]
+    [L_NUMBER0] => SD001
+    [L_QTY0] => 1
+    [L_TAXAMT0] => 0.00
+    [L_AMT0] => 95.00
+    [CURL_ERRORS] => 
+)
+
+
+GetExpressCheckoutDetails, Elapsed: 442ms -- Success
+

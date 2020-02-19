@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "mailhive"
+AuthUserFile "/home1/toystor1/.htpasswds/public_html/mailhive/passwd"
+require valid-user

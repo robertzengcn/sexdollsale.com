@@ -1,0 +1,77 @@
+2015-12-27 10:57:08
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 70.00
+    [ITEMAMT] => 70.00
+    [L_NUMBER0] => MEIR061
+    [L_NAME0] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY0] => 1
+    [L_AMT0] => 70.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => veer saini
+    [SHIPTOSTREET] => agarwal farm new sanganer road jaipur
+    [SHIPTOCITY] => jaipur
+    [SHIPTOZIP] => 302020
+    [SHIPTOSTATE] =>  
+    [SHIPTOCOUNTRYCODE] => IN
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => veersaini7549@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TIMESTAMP] => 2015-12-28T05:57:08Z
+    [CORRELATIONID] => ab20f8bb9848
+    [ACK] => Failure
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 10729
+    [L_SHORTMESSAGE0] => Shipping Address State Empty
+    [L_LONGMESSAGE0] => The field Shipping Address State is required
+    [L_SEVERITYCODE0] => Error
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 370ms -- Failure
+
+TIMESTAMP=2015%2d12%2d28T05%3a57%3a08Z&CORRELATIONID=ab20f8bb9848&ACK=Failure&VERSION=61%2e0&BUILD=18308778&L_ERRORCODE0=10729&L_SHORTMESSAGE0=Shipping%20Address%20State%20Empty&L_LONGMESSAGE0=The%20field%20Shipping%20Address%20State%20is%20required&L_SEVERITYCODE0=Error&CURL_ERRORS=
+

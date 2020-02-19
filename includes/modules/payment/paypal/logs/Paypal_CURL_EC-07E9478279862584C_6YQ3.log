@@ -1,0 +1,63 @@
+2014-04-30 02:59:32
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-07E9478279862584C
+    [TIMESTAMP] => 2014-04-30T14:59:32Z
+    [CORRELATIONID] => 509a1bc718888
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10800277
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 1229ms -- Success
+

@@ -1,0 +1,464 @@
+May-04-2014 13:20:12 (1399209612)
+ec_step2 
+Re-instantiating $order object.
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+ec_step2 
+Instantiated $order object contents: order Object
+(
+    [info] => Array
+        (
+            [order_status] => 2
+            [currency] => GBP
+            [currency_value] => 1.00000000
+            [payment_method] => PayPal
+            [payment_module_code] => paypalwpp
+            [coupon_code] => 
+            [shipping_method] => 
+            [shipping_module_code] => 
+            [shipping_cost] => 
+            [subtotal] => 17.4319
+            [shipping_tax] => 0
+            [tax] => 0
+            [total] => 17.4319
+            [tax_groups] => Array
+                (
+                    [0] => 0
+                )
+
+            [comments] => 
+            [ip_address] => 120.40.9.197 - 120.40.9.197
+        )
+
+    [totals] => Array
+        (
+        )
+
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [qty] => 1
+                    [name] => Medical Silicon material pussy stroker
+                    [model] => MS019
+                    [tax] => 0
+                    [tax_groups] => Array
+                        (
+                            [0] => Sales Tax
+                        )
+
+                    [tax_description] => Sales Tax
+                    [price] => 17.4319
+                    [final_price] => 17.4319
+                    [onetime_charges] => 0
+                    [weight] => 2
+                    [products_priced_by_attribute] => 0
+                    [product_is_free] => 0
+                    [products_discount_type] => 0
+                    [products_discount_type_from] => 0
+                    [id] => 1383
+                    [rowClass] => rowEven
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstname] => JianZe
+            [lastname] => Zeng
+            [company] => Zeng JianZe
+            [street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+            [suburb] => 
+            [city] => 福州市仓山区建新镇(Jian
+            [postcode] => 350000
+            [state] => Fujian
+            [zone_id] => 0
+            [country] => Array
+                (
+                    [id] => 44
+                    [title] => China
+                    [iso_code_2] => CN
+                    [iso_code_3] => CHN
+                )
+
+            [format_id] => 1
+            [telephone] => +86 18059949858
+            [email_address] => amigatoy@gmail.com
+        )
+
+    [delivery] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+    [content_type] => physical
+    [email_low_stock] => 
+    [products_ordered_attributes] => 
+    [products_ordered] => 
+    [products_ordered_email] => 
+    [attachArray] => 
+    [billing] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+ec_step2_finish - 1
+START: paypal_ec_payer_info= Array
+(
+    [payer_id] => QVYKHWYNWPZUY
+    [payer_email] => amigatoy@gmail.com
+    [payer_salutation] => 
+    [payer_gender] => 
+    [payer_firstname] => JianZe
+    [payer_lastname] => Zeng
+    [payer_business] => 
+    [payer_status] => verified
+    [ship_country_code] => CN
+    [ship_address_status] => Unconfirmed
+    [ship_phone] =>  86 18059949858
+    [order_comment] => 
+    [ship_name] => Zeng JianZe
+    [ship_street_1] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [ship_street_2] => 
+    [ship_city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [ship_state] => Fujian
+    [ship_postal_code] => 350000
+    [ship_country_name] => China
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+ec_step2_finish - 2
+country_id = 44 China CN
+address_format_id = 1
+state_id = 0 (original state tested: Fujian)
+country1->fields['countries_id'] = 44
+country2->fields['countries_id'] = 44
+$order->customer = Array
+(
+    [firstname] => JianZe
+    [lastname] => Zeng
+    [company] => 
+    [street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [suburb] => 
+    [city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [postcode] => 350000
+    [state] => Fujian
+    [zone_id] => 0
+    [country] => Array
+        (
+            [id] => 44
+            [title] => China
+            [iso_code_2] => CN
+            [iso_code_3] => CHN
+        )
+
+    [format_id] => 1
+    [telephone] =>  86 18059949858
+    [email_address] => amigatoy@gmail.com
+    [name] => JianZe Zeng
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+findMatchingAddressBookEntry - 1-stats
+lookups:
+Array
+(
+    [countries_id] => 44
+    [address_format_id] => 1
+    [zone_country_id] => 
+    [zone_id] => -not found-
+)
+
+check_zone: 0
+zone:0
+SubmittedAddress:Array
+(
+    [firstname] => 
+    [lastname] => 
+    [company] => Zeng JianZe
+    [street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [suburb] => 
+    [city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [postcode] => 350000
+    [state] => Fujian
+    [zone_id] => 0
+    [country] => Array
+        (
+            [id] => 44
+            [title] => China
+            [iso_code_2] => CN
+            [iso_code_3] => CHN
+        )
+
+    [country_id] => 44
+    [format_id] => 1
+    [name] => Zeng JianZe
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+findMatchingAddressBookEntry - 2-read for match
+
+Lookup RecordCount = 1
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+findMatchingAddressBookEntry - 3a
+From PayPal:
+冯宅村28号(no.28fengzhaivillage)cellno:15705910133福州市仓山区建新镇(jianxintown,fuzhoucity)
+
+From DB:
+冯宅村28号(no.28fengzhaivillage)cellno:15705910133福州市仓山区建新镇(jian
+Array
+(
+    [address_book_id] => 473
+    [entry_street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [entry_suburb] => 
+    [entry_city] => 福州市仓山区建新镇(Jian
+    [entry_company] => Zeng JianZe
+    [entry_firstname] => JianZe
+    [entry_lastname] => Zeng
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+findMatchingAddressBookEntry - 3b
+partial match (DB):
+Array
+(
+    [address_book_id] => 473
+    [entry_street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [entry_suburb] => 
+    [entry_city] => 福州市仓山区建新镇(Jian
+    [entry_company] => Zeng JianZe
+    [entry_firstname] => JianZe
+    [entry_lastname] => Zeng
+)
+
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+ec_step2_finish - 3
+Exiting ec_step2_finish logged-in mode.
+Selected address: 473
+Original was: 473
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:EC-68K82804DV345421H
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+termEC-3
+AFTER: $this->showPaymentPage = 1
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+termEC-4
+We ARE logged in, and $this->showPaymentPage === true
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+termEC-6
+We DO have a shipping method selected, so goto PAYMENT
+=================================
+
+May-04-2014 13:20:12 (1399209612)
+termEC-10
+Redirecting to checkout_payment - Stack: checkout_payment
+Message: 
+Session Data: Array
+(
+    [securityToken] => 5b3c3ff4cab86394b4d735344fd66f90
+    [customers_host_address] => 197.9.40.120.broad.fz.fj.dynamic.163data.com.cn
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1383] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 17.43
+            [weight] => 2
+            [cartID] => 06360
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [token] => EC-68K82804DV345421H
+                                    [PayerID] => QVYKHWYNWPZUY
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => product_info
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [products_id] => 1440
+                            [zenid] => 0036cdc7db411b82669673b05960f490
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-04
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 120.40.9.197
+    [new_products_id_in_cart] => 1383
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [customer_id] => 430
+    [customer_default_address_id] => 473
+    [customer_first_name] => JianZe
+    [customer_country_id] => 44
+    [customer_zone_id] => 0
+    [total_weight] => 0
+    [total_count] => 0
+    [order_number_created] => 371
+    [order_summary] => Array
+        (
+            [order_number] => 371
+            [order_subtotal] => 108.2
+            [credits_applied] => 0
+            [order_total] => 128.2
+            [commissionable_order] => 108.2
+            [commissionable_order_formatted] => &pound;108.20
+            [coupon_code] => 
+            [currency_code] => GBP
+            [currency_value] => 1.00000000
+            [payment_module_code] => paypalwpp
+            [shipping_method] => DHL Rates (Shipping to CN)
+            [orders_status] => 
+            [tax] => 
+            [shipping] => 20
+        )
+
+    [payment] => paypalwpp
+    [paypal_ec_token] => EC-68K82804DV345421H
+    [paypal_ec_payer_id] => QVYKHWYNWPZUY
+    [paypal_ec_payer_info] => Array
+        (
+            [payer_id] => QVYKHWYNWPZUY
+            [payer_email] => amigatoy@gmail.com
+            [payer_salutation] => 
+            [payer_gender] => 
+            [payer_firstname] => JianZe
+            [payer_lastname] => Zeng
+            [payer_business] => 
+            [payer_status] => verified
+            [ship_country_code] => CN
+            [ship_address_status] => Unconfirmed
+            [ship_phone] =>  86 18059949858
+            [order_comment] => 
+            [ship_name] => Zeng JianZe
+            [ship_street_1] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+            [ship_street_2] => 
+            [ship_city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+            [ship_state] => Fujian
+            [ship_postal_code] => 350000
+            [ship_country_name] => China
+        )
+
+    [paypal_ec_temp] => 
+    [sendto] => 473
+    [billto] => 473
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+            [module] => freeoptions
+        )
+
+)
+
+=================================
+

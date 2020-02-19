@@ -1,0 +1,25 @@
+#footer {clear:both;margin:0 auto;background-color:#aca29c;margin-top:0px;padding-top:10px;margin-bottom:30px;}
+#footer a:hover{color:#dfba68;}
+#navSuppWrapper {margin: 10px 5px 0;padding: 0;background:none;font-weight: bold;}	
+#navSuppWrapper a{color:#444;font-weight:normal;}
+dl {margin: 0 0 3px 0;padding:0;clear:both;height:160px;width:100%;}/*Adjust the height and width of the menu*/
+dt {margin-bottom:.3em;font-weight:bold;}
+dd {margin:0;padding:0;float:left;width:24.3%;}/*Column width of the menu - currently set for 4 columns*/
+dd ul {margin:0;padding:0;list-style: none;}
+dd li {margin:0;padding:0;}
+dd li a {margin:0;padding-left:2em;display:block;}
+/*dd li a:hover{background:#dfba69;color:#444443;}*/
+.menuTitle {margin:0;padding-bottom:.8em;text-align:center;font-size:1.1em;color:#fffffd;}
+.first, .second, .third {border-right:1px solid #444;}
+#siteinfoLegal {padding: .5em 0 0;font-size: 0.9em;/*text-align:right;*/width:80%;line-height:normal;clear:both;color:#fffffd;margin-left:20px;float:left;margin-top:-40px;}
+#siteinfoLegal a {padding: 0 0.5em 0 0.5em;color: #fffffd;font-weight:bold;white-space: nowrap;}
+#siteinfoLegal a:hover {color: #dfba68;}
+.twitter-image {margin-right:10px;}
+#social-media {float:right;margin-right:15px;margin-top:-40px;}
+#bannerSix {margin-top:0px;margin-bottom:30px;}
+.facebook{display:none;}
+.twitter{display:none;}
+.youtube {display:none;}
+.pinterest {display:none;}
+.google {display:none;}
+.blog{display:none;}

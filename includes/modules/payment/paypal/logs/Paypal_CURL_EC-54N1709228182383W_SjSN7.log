@@ -1,0 +1,235 @@
+2016-01-20 06:29:16
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 33,739.20
+    [ITEMAMT] => 33,739.20
+    [L_NUMBER0] => MEIR014
+    [L_NAME0] => flute artifact oral pleasure insisted 7th generation aircraft cu [1574]
+    [L_QTY0] => 1
+    [L_AMT0] => 122.00
+    [L_NUMBER1] => MEIR018
+    [L_NAME1] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY1] => 2
+    [L_AMT1] => 118.00
+    [L_NUMBER2] => MEIR021
+    [L_NAME2] => lifelike US aircraft cup male 7 points vibration [1581]
+    [L_QTY2] => 1
+    [L_AMT2] => 36.00
+    [L_NUMBER3] => MEIR022
+    [L_NAME3] => automatic line and pipe machine beer [1582]
+    [L_QTY3] => 2
+    [L_AMT3] => 252.00
+    [L_NUMBER4] => MEIR023
+    [L_NAME4] => swallow oral sex aircraft Cup [1583]
+    [L_QTY4] => 1
+    [L_AMT4] => 38.00
+    [L_NUMBER5] => MEIR027
+    [L_NAME5] => sensual desires cup electric aircraft [1587]
+    [L_QTY5] => 1
+    [L_AMT5] => 38.00
+    [L_NUMBER6] => MEIR031
+    [L_NAME6] => German imports blowjob oral sex aircraft Cup male delay shake ma [1591]
+    [L_QTY6] => 1
+    [L_AMT6] => 155.00
+    [L_NUMBER7] => MEIR032
+    [L_NAME7] => strongly stimulated the Japanese high-end 360 multifunction rota [1592]
+    [L_QTY7] => 1
+    [L_AMT7] => 205.00
+    [L_NUMBER8] => MEIR033
+    [L_NAME8] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY8] => 2
+    [L_AMT8] => 172.00
+    [L_NUMBER9] => MEIR040
+    [L_NAME9] => multi-mode automatic frequency vibration to share beauty line [1600]
+    [L_QTY9] => 1
+    [L_AMT9] => 122.00
+    [L_NUMBER10] => SDL002
+    [L_NAME10] => footjob sex doll [1431]
+    [L_QTY10] => 1
+    [L_AMT10] => 1,199.00
+    [L_NUMBER11] => SD050
+    [L_NAME11] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY11] => 1
+    [L_AMT11] => 1,999.00
+    [L_NUMBER12] => SZXR001
+    [L_NAME12] => secretary real love doll [1442]
+    [L_QTY12] => 1
+    [L_AMT12] => 2,999.00
+    [L_NUMBER13] => SKY001
+    [L_NAME13] => Sexy Asian girl sex doll [1440]
+    [L_QTY13] => 1
+    [L_AMT13] => 108.20
+    [L_NUMBER14] => MEIR045
+    [L_NAME14] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY14] => 1
+    [L_AMT14] => 70.00
+    [L_NUMBER15] => MEIR030
+    [L_NAME15] => 2015 aircraft Cup [1590]
+    [L_QTY15] => 1
+    [L_AMT15] => 60.00
+    [L_NUMBER16] => MEIR052
+    [L_NAME16] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY16] => 1
+    [L_AMT16] => 60.00
+    [L_NUMBER17] => MEIR065
+    [L_NAME17] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY17] => 2
+    [L_AMT17] => 2,972.00
+    [L_NUMBER18] => MEIR061
+    [L_NAME18] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY18] => 1
+    [L_AMT18] => 70.00
+    [L_NUMBER19] => MEIR104
+    [L_NAME19] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY19] => 1
+    [L_AMT19] => 15.00
+    [L_NUMBER20] => MEIR013
+    [L_NAME20] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY20] => 1
+    [L_AMT20] => 58.00
+    [L_NUMBER21] => MEIR015
+    [L_NAME21] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY21] => 1
+    [L_AMT21] => 53.00
+    [L_NUMBER22] => MEIR085
+    [L_NAME22] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY22] => 1
+    [L_AMT22] => 35.00
+    [L_NUMBER23] => MEIR086
+    [L_NAME23] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY23] => 1
+    [L_AMT23] => 38.00
+    [L_NUMBER24] => MEIR084
+    [L_NAME24] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY24] => 1
+    [L_AMT24] => 33.00
+    [L_NUMBER25] => MEIR016
+    [L_NAME25] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY25] => 1
+    [L_AMT25] => 77.00
+    [L_NUMBER26] => MEIR043
+    [L_NAME26] => AV Actress Amber sex toy [1603]
+    [L_QTY26] => 1
+    [L_AMT26] => 85.00
+    [L_NUMBER27] => MEIR041
+    [L_NAME27] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY27] => 1
+    [L_AMT27] => 222.00
+    [L_NUMBER28] => MEIR042
+    [L_NAME28] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY28] => 1
+    [L_AMT28] => 38.00
+    [L_NUMBER29] => MEIR037
+    [L_NAME29] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY29] => 1
+    [L_AMT29] => 51.00
+    [L_NUMBER30] => MEIR025
+    [L_NAME30] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY30] => 1
+    [L_AMT30] => 65.00
+    [L_NUMBER31] => MEIR098
+    [L_NAME31] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY31] => 1
+    [L_AMT31] => 25.00
+    [L_NUMBER32] => MEIR091
+    [L_NAME32] => big man penis enlargement [1651]
+    [L_QTY32] => 1
+    [L_AMT32] => 72.00
+    [L_NUMBER33] => MEIR049
+    [L_NAME33] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY33] => 1
+    [L_AMT33] => 285.00
+    [L_NUMBER34] => MEIR051
+    [L_NAME34] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY34] => 1
+    [L_AMT34] => 270.00
+    [L_NUMBER35] => MEIR054
+    [L_NAME35] => simulation vaginal inverted membrane ultra sensual version High [1614]
+    [L_QTY35] => 1
+    [L_AMT35] => 25.00
+    [L_NUMBER36] => MEIR055
+    [L_NAME36] => bust doll simulation entity Korean version [1615]
+    [L_QTY36] => 1
+    [L_AMT36] => 252.00
+    [L_NUMBER37] => MEIR057
+    [L_NAME37] => mighty male body bust chest Queen perfect entity male vagina mas [1617]
+    [L_QTY37] => 1
+    [L_AMT37] => 172.00
+    [L_NUMBER38] => MEIR058
+    [L_NAME38] => tentacle Department vaginal reverse mold [1618]
+    [L_QTY38] => 1
+    [L_AMT38] => 35.00
+    [L_NUMBER39] => MEIR059
+    [L_NAME39] => meat plump buttocks female buttocks lure large inverted mold vir [1619]
+    [L_QTY39] => 1
+    [L_AMT39] => 138.00
+    [L_NUMBER40] => MEIR060
+    [L_NAME40] => Tokyo prime human vaginal reverse mold three sets of oral sex [1620]
+    [L_QTY40] => 1
+    [L_AMT40] => 38.00
+    [L_NUMBER41] => MEIR066
+    [L_NAME41] => full silicone sex Actress 1: 1 ratio of real entity doll (book) [1626]
+    [L_QTY41] => 1
+    [L_AMT41] => 4,672.00
+    [L_NUMBER42] => MEIR067
+    [L_NAME42] => Koike Japanese original sounds large entity doll [1627]
+    [L_QTY42] => 1
+    [L_AMT42] => 6,338.00
+    [L_NUMBER43] => MEIR068
+    [L_NAME43] => original Japanese Yuko Kawamura high simulation entity dolls Sup [1628]
+    [L_QTY43] => 1
+    [L_AMT43] => 6,338.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-54N1709228182383W
+    [TIMESTAMP] => 2016-01-21T01:29:16Z
+    [CORRELATIONID] => 831fde246002d
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 512ms -- Success
+

@@ -1,0 +1,460 @@
+Dec-22-2015 00:45:41 (1450770341)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 1149
+    [ITEMAMT] => 1149
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 1149
+    [ITEMAMT] => 1149
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => footjob sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 1199
+    [L_NAME1] => Credits applied, including discount coupons, gift certificates, etc
+    [L_AMT1] => -50
+    [L_QTY1] => 1
+)
+
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 1,149.00
+    [AMT] => 1,149.00
+    [ITEMAMT] => 1,149.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 442
+Session Data: Array
+(
+    [securityToken] => c70a4262f5ee9d163a24193253221c5c
+    [customers_host_address] => 218.104.231.45
+    [cartID] => 34553
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1431] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 1199
+            [weight] => 20
+            [cartID] => 34553
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1431
+    [today_is] => 2015-12-22
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 218.104.231.45
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 20
+    [total_count] => 1
+    [action] => process
+    [email_format] => TEXT
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => james
+    [lastname] => cheng
+    [street_address] => lala sdff
+    [city] => jdkfj
+    [zone_country_id] => 223
+    [zone_id] => 17
+    [postcode] => 356487
+    [telephone] => 4589745874
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => lalal@gjs.com
+    [password] => 123456
+    [confirmation] => 123456
+    [newsletter] => 1
+    [customer_id] => 442
+    [cart_address_id] => 489
+    [sendto] => 489
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+            [module] => freeoptions
+        )
+
+    [customer_first_name] => james
+    [customer_default_address_id] => 489
+    [customer_country_id] => 223
+    [customer_zone_id] => 17
+    [customers_authorization] => 0
+    [billto] => 489
+    [comments] => 
+    [messageToStack] => 
+    [cc_id] => 8
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 489
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => james
+    [entry_lastname] => cheng
+    [entry_company] => 
+    [entry_street_address] => lala sdff
+    [entry_suburb] => 
+    [entry_city] => jdkfj
+    [entry_postcode] => 356487
+    [entry_country_id] => 223
+    [entry_zone_id] => 17
+    [entry_state] => 
+    [zone_code] => FM
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => james
+    [entry_lastname] => cheng
+    [entry_company] => 
+    [entry_street_address] => lala sdff
+    [entry_suburb] => 
+    [entry_city] => jdkfj
+    [entry_postcode] => 356487
+    [entry_country_id] => 223
+    [entry_zone_id] => 17
+    [entry_state] => 
+    [zone_code] => FM
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Dec-22-2015 00:45:41 (1450770341)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 1,149.00
+    [ITEMAMT] => 1,149.00
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => footjob sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 1,199.00
+    [L_NAME1] => Credits applied, including discount coupons, gift certificates, etc
+    [L_AMT1] => -50.00
+    [L_QTY1] => 1
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => james cheng
+    [SHIPTOSTREET] => lala sdff
+    [SHIPTOCITY] => jdkfj
+    [SHIPTOZIP] => 356487
+    [SHIPTOSTATE] => FM
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => lalal@gjs.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+
+Dec-22-2015 00:45:46 (1450770346)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Dec-22-2015 00:45:46 (1450770346)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Dec-22-2015 00:45:46 (1450770346)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Dec-22-2015 00:45:46 (1450770346)
+termEC-8
+$this->showPaymentPage NOT true, and NO custom page selected ... using SHIPPING as default
+=================================
+
+Dec-22-2015 00:45:46 (1450770346)
+termEC-10
+Redirecting to checkout_shipping - Stack: checkout_shipping
+Message: The address information you entered does not appear to be valid or cannot be matched. Please select or add a different address and try again. (10736) 10736  Shipping Address Invalid City State Postal Code - A match of the Shipping Address City, State, and Postal Code failed.
+Session Data: Array
+(
+    [securityToken] => c70a4262f5ee9d163a24193253221c5c
+    [customers_host_address] => 218.104.231.45
+    [cartID] => 34553
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1431] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 1199
+            [weight] => 20
+            [cartID] => 34553
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1431
+                                    [action] => buy_now
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => checkout_shipping
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => checkout
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [fecaction] => null
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [page] => fec_confirmation
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [amp;fecaction] => process
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [markflow] => 1
+                                    [clearSess] => 1
+                                    [stage] => final
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1431
+    [today_is] => 2015-12-22
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 218.104.231.45
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 20
+    [total_count] => 1
+    [action] => process
+    [email_format] => TEXT
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => james
+    [lastname] => cheng
+    [street_address] => lala sdff
+    [city] => jdkfj
+    [zone_country_id] => 223
+    [zone_id] => 17
+    [postcode] => 356487
+    [telephone] => 4589745874
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => lalal@gjs.com
+    [password] => 123456
+    [confirmation] => 123456
+    [newsletter] => 1
+    [customer_id] => 442
+    [cart_address_id] => 489
+    [sendto] => 489
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+            [module] => freeoptions
+        )
+
+    [customer_first_name] => james
+    [customer_default_address_id] => 489
+    [customer_country_id] => 223
+    [customer_zone_id] => 17
+    [customers_authorization] => 0
+    [billto] => 489
+    [comments] => 
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => checkout_shipping
+                    [text] => The address information you entered does not appear to be valid or cannot be matched. Please select or add a different address and try again. (10736) 10736  Shipping Address Invalid City State Postal Code - A match of the Shipping Address City, State, and Postal Code failed.
+                    [type] => error
+                )
+
+        )
+
+    [cc_id] => 8
+)
+
+=================================
+

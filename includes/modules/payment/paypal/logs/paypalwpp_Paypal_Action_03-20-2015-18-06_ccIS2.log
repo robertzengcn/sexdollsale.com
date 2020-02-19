@@ -1,0 +1,485 @@
+Mar-20-2015 18:06:36 (1426896396)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 117
+    [ITEMAMT] => 97
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 117
+    [ITEMAMT] => 97
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD001
+    [L_NAME0] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY0] => 1
+    [L_AMT0] => 97
+)
+
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 117.00
+    [AMT] => 117.00
+    [ITEMAMT] => 97.00
+    [SHIPPINGAMT] => 20.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 433
+Session Data: Array
+(
+    [securityToken] => aa5d621073ab8c4d6e825854363e0ce2
+    [customers_host_address] => 99-45-76-130.lightspeed.miamfl.sbcglobal.net
+    [cartID] => 73283
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1435] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 97
+            [weight] => 2.5
+            [cartID] => 73283
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-03-20
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 99.45.76.130
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [new_products_id_in_cart] => 1435
+    [cart_country_id] => 223
+    [country_info] => Array
+        (
+            [countries_name] => United States Of America
+            [countries_iso_code_2] => US
+            [countries_iso_code_3] => USA
+        )
+
+    [cart_zone] => 18
+    [cart_zip_code] => 33327
+    [cart_sid] => freeoptions_freeoptions
+    [payment] => paypalwpp
+    [total_weight] => 2.5
+    [total_count] => 1
+    [sendto] => 476
+    [billto] => 476
+    [action] => process
+    [email_pref_html] => email_format
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => Mike
+    [lastname] => Johnson
+    [street_address] => 772 Sand Creek Cir
+    [city] => Weston
+    [zone_country_id] => 223
+    [zone_id] => 18
+    [postcode] => 33327
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [state_shipping] =>  
+    [postcode_shipping] => 
+    [email_address] => Tbjumpstation@gmail.com
+    [email_format] => TEXT
+    [telephone] => (561) 325-8863
+    [x] => 132
+    [y] => 0
+    [COWOA] => 1
+    [customer_id] => 433
+    [shipping] => Array
+        (
+            [id] => dhlzones_dhlzones
+            [title] => DHL Rates (Shipping to US)
+            [cost] => 20
+        )
+
+    [customer_first_name] => Mike
+    [customer_default_address_id] => 476
+    [customer_country_id] => 223
+    [customer_zone_id] => 18
+    [customers_authorization] => 0
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 476
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => Mike
+    [entry_lastname] => Johnson
+    [entry_company] => 
+    [entry_street_address] => 772 Sand Creek Cir
+    [entry_suburb] => 
+    [entry_city] => Weston
+    [entry_postcode] => 33327
+    [entry_country_id] => 223
+    [entry_zone_id] => 18
+    [entry_state] => 
+    [zone_code] => FL
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => Mike
+    [entry_lastname] => Johnson
+    [entry_company] => 
+    [entry_street_address] => 772 Sand Creek Cir
+    [entry_suburb] => 
+    [entry_city] => Weston
+    [entry_postcode] => 33327
+    [entry_country_id] => 223
+    [entry_zone_id] => 18
+    [entry_state] => 
+    [zone_code] => FL
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Mar-20-2015 18:06:36 (1426896396)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 117.00
+    [ITEMAMT] => 97.00
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => SD001
+    [L_NAME0] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY0] => 1
+    [L_AMT0] => 97.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => Mike Johnson
+    [SHIPTOSTREET] => 772 Sand Creek Cir
+    [SHIPTOCITY] => Weston
+    [SHIPTOZIP] => 33327
+    [SHIPTOSTATE] => FL
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => Tbjumpstation@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+
+Mar-20-2015 18:06:41 (1426896401)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Mar-20-2015 18:06:41 (1426896401)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Mar-20-2015 18:06:41 (1426896401)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Mar-20-2015 18:06:41 (1426896401)
+termEC-8
+$this->showPaymentPage NOT true, and NO custom page selected ... using SHIPPING as default
+=================================
+
+Mar-20-2015 18:06:41 (1426896401)
+termEC-10
+Redirecting to checkout_shipping - Stack: checkout_shipping
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Session Data: Array
+(
+    [securityToken] => aa5d621073ab8c4d6e825854363e0ce2
+    [customers_host_address] => 99-45-76-130.lightspeed.miamfl.sbcglobal.net
+    [cartID] => 73283
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1435] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 97
+            [weight] => 2.5
+            [cartID] => 73283
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1435
+                                    [action] => add_product
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => checkout_shipping
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => checkout
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [fecaction] => null
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [page] => fec_confirmation
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [amp;fecaction] => process
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [markflow] => 1
+                                    [clearSess] => 1
+                                    [stage] => final
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => checkout
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-03-20
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 99.45.76.130
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [new_products_id_in_cart] => 1435
+    [cart_country_id] => 223
+    [country_info] => Array
+        (
+            [countries_name] => United States Of America
+            [countries_iso_code_2] => US
+            [countries_iso_code_3] => USA
+        )
+
+    [cart_zone] => 18
+    [cart_zip_code] => 33327
+    [cart_sid] => freeoptions_freeoptions
+    [payment] => paypalwpp
+    [total_weight] => 2.5
+    [total_count] => 1
+    [sendto] => 476
+    [billto] => 476
+    [action] => process
+    [email_pref_html] => email_format
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => Mike
+    [lastname] => Johnson
+    [street_address] => 772 Sand Creek Cir
+    [city] => Weston
+    [zone_country_id] => 223
+    [zone_id] => 18
+    [postcode] => 33327
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [state_shipping] =>  
+    [postcode_shipping] => 
+    [email_address] => Tbjumpstation@gmail.com
+    [email_format] => TEXT
+    [telephone] => (561) 325-8863
+    [x] => 132
+    [y] => 0
+    [COWOA] => 1
+    [customer_id] => 433
+    [shipping] => Array
+        (
+            [id] => dhlzones_dhlzones
+            [title] => DHL Rates (Shipping to US)
+            [cost] => 20
+        )
+
+    [customer_first_name] => Mike
+    [customer_default_address_id] => 476
+    [customer_country_id] => 223
+    [customer_zone_id] => 18
+    [customers_authorization] => 0
+    [comments] => 
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => checkout_shipping
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

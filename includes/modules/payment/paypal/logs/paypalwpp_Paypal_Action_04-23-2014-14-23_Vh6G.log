@@ -1,0 +1,127 @@
+Apr-23-2014 14:23:03 (1398262983)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Apr-23-2014 14:23:03 (1398262983)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Apr-23-2014 14:23:03 (1398262983)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Apr-23-2014 14:23:03 (1398262983)
+termEC-8
+$this->showPaymentPage NOT true, and NO custom page selected ... using SHIPPING as default
+=================================
+
+Apr-23-2014 14:23:03 (1398262983)
+termEC-10
+Redirecting to checkout_shipping - Stack: checkout_shipping
+Message: The address information you entered does not appear to be valid or cannot be matched. Please select or add a different address and try again. (10736) 10736  Shipping Address Invalid City State Postal Code - A match of the Shipping Address City, State, and Postal Code failed.
+Session Data: Array
+(
+    [securityToken] => 00d036528bfa7f368244112dde7d50fe
+    [customers_host_address] => 87.117.197.59
+    [cartID] => 52849
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1440] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 108.2
+            [weight] => 0
+            [cartID] => 52849
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [markflow] => 1
+                                    [clearSess] => 1
+                                    [stage] => final
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-04-23
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 87.117.197.59
+    [new_products_id_in_cart] => 
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 0
+    [total_count] => 1
+    [customer_id] => 431
+    [customer_first_name] => james
+    [customer_default_address_id] => 474
+    [customer_country_id] => 223
+    [customer_zone_id] => 43
+    [customers_authorization] => 0
+    [sendto] => 474
+    [billto] => 474
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+            [module] => freeoptions
+        )
+
+    [comments] => 
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => checkout_shipping
+                    [text] => The address information you entered does not appear to be valid or cannot be matched. Please select or add a different address and try again. (10736) 10736  Shipping Address Invalid City State Postal Code - A match of the Shipping Address City, State, and Postal Code failed.
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

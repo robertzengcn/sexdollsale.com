@@ -1,0 +1,1 @@
+MailBeez PHPMailer Test: it works!

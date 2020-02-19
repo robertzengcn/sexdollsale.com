@@ -1,0 +1,126 @@
+2015-04-28 08:43:41
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 130.00
+    [ITEMAMT] => 130.00
+    [L_NUMBER0] => SDT002
+    [L_NAME0] => Lifelike 3D inflated sex doll [1465]
+    [L_QTY0] => 1
+    [L_AMT0] => 130.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [] => 
+    [CURL_ERRORS] => (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+)
+
+(35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Array
+(
+    [url] => https://api-3t.paypal.com/nvp
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.044358
+    [namelookup_time] => 0.003923
+    [connect_time] => 0.044424
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 173.0.92.21
+    [primary_port] => 443
+    [local_ip] => 173.254.55.167
+    [local_port] => 34683
+    [redirect_url] => 
+)
+
+
+SetExpressCheckout, Elapsed: 124ms -- Failed
+(35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Array
+(
+    [url] => https://api-3t.paypal.com/nvp
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 0
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.044358
+    [namelookup_time] => 0.003923
+    [connect_time] => 0.044424
+    [pretransfer_time] => 0
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => -1
+    [starttransfer_time] => 0
+    [redirect_time] => 0
+    [certinfo] => Array
+        (
+        )
+
+    [primary_ip] => 173.0.92.21
+    [primary_port] => 443
+    [local_ip] => 173.254.55.167
+    [local_port] => 34683
+    [redirect_url] => 
+)
+
+

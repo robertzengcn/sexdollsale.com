@@ -1,0 +1,75 @@
+2014-04-30 03:03:12
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {DoExpressCheckoutPayment} 
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+    [BUTTONSOURCE] => ZenCart-EC_us
+    [RETURNFMFDETAILS] => 0
+    [CUSTOM] => EC-430-1398870188
+    [INVNUM] => 430-1398870188-[AnigaDollOnlineStore]
+    [TOKEN] => EC-23X243243K666124F
+    [PAYERID] => QVYKHWYNWPZUY
+    [PAYMENTACTION] => Sale
+    [NOTIFYURL] => http://www.ebayst.com/ipn_main_handler.php
+    [METHOD] => DoExpressCheckoutPayment
+    [CURRENCYCODE] => GBP
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-23X243243K666124F
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2014-04-30T15:03:11Z
+    [CORRELATIONID] => 207a62bab2447
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10800277
+    [TRANSACTIONID] => 9XM08968VB076584L
+    [TRANSACTIONTYPE] => cart
+    [PAYMENTTYPE] => instant
+    [ORDERTIME] => 2014-04-30T15:03:11Z
+    [AMT] => 59.51
+    [TAXAMT] => 0.00
+    [CURRENCYCODE] => GBP
+    [PAYMENTSTATUS] => Pending
+    [PENDINGREASON] => multicurrency
+    [REASONCODE] => None
+    [PROTECTIONELIGIBILITY] => Eligible
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [CURL_ERRORS] => 
+)
+
+
+DoExpressCheckoutPayment, Elapsed: 3622ms -- Success
+

@@ -1,0 +1,52 @@
+#custom_button_preview {
+	text-indent: -9999px;
+	display:block;
+}
+
+#show_button_error {
+    background-color: white;
+    border-left: 5px solid #dc3232;
+    margin: 7px 0;
+    padding: 5px 0 5px 12px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.jpibfi-error-message {
+	font-weight: bold;
+	color: red;
+}
+
+.jpibfi-pro-notice {
+    overflow: hidden;
+}
+
+.jpibfi-pro-notice p {
+    display:block;
+    float:left;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #23282d;
+    margin: 0.8em 0;
+}
+
+.jpibfi-pro-notice a {
+    color: orange;
+}
+
+.jpibfi-pro-notice span {
+    display:block;
+    float: right;
+    font-size: 1.6em;
+    padding: 2px 10px;
+    margin: 0.6em 0;
+    cursor: pointer;
+}
+
+input[type="checkbox"] ~ label {
+	padding-left: 5px;
+}
+
+input#custom_image_url {
+	width: 100%;
+}

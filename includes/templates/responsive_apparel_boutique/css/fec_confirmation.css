@@ -1,0 +1,30 @@
+/* confirmation */
+#checkoutShipto, 
+#checkoutBillto {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+#checkoutConfirmDefault .fec-fieldset {
+    margin-bottom: 30px
+}
+
+    /* method */
+    .fec-method-type {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 10px
+    }
+
+    /* comments */
+    .fec-order-comments {
+        clear: both
+    }
+
+      .fec-order-comments .fec-comment {
+          font-size: 12px;
+          line-height: 18px;
+          padding-right: 50px
+      }

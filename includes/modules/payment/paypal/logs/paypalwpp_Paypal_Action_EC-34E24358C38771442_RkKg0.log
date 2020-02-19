@@ -1,0 +1,528 @@
+May-16-2015 23:53:49 (1431842029)
+ec_step2 
+Re-instantiating $order object.
+=================================
+
+May-16-2015 23:53:49 (1431842029)
+ec_step2 
+Instantiated $order object contents: order Object
+(
+    [info] => Array
+        (
+            [order_status] => 2
+            [currency] => USD
+            [currency_value] => 1.00000000
+            [payment_method] => PayPal
+            [payment_module_code] => paypalwpp
+            [coupon_code] => 
+            [shipping_method] => 
+            [shipping_module_code] => 
+            [shipping_cost] => 
+            [subtotal] => 60
+            [shipping_tax] => 0
+            [tax] => 0
+            [total] => 60
+            [tax_groups] => Array
+                (
+                    [0] => 0
+                )
+
+            [comments] => 
+            [ip_address] => 71.232.33.29 - 71.232.33.29
+        )
+
+    [totals] => Array
+        (
+        )
+
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [qty] => 1
+                    [name] => wireless remote control massage vibrators
+                    [model] => mv045
+                    [tax] => 0
+                    [tax_groups] => Array
+                        (
+                            [0] => Sales Tax
+                        )
+
+                    [tax_description] => Sales Tax
+                    [price] => 60.0000
+                    [final_price] => 60
+                    [onetime_charges] => 0
+                    [weight] => 1
+                    [products_priced_by_attribute] => 0
+                    [product_is_free] => 0
+                    [products_discount_type] => 0
+                    [products_discount_type_from] => 0
+                    [id] => 1524
+                    [rowClass] => rowEven
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [format_id] => 0
+            [telephone] => 
+            [email_address] => 
+        )
+
+    [delivery] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+    [content_type] => physical
+    [email_low_stock] => 
+    [products_ordered_attributes] => 
+    [products_ordered] => 
+    [products_ordered_email] => 
+    [attachArray] => 
+    [billing] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+)
+
+=================================
+
+May-16-2015 23:53:49 (1431842029)
+ec_step2_finish - 1
+START: paypal_ec_payer_info= Array
+(
+    [payer_id] => 5H252Y2PKBSYE
+    [payer_email] => jmww123123@gmail.com
+    [payer_salutation] => 
+    [payer_gender] => 
+    [payer_firstname] => ANPING
+    [payer_lastname] => LIN
+    [payer_business] => 
+    [payer_status] => verified
+    [ship_country_code] => US
+    [ship_address_status] => Confirmed
+    [ship_phone] => 646-404-0945
+    [order_comment] => 
+    [ship_name] => ANPING LIN
+    [ship_street_1] => 1669 E Trenton ave
+    [ship_street_2] => 
+    [ship_city] => Fresno
+    [ship_state] => CA
+    [ship_postal_code] => 93720
+    [ship_country_name] => United States
+)
+
+=================================
+
+May-16-2015 23:53:49 (1431842029)
+ec_step2_finish - 2
+country_id = 223 United States US
+address_format_id = 2
+state_id = 12 (original state tested: CA)
+country1->fields['countries_id'] = 
+country2->fields['countries_id'] = 223
+$order->customer = Array
+(
+    [firstname] => 
+    [lastname] => 
+    [company] => 
+    [street_address] => 1669 E Trenton ave
+    [suburb] => 
+    [city] => Fresno
+    [postcode] => 93720
+    [state] => CA
+    [zone_id] => 12
+    [country] => Array
+        (
+            [id] => 223
+            [title] => United States
+            [iso_code_2] => US
+            [iso_code_3] => USA
+        )
+
+    [format_id] => 2
+    [telephone] => 646-404-0945
+    [email_address] => jmww123123@gmail.com
+    [name] => ANPING LIN
+)
+
+=================================
+
+May-16-2015 23:53:49 (1431842029)
+ec_step2_finish - 4
+Not logged in. Looking for account.
+0 matching customer records found.
+=================================
+
+May-16-2015 23:53:49 (1431842029)
+ec_step2_finish - 6
+No ZC account found for this customer. Creating new account.
+$this->new_acct_notify =Yes
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+ec_step2_finish - 7
+Auto-Logged customer in. (jmww123123@gmail.com) (434)
+$_SESSION[paypal_ec_temp]=
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+findMatchingAddressBookEntry - 1-stats
+lookups:
+Array
+(
+    [countries_id] => 223
+    [address_format_id] => 2
+    [zone_country_id] => 1
+    [zone_id] => 12
+)
+
+check_zone: 1
+zone:12
+SubmittedAddress:Array
+(
+    [firstname] => 
+    [lastname] => 
+    [company] => ANPING LIN
+    [street_address] => 1669 E Trenton ave
+    [suburb] => 
+    [city] => Fresno
+    [postcode] => 93720
+    [state] => CA
+    [zone_id] => 12
+    [country] => Array
+        (
+            [id] => 223
+            [title] => United States
+            [iso_code_2] => US
+            [iso_code_3] => USA
+        )
+
+    [country_id] => 223
+    [format_id] => 2
+    [name] => ANPING LIN
+)
+
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+findMatchingAddressBookEntry - 2-read for match
+
+Lookup RecordCount = 1
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+findMatchingAddressBookEntry - 3a
+From PayPal:
+1669etrentonavefresno
+
+From DB:
+1669etrentonavefresno
+Array
+(
+    [address_book_id] => 477
+    [entry_street_address] => 1669 E Trenton ave
+    [entry_suburb] => 
+    [entry_city] => Fresno
+    [entry_company] => 
+    [entry_firstname] => ANPING
+    [entry_lastname] => LIN
+)
+
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+findMatchingAddressBookEntry - 3b
+Exact match:
+Array
+(
+    [address_book_id] => 477
+    [entry_street_address] => 1669 E Trenton ave
+    [entry_suburb] => 
+    [entry_city] => Fresno
+    [entry_company] => 
+    [entry_firstname] => ANPING
+    [entry_lastname] => LIN
+)
+
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+ec_step2_finish - 8
+Exiting via terminateEC (from originally-not-logged-in mode).
+Selected address: 477
+Original was: 0
+prepared data: Array
+(
+    [firstname] => 
+    [lastname] => 
+    [company] => 
+    [street_address] => 1669 E Trenton ave
+    [suburb] => 
+    [city] => Fresno
+    [postcode] => 93720
+    [state] => CA
+    [zone_id] => 12
+    [country] => Array
+        (
+            [id] => 223
+            [title] => United States
+            [iso_code_2] => US
+            [iso_code_3] => USA
+        )
+
+    [format_id] => 2
+    [telephone] => 646-404-0945
+    [email_address] => jmww123123@gmail.com
+    [name] => ANPING LIN
+    [id] => 434
+)
+
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:EC-34E24358C38771442
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+termEC-3
+AFTER: $this->showPaymentPage = 1
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+termEC-4
+We ARE logged in, and $this->showPaymentPage === true
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+termEC-6
+We DO have a shipping method selected, so goto PAYMENT
+=================================
+
+May-16-2015 23:53:53 (1431842033)
+termEC-10
+Redirecting to checkout_payment - Stack: checkout_payment
+Message: 
+Session Data: Array
+(
+    [securityToken] => d3ad4d1e096e3bd69f5c1b2c904dd77c
+    [customers_host_address] => c-71-232-33-29.hsd1.ma.comcast.net
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1524] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 60
+            [weight] => 1
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+            [cartID] => 48203
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1524
+                                    [action] => add_product
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => page_not_found
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [token] => EC-34E24358C38771442
+                                    [PayerID] => 5H252Y2PKBSYE
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-05-16
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 71.232.33.29
+    [new_products_id_in_cart] => 1524
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+    [messageToStack] => 
+    [paypal_ec_token] => EC-34E24358C38771442
+    [paypal_ec_payer_id] => 5H252Y2PKBSYE
+    [paypal_ec_payer_info] => Array
+        (
+            [payer_id] => 5H252Y2PKBSYE
+            [payer_email] => jmww123123@gmail.com
+            [payer_salutation] => 
+            [payer_gender] => 
+            [payer_firstname] => ANPING
+            [payer_lastname] => LIN
+            [payer_business] => 
+            [payer_status] => verified
+            [ship_country_code] => US
+            [ship_address_status] => Confirmed
+            [ship_phone] => 646-404-0945
+            [order_comment] => 
+            [ship_name] => ANPING LIN
+            [ship_street_1] => 1669 E Trenton ave
+            [ship_street_2] => 
+            [ship_city] => Fresno
+            [ship_state] => CA
+            [ship_postal_code] => 93720
+            [ship_country_name] => United States
+        )
+
+    [customer_guest_id] => 434
+    [paypal_ec_temp] => 
+    [customer_id] => 434
+    [customer_default_address_id] => 477
+    [customer_first_name] => ANPING
+    [customer_country_id] => 223
+    [customer_zone_id] => 12
+    [sendto] => 477
+    [billto] => 477
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+            [module] => freeoptions
+        )
+
+)
+
+=================================
+

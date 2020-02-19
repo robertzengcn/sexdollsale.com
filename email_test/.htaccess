@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "/email_test/"
+AuthUserFile "/home1/toystor1/.htpasswds/public_html/email_test/passwd"
+require valid-user

@@ -1,0 +1,7 @@
+#BackToTop {float: left;display:none;color: #eee;margin: 0 5px;padding: 0px 5px;padding-top:8px;text-decoration: none;border: 1px solid #444;font: 54px Arial, Helvetica;position:fixed;top:550px;right:10px;background-color: #444443;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+}
+

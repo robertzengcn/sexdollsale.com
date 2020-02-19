@@ -1,0 +1,243 @@
+2016-01-24 03:33:16
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 27,963.20
+    [ITEMAMT] => 27,963.20
+    [L_NUMBER0] => SD107
+    [L_NAME0] => Real silicone sex dolls [1493]
+    [L_QTY0] => 1
+    [L_AMT0] => 7,999.00
+    [L_NUMBER1] => SD039
+    [L_NAME1] => Lisa Drop Shipping Beautiful real sex doll [1498]
+    [L_QTY1] => 1
+    [L_AMT1] => 3,399.00
+    [L_NUMBER2] => SDT001
+    [L_NAME2] => HongKong VNA blow up sexy doll [1418]
+    [L_QTY2] => 1
+    [L_AMT2] => 90.00
+    [L_NUMBER3] => SP001
+    [L_NAME3] => Pillow love doll for comfortable sleep and sex [1460]
+    [L_QTY3] => 1
+    [L_AMT3] => 29.00
+    [L_NUMBER4] => SDL002
+    [L_NAME4] => footjob sex doll [1431]
+    [L_QTY4] => 2
+    [L_AMT4] => 1,199.00
+    [L_NUMBER5] => SD001
+    [L_NAME5] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY5] => 1
+    [L_AMT5] => 95.00
+    [L_NUMBER6] => SD074
+    [L_NAME6] => Big size silicone sex love doll [1478]
+    [L_QTY6] => 1
+    [L_AMT6] => 2,699.00
+    [L_NUMBER7] => SD078
+    [L_NAME7] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY7] => 1
+    [L_AMT7] => 90.00
+    [L_NUMBER8] => SH222
+    [L_NAME8] => Big ass sexy girl doll for male [1468]
+    [L_QTY8] => 1
+    [L_AMT8] => 169.00
+    [L_NUMBER9] => MEIR001
+    [L_NAME9] => gentle lady male aircraft cup pink line and pipe hole [1561]
+    [L_QTY9] => 1
+    [L_AMT9] => 36.00
+    [L_NUMBER10] => SD050
+    [L_NAME10] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY10] => 1
+    [L_AMT10] => 1,999.00
+    [L_NUMBER11] => SZXR001
+    [L_NAME11] => secretary real love doll [1442]
+    [L_QTY11] => 1
+    [L_AMT11] => 2,999.00
+    [L_NUMBER12] => SKY001
+    [L_NAME12] => Sexy Asian girl sex doll [1440]
+    [L_QTY12] => 1
+    [L_AMT12] => 108.20
+    [L_NUMBER13] => MEIR045
+    [L_NAME13] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY13] => 1
+    [L_AMT13] => 70.00
+    [L_NUMBER14] => MEIR030
+    [L_NAME14] => 2015 aircraft Cup [1590]
+    [L_QTY14] => 1
+    [L_AMT14] => 60.00
+    [L_NUMBER15] => MEIR052
+    [L_NAME15] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY15] => 1
+    [L_AMT15] => 60.00
+    [L_NUMBER16] => MEIR065
+    [L_NAME16] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY16] => 1
+    [L_AMT16] => 2,972.00
+    [L_NUMBER17] => MEIR061
+    [L_NAME17] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY17] => 1
+    [L_AMT17] => 70.00
+    [L_NUMBER18] => MEIR104
+    [L_NAME18] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY18] => 1
+    [L_AMT18] => 15.00
+    [L_NUMBER19] => MEIR013
+    [L_NAME19] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY19] => 1
+    [L_AMT19] => 58.00
+    [L_NUMBER20] => MEIR015
+    [L_NAME20] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY20] => 1
+    [L_AMT20] => 53.00
+    [L_NUMBER21] => MEIR085
+    [L_NAME21] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY21] => 1
+    [L_AMT21] => 35.00
+    [L_NUMBER22] => MEIR086
+    [L_NAME22] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY22] => 1
+    [L_AMT22] => 38.00
+    [L_NUMBER23] => MEIR084
+    [L_NAME23] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY23] => 1
+    [L_AMT23] => 33.00
+    [L_NUMBER24] => MEIR022
+    [L_NAME24] => automatic line and pipe machine beer [1582]
+    [L_QTY24] => 1
+    [L_AMT24] => 252.00
+    [L_NUMBER25] => MEIR016
+    [L_NAME25] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY25] => 1
+    [L_AMT25] => 77.00
+    [L_NUMBER26] => MEIR018
+    [L_NAME26] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY26] => 1
+    [L_AMT26] => 118.00
+    [L_NUMBER27] => MEIR043
+    [L_NAME27] => AV Actress Amber sex toy [1603]
+    [L_QTY27] => 1
+    [L_AMT27] => 85.00
+    [L_NUMBER28] => MEIR033
+    [L_NAME28] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY28] => 1
+    [L_AMT28] => 172.00
+    [L_NUMBER29] => MEIR041
+    [L_NAME29] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY29] => 1
+    [L_AMT29] => 222.00
+    [L_NUMBER30] => MEIR042
+    [L_NAME30] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY30] => 1
+    [L_AMT30] => 38.00
+    [L_NUMBER31] => MEIR037
+    [L_NAME31] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY31] => 1
+    [L_AMT31] => 51.00
+    [L_NUMBER32] => MEIR025
+    [L_NAME32] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY32] => 1
+    [L_AMT32] => 65.00
+    [L_NUMBER33] => MEIR098
+    [L_NAME33] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY33] => 1
+    [L_AMT33] => 25.00
+    [L_NUMBER34] => MEIR091
+    [L_NAME34] => big man penis enlargement [1651]
+    [L_QTY34] => 2
+    [L_AMT34] => 72.00
+    [L_NUMBER35] => MEIR049
+    [L_NAME35] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY35] => 1
+    [L_AMT35] => 285.00
+    [L_NUMBER36] => MEIR051
+    [L_NAME36] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY36] => 1
+    [L_AMT36] => 270.00
+    [L_NUMBER37] => MEIR062
+    [L_NAME37] => sexy way D cup leggy blonde blowjob can be Jiaochuang vaginal an [1622]
+    [L_QTY37] => 1
+    [L_AMT37] => 72.00
+    [L_NUMBER38] => MEIR063
+    [L_NAME38] => young woman half entity doll chest water can be heated dual chan [1623]
+    [L_QTY38] => 1
+    [L_AMT38] => 63.00
+    [L_NUMBER39] => MEIR064
+    [L_NAME39] => inflatable girlfriend two-point line and pipe privates lifelike [1624]
+    [L_QTY39] => 1
+    [L_AMT39] => 75.00
+    [L_NUMBER40] => MEIR070
+    [L_NAME40] => selling third-generation Korean multi-frequency vibration sound [1630]
+    [L_QTY40] => 1
+    [L_AMT40] => 82.00
+    [L_NUMBER41] => MEIR071
+    [L_NAME41] => real 1: 1 hand and foot inflatable doll simulation angel face de [1631]
+    [L_QTY41] => 1
+    [L_AMT41] => 88.00
+    [L_NUMBER42] => MEIR078
+    [L_NAME42] => Japanese high court prostate vibration massage after a six-speed [1638]
+    [L_QTY42] => 1
+    [L_AMT42] => 66.00
+    [L_NUMBER43] => MEIR087
+    [L_NAME43] => delay care 3 increasing mounted magnetic underwear XL [1647]
+    [L_QTY43] => 1
+    [L_AMT43] => 55.00
+    [L_NUMBER44] => MEIR093
+    [L_NAME44] => prostate massage oils revival promote the development of seconda [1653]
+    [L_QTY44] => 1
+    [L_AMT44] => 41.00
+    [L_NUMBER45] => MEIR094
+    [L_NAME45] => safely and effectively increase the delay shock therapy ring del [1654]
+    [L_QTY45] => 1
+    [L_AMT45] => 43.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-7AC57703AE991070F
+    [TIMESTAMP] => 2016-01-24T22:33:16Z
+    [CORRELATIONID] => 8b78881b5778c
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 554ms -- Success
+

@@ -1,0 +1,72 @@
+2016-02-12 02:04:45
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 95.00
+    [ITEMAMT] => 95.00
+    [L_NUMBER0] => SD001
+    [L_NAME0] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY0] => 1
+    [L_AMT0] => 95.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => achyut mohan
+    [SHIPTOSTREET] => 13102 fallsview lane apt#5015
+    [SHIPTOCITY] => houston
+    [SHIPTOZIP] => 77077
+    [SHIPTOSTATE] => TX
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => achyut.maddur@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-2DM18796AE1747205
+    [TIMESTAMP] => 2016-02-12T21:04:45Z
+    [CORRELATIONID] => a63ad05078d33
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 406ms -- Success
+

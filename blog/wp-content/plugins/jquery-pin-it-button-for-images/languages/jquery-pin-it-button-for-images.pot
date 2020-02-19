@@ -1,0 +1,392 @@
+# Copyright (C) 2016 jquery-pin-it-button-for-images
+# This file is distributed under the same license as the jquery-pin-it-button-for-images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: jquery-pin-it-button-for-images\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Language-Team: Marcin Skrzypiec\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: includes\admin\class-jpibfi-admin.php:157, includes\admin\class-jpibfi-selection-options.php:121
+msgid "Selection"
+msgstr ""
+
+#: includes\admin\class-jpibfi-admin.php:167, includes\admin\class-jpibfi-visual-options.php:147
+msgid "Visual"
+msgstr ""
+
+#: includes\admin\class-jpibfi-admin.php:177
+msgid "Advanced"
+msgstr ""
+
+#: includes\admin\class-jpibfi-admin.php:217, jquery-pin-it-button-for-images.php:131
+msgid "Settings"
+msgstr ""
+
+#: includes\admin\class-jpibfi-admin.php:253
+msgid "Disable \"Pin it\" button for this post (works only on single pages/posts)"
+msgstr ""
+
+#: includes\admin\class-jpibfi-admin.php:323
+msgid "jQuery Pin It Button for Images Pro is coming soon. Click <a target=\"_blank\" href=\"%s\">here</a> to learn more."
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:81
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:97
+msgid "Debug"
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:107
+msgid "Use debug mode only if you are experiencing some issues with the plugin and you are reporting them to the developer of the plugin"
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:119
+msgid "Container selector"
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:129
+msgid "This is the selector used to find the container that holds the entire single post. It looks for an element that is a parent of the content of the post. Usually it's a div or article element. This setting is important to making \"Use post url\" visual setting work properly."
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:151
+msgid "Advanced settings"
+msgstr ""
+
+#: includes\admin\class-jpibfi-advanced-options.php:167
+msgid "Enable debug mode"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:137
+msgid "Image selector"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:147
+msgid "jQuery selector for all the images that should have the \"Pin it\" button. Set the value to %s if you want the \"Pin it\" button to appear only on images in content or %s to appear on all images on site (including sidebar, header and footer). If you know a thing or two about jQuery, you might use your own selector. %sClick here%s to read about jQuery selectors."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:169, includes\admin\class-jpibfi-selection-options.php:513
+msgid "Disabled classes"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:179
+msgid "Pictures with these CSS classes won't show the \"Pin it\" button. Please separate multiple classes with semicolons. Spaces are not accepted."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:191, includes\admin\class-jpibfi-selection-options.php:517
+msgid "Enabled classes"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:201
+msgid "Only pictures with these CSS classes will show the \"Pin it\" button. Please separate multiple classes with semicolons. If this field is empty, images with any (besides disabled ones) classes will show the Pin It button."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:213
+msgid "On which pages the \"Pin it\" button should be shown"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:223
+msgid "Check on which pages you want the Pinterest button to show up."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:235
+msgid "Minimum resolution that should trigger the \"Pin it\" button to show up"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:245
+msgid "If you'd like the \"Pin it\" button to not show up on small images (e.g. social media icons), just set the appropriate values above. The default values cause the \"Pin it\" button to show on every eligible image."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:269
+msgid "Which images can be pinned"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:309, includes\admin\class-jpibfi-selection-options.php:357
+msgid "No classes added."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:317, includes\admin\class-jpibfi-selection-options.php:365
+msgid "Class name"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:323, includes\admin\class-jpibfi-selection-options.php:371
+msgid "Add"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:411
+msgid "Home page"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:415
+msgid "Pages"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:419
+msgid "Single posts"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:423
+msgid "Category and archive pages"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:427
+msgid "Blog pages"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:455, includes\admin\class-jpibfi-visual-options.php:575
+msgid "Height"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:469, includes\admin\class-jpibfi-visual-options.php:589
+msgid "Width"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:527
+msgid "the given value doesn't meet the requirements. Please correct it and try again."
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:547
+msgid "Minimum image height"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:551
+msgid "Minimum image width"
+msgstr ""
+
+#: includes\admin\class-jpibfi-selection-options.php:561, includes\admin\class-jpibfi-visual-options.php:767
+msgid "value must be a number greater or equal to %d."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:161
+msgid "Show button"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:171
+msgid "When the \"Pin it\" button should be visible."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:183
+msgid "Description source"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:193
+msgid "From where the Pinterest message should be taken. Please note that \"Image description\" works properly only for images that were added to your Media Library."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:205
+msgid "Linked page"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:215
+msgid "When checked, the link on Pinterest will always point to the individual page with the image and title of this individual page will be used if you've selected Title as the description source, even when the image was pinned on an archive page, category page or homepage. If false, the link will point to the URL the user is currently on."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:227
+msgid "Pin linked images"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:247
+msgid "Transparency value"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:257
+msgid "This setting sets the transparency of the image."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:269
+msgid "Custom \"Pin It\" button"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:279
+msgid "Check the <b>Use custom image</b> checkbox, specify image's URL, height and width to use your own Pinterest button design. You can just upload an image using Wordpress media library if you wish."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:291
+msgid "\"Pin it\" button position"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:301
+msgid "Where the \"Pin it\" button should appear on the image."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:313
+msgid "\"Pin it\" button margins"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:323
+msgid "Margins are used to adjust the position of the \"Pin it\" button, but not all margins are used on all button positions. Here is an example. If you're using the \"%s\" position, the button's position will be affected only by top and left margins. Bottom and right margins affect \"%s\" position, etc. The \"%s\" position does not use any margins at all."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:325, includes\admin\class-jpibfi-visual-options.php:635
+msgid "Top left"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:327, includes\admin\class-jpibfi-visual-options.php:641
+msgid "Bottom right"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:329, includes\admin\class-jpibfi-visual-options.php:643
+msgid "Middle"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:343
+msgid "Retina friendly"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:353
+msgid "Please note that checking this option will result in rendering the \"Pin it\" button half of its normal size (if you use a 80x60 image, the button will be 40x30). When uploading a custom \"Pin it\" button (the default one is too small), please make sure both width and height are even numbers (i.e. divisible by two) when using this option."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:377
+msgid "How it should look like"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:393
+msgid "On hover"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:395
+msgid "Always on touch devices"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:397
+msgid "Always"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:407
+msgid "This feature is disabled in this version of the plugin. Consider buying <a target=\"_blank\" href=\"%s\">the PRO version</a>."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:433
+msgid "Page title"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:435
+msgid "Page description"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:437
+msgid "Picture title or (if title not available) alt attribute"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:439
+msgid "Site title (Settings->General)"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:441
+msgid "Image description"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:443
+msgid "Image alt attribute"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:469
+msgid "Always link to individual post page"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:493
+msgid "Active"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:495
+msgid "When checked, pins full-sized images instead of thumbnails (works only if you link thumbnails to their full versions)."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:497
+msgid "File extensions to use"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:501
+msgid "Leaving this empty means files of any extension will be used (also those without any extension). If you want to use only files of specific extension(s), type those file extensions here (separated by commas)."
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:517
+msgid "Choose transparency (between %.02f and %.02f)"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:553
+msgid "Use custom image"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:559
+msgid "Upload an image using media library"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:565
+msgid "URL address of the image"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:603
+msgid "Custom Pin It button preview"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:611
+msgid "Refresh preview"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:637
+msgid "Top right"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:639
+msgid "Bottom left"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:683
+msgid "Top"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:687
+msgid "Bottom"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:691
+msgid "Left"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:695
+msgid "Right"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:721
+msgid "Optimize for high pixel density displays"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:751
+msgid "Custom image height"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:755
+msgid "Custom image width"
+msgstr ""
+
+#: includes\admin\class-jpibfi-visual-options.php:787
+msgid "Transparency value must be a number between %.02d and %.02f."
+msgstr ""
+
+#: includes\admin\views\admin.php:11
+msgid "jQuery Pin It Button For Images Options"
+msgstr ""
+
+#: includes\admin\views\admin.php:47
+msgid "How to Get The Most Out of JPIBFI"
+msgstr ""
+
+#: includes\admin\views\admin.php:49
+msgid "Support forum"
+msgstr ""
+
+#: includes\admin\views\notice.php:3
+msgid "<strong>jQuery Pin It Button for Images Pro</strong> is coming soon."
+msgstr ""

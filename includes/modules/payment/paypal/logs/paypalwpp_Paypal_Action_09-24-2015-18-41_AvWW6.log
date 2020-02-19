@@ -1,0 +1,143 @@
+Sep-24-2015 18:41:24 (1443141684)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 270
+    [ITEMAMT] => 270
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 270
+    [ITEMAMT] => 270
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD078
+    [L_NAME0] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY0] => 3
+    [L_AMT0] => 90
+)
+
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 270.00
+    [AMT] => 270.00
+    [ITEMAMT] => 270.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => f90fd837f9914e2fdc9938e6c200f50f
+    [customers_host_address] => 66-87-133-24.pools.spcsdns.net
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1401] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                )
+
+            [total] => 270
+            [weight] => 0
+            [cartID] => 73411
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1401
+    [today_is] => 2015-09-24
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 66.87.133.24
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Sep-24-2015 18:41:24 (1443141684)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 270.00
+    [ITEMAMT] => 270.00
+    [L_NUMBER0] => SD078
+    [L_NAME0] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY0] => 3
+    [L_AMT0] => 90.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

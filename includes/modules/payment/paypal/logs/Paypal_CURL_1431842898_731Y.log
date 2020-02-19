@@ -1,0 +1,47 @@
+2015-05-17 12:08:18
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {RefundTransaction} 
+Array
+(
+    [TRANSACTIONID] => 5XP0758553596832E
+    [REFUNDTYPE] => Full
+    [NOTE] => Refunded by store administrator.
+    [METHOD] => RefundTransaction
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [REFUNDTRANSACTIONID] => 22N31491Y21775511
+    [FEEREFUNDAMT] => 2.64
+    [GROSSREFUNDAMT] => 60.00
+    [NETREFUNDAMT] => 57.36
+    [CURRENCYCODE] => USD
+    [TIMESTAMP] => 2015-05-17T06:08:18Z
+    [CORRELATIONID] => f718c3e2f2095
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 16684246
+    [CURL_ERRORS] => 
+)
+
+
+RefundTransaction, Elapsed: 1590ms -- Success
+

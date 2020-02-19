@@ -1,0 +1,143 @@
+Apr-23-2014 12:32:15 (1398256335)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 781.43
+    [ITEMAMT] => 781.43
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 781.43
+    [ITEMAMT] => 781.43
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => half body sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 781.43
+)
+
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 781.43
+    [AMT] => 781.43
+    [ITEMAMT] => 781.43
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 4d8a17a9e636634ddcc660c046c84c8e
+    [customers_host_address] => 197.43.90.110.broad.fz.fj.dynamic.163data.com.cn
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1431] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 781.43
+            [weight] => 20
+            [cartID] => 79154
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-04-23
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 110.90.43.197
+    [new_products_id_in_cart] => 
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Apr-23-2014 12:32:15 (1398256335)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 781.43
+    [ITEMAMT] => 781.43
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => half body sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 781.43
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1
+)
+
+=================================
+

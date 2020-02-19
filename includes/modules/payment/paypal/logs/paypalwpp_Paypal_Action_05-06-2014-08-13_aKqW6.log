@@ -1,0 +1,168 @@
+May-06-2014 08:13:07 (1399363987)
+getLineItemDetails 5
+Line-item subtotals do not add up properly. Line-item-details skipped.
+48.08 48.08 Array
+(
+    [AMT] => 48.09
+    [ITEMAMT] => 48.09
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => DS221
+    [L_NAME0] => Dumbbell realistic vagina stroker [1467]
+    [L_QTY0] => 1
+    [L_AMT0] => 35.46
+    [L_NUMBER1] => SRV001
+    [L_NAME1] => Fleshlight Realistic Vagina stroker [1426]
+    [L_QTY1] => 1
+    [L_AMT1] => 12.62
+)
+
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 48.09
+    [ITEMAMT] => 48.09
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 48.09
+    [ITEMAMT] => 48.09
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NAME0] => All the items in your shopping basket (see details in the store and on your store receipt).
+    [L_AMT0] => 48.09
+)
+
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 48.09
+    [AMT] => 48.09
+    [ITEMAMT] => 48.09
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 75c329ea481c7c473fcc3b36345b73ad
+    [customers_host_address] => cf-173-245-48-220.cloudflare.com
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1467] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1426] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 48.08
+            [weight] => 1
+            [cartID] => 42725
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-06
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 173.245.48.220
+    [new_products_id_in_cart] => 1426
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-06-2014 08:13:07 (1399363987)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 48.09
+    [ITEMAMT] => 48.09
+    [L_NAME0] => All the items in your shopping basket (see details in the store and on your store receipt).
+    [L_AMT0] => 48.09
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec&zenid=f8c8059754fcbccfb48945ecfdf11377
+    [CANCELURL] => http://www.ebayst.com/shopping_cart?ec_cancel=1&zenid=f8c8059754fcbccfb48945ecfdf11377
+)
+
+=================================
+

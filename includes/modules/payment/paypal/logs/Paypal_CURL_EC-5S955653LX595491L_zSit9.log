@@ -1,0 +1,73 @@
+2014-05-16 04:17:01
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 71.10
+    [ITEMAMT] => 51.10
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => STM101
+    [L_NAME0] => Bad office lady Vibrating Ass [1489]
+    [L_QTY0] => 1
+    [L_AMT0] => 51.10
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => Sandy Padron
+    [SHIPTOSTREET] => 17891 south dixie highway
+    [SHIPTOCITY] => Miami
+    [SHIPTOZIP] => 33186
+    [SHIPTOSTATE] => FL
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => Titan0025@hotmail.com
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-5S955653LX595491L
+    [TIMESTAMP] => 2014-05-16T04:17:00Z
+    [CORRELATIONID] => 345baa791e383
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 11024577
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 604ms -- Success
+

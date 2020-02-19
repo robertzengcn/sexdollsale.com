@@ -1,0 +1,145 @@
+Apr-04-2014 08:02:00 (1396598520)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 89.56
+    [ITEMAMT] => 89.56
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 89.56
+    [ITEMAMT] => 89.56
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => BB073
+    [L_NAME0] => 1:1 real girl size big boobs sex doll [1458]
+    [L_QTY0] => 1
+    [L_AMT0] => 89.56
+)
+
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 89.56
+    [AMT] => 89.56
+    [ITEMAMT] => 89.56
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => fd3ad48047d400897ea1a7d9b3dd77bb
+    [customers_host_address] => 108.162.215.141
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1458] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 89.56
+            [weight] => 5
+            [cartID] => 69347
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-04-04
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 108.162.215.141
+    [payment] => paypalwpp
+    [total_weight] => 0
+    [total_count] => 0
+    [new_products_id_in_cart] => 
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+)
+
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Apr-04-2014 08:02:00 (1396598520)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 89.56
+    [ITEMAMT] => 89.56
+    [L_NUMBER0] => BB073
+    [L_NAME0] => 1:1 real girl size big boobs sex doll [1458]
+    [L_QTY0] => 1
+    [L_AMT0] => 89.56
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1
+)
+
+=================================
+

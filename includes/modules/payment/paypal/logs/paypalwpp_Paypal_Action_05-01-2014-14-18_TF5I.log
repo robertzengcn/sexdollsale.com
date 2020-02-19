@@ -1,0 +1,143 @@
+May-01-2014 14:18:43 (1398953923)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+)
+
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 59.51
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 2423c2a4d564ff5432af02cd40ef4eb8
+    [customers_host_address] => cf-173-245-48-206.cloudflare.com
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1394] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 59.51
+            [weight] => 2.8
+            [cartID] => 27167
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-01
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 173.245.48.206
+    [new_products_id_in_cart] => 1394
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-01-2014 14:18:43 (1398953923)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1
+)
+
+=================================
+

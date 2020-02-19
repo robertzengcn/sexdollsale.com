@@ -1,0 +1,7 @@
+#moduleMenu {background:none;height:30px;background:#e2e3e8;margin-top:-30px;text-align:center;background:none;}
+#moduleMenu span{ float:left;}
+#moduleMenu span a {color:#f99d31;display:block;outline:none;text-align:center;padding-top:7px;font-size:13px;padding-left:40px;}
+#moduleMenu span a:hover {color:#444;}
+#featuredProducts {display:block;}
+.moduleBox{}
+#moduleMenu-wrapper{border:1px solid #f99d31;width:99%;margin:0 auto;background:#fff;margin-top:25px;}

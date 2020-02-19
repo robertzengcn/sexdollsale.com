@@ -1,0 +1,73 @@
+2015-08-31 06:58:32
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 209.00
+    [ITEMAMT] => 169.00
+    [SHIPPINGAMT] => 40.00
+    [L_NUMBER0] => SH222
+    [L_NAME0] => Big ass sexy girl doll for male [1468]
+    [L_QTY0] => 1
+    [L_AMT0] => 169.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => john kenneth
+    [SHIPTOSTREET] => 3800 219th carpenter apt 1
+    [SHIPTOCITY] => bronx
+    [SHIPTOZIP] => 10467
+    [SHIPTOSTATE] => NY
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => xxjohnbobbyxx678@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-8GK087615D320861T
+    [TIMESTAMP] => 2015-08-31T12:58:32Z
+    [CORRELATIONID] => 41245f3593186
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 000000
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 540ms -- Success
+

@@ -1,0 +1,56 @@
+# Use PHP5.4 as default
+##### AddHandler application/x-httpd-php54 .php
+##### NOTE: Replace /shop/ with the relative web path of your catalog in the "Rewrite Base" line below:
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^sexdollsale.com$ [NC]
+RewriteRule ^(.*)$ http://www.sexdollsale.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^http://sexdollsale.com$ [NC]
+RewriteRule ^(.*)$ http://www.sexdollsale.com/$1 [L,R=301]
+
+# 404 page
+ErrorDocument 404 /404.html
+
+###############################################################################
+# Start Ultimate SEO URLs
+###############################################################################
+
+# Handles the new URL formats
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-p-([0-9]+)(.*)$ index\.php?main_page=product_info&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pi-([0-9]+)(.*)$ index\.php?main_page=popup_image&pID=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pr-([0-9]+)(.*)$ index\.php?main_page=product_reviews&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)/(.*)-pri-([0-9]+)(.*)$ index\.php?main_page=product_reviews_info&products_id=$4&cPath=$2&%{QUERY_STRING} [L]
+
+# Original (unchanged) URL formats
+RewriteRule ^(.*)-p-([0-9]+)(.*)$ index\.php?main_page=product_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-m-([0-9]+)(.*)$ index\.php?main_page=index&manufacturers_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pi-([0-9]+)(.*)$ index\.php?main_page=popup_image&pID=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pr-([0-9]+)(.*)$ index\.php?main_page=product_reviews&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pri-([0-9]+)(.*)$ index\.php?main_page=product_reviews_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-ezp-([0-9]+)(.*)$ index\.php?main_page=page&id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-c-([0-9_]+)(.*)$ index\.php?main_page=index&cPath=$2&%{QUERY_STRING} [L]
+
+# All other pages
+# Don't rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index\.php?main_page=$1&%{QUERY_STRING} [L]
+
+SetEnvIfNoCase User-Agent .*rogerbot.* bad_bot
+SetEnvIfNoCase User-Agent .*exabot.* bad_bot
+SetEnvIfNoCase User-Agent .*mj12bot.* bad_bot
+SetEnvIfNoCase User-Agent .*dotbot.* bad_bot
+SetEnvIfNoCase User-Agent .*gigabot.* bad_bot
+SetEnvIfNoCase User-Agent .*ahrefsbot.* bad_bot
+SetEnvIfNoCase User-Agent .*sitebot.* bad_bot
+<Limit GET POST HEAD>
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+</Limit>

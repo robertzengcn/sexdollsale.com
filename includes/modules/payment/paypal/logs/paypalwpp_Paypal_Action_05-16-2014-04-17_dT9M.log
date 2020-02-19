@@ -1,0 +1,234 @@
+May-16-2014 04:17:00 (1400213820)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 71.1
+    [ITEMAMT] => 51.1
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 71.1
+    [ITEMAMT] => 51.1
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => STM101
+    [L_NAME0] => Bad office lady Vibrating Ass [1489]
+    [L_QTY0] => 1
+    [L_AMT0] => 51.1
+)
+
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 71.10
+    [AMT] => 71.10
+    [ITEMAMT] => 51.10
+    [SHIPPINGAMT] => 20.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 432
+Session Data: Array
+(
+    [securityToken] => b9eecc0f931a04ef040281dc1727602b
+    [customers_host_address] => 108.162.238.108
+    [cartID] => 38737
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1489] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 51.1
+            [weight] => 2.5
+            [cartID] => 38737
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-16
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 108.162.238.108
+    [new_products_id_in_cart] => 1489
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 2.5
+    [total_count] => 1
+    [sendto] => 475
+    [billto] => 475
+    [action] => process
+    [email_pref_html] => email_format
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => Sandy
+    [lastname] => Padron
+    [street_address] => 17891 south dixie highway
+    [city] => Miami
+    [zone_country_id] => 223
+    [zone_id] => 18
+    [postcode] => 33186
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [state_shipping] =>  
+    [postcode_shipping] => 
+    [email_address] => Titan0025@hotmail.com
+    [email_format] => TEXT
+    [telephone] => 3054098563
+    [x] => 108
+    [y] => 15
+    [COWOA] => 1
+    [customer_id] => 432
+    [shipping] => Array
+        (
+            [id] => dhlzones_dhlzones
+            [title] => DHL Rates (Shipping to US)
+            [cost] => 20
+        )
+
+    [customer_first_name] => Sandy
+    [customer_default_address_id] => 475
+    [customer_country_id] => 223
+    [customer_zone_id] => 18
+    [customers_authorization] => 0
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 475
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => Sandy
+    [entry_lastname] => Padron
+    [entry_company] => 
+    [entry_street_address] => 17891 south dixie highway
+    [entry_suburb] => 
+    [entry_city] => Miami
+    [entry_postcode] => 33186
+    [entry_country_id] => 223
+    [entry_zone_id] => 18
+    [entry_state] => 
+    [zone_code] => FL
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => Sandy
+    [entry_lastname] => Padron
+    [entry_company] => 
+    [entry_street_address] => 17891 south dixie highway
+    [entry_suburb] => 
+    [entry_city] => Miami
+    [entry_postcode] => 33186
+    [entry_country_id] => 223
+    [entry_zone_id] => 18
+    [entry_state] => 
+    [zone_code] => FL
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+May-16-2014 04:17:00 (1400213820)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 71.10
+    [ITEMAMT] => 51.10
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => STM101
+    [L_NAME0] => Bad office lady Vibrating Ass [1489]
+    [L_QTY0] => 1
+    [L_AMT0] => 51.10
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => Sandy Padron
+    [SHIPTOSTREET] => 17891 south dixie highway
+    [SHIPTOCITY] => Miami
+    [SHIPTOZIP] => 33186
+    [SHIPTOSTATE] => FL
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => Titan0025@hotmail.com
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+

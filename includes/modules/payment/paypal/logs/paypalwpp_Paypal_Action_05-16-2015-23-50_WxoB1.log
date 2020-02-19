@@ -1,0 +1,189 @@
+May-16-2015 23:50:22 (1431841822)
+termEC-1
+Killed the session vars as requested
+=================================
+
+May-16-2015 23:50:22 (1431841822)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+May-16-2015 23:50:22 (1431841822)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+May-16-2015 23:50:22 (1431841822)
+termEC-9
+We are NOT logged in, so set snapshot to Shipping page, and redirect to login
+=================================
+
+May-16-2015 23:50:22 (1431841822)
+termEC-10
+Redirecting to login - Stack: login
+Message: PROBLEM: We&#39;re sorry. PayPal has unexpectedly returned a blank address. <br />In order to complete your purchase, please provide your address by clicking the &quot;Sign Up&quot; button below to create an account in our store. Then you may select PayPal again when you continue with checkout. We apologize for the inconvenience. If you have any trouble with checkout, please click the Contact Us link to explain the details to us so we can help you with your purchase and prevent the problem in the future. Thanks.
+Session Data: Array
+(
+    [securityToken] => d3ad4d1e096e3bd69f5c1b2c904dd77c
+    [customers_host_address] => c-71-232-33-29.hsd1.ma.comcast.net
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1524] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 60
+            [weight] => 1
+            [cartID] => 15318
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1524
+                                    [action] => add_product
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => checkout_shipping
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => checkout
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [page] => login
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [page] => page_not_found
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-05-16
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 71.232.33.29
+    [new_products_id_in_cart] => 1524
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => login
+                    [text] => PROBLEM: We&#39;re sorry. PayPal has unexpectedly returned a blank address. <br />In order to complete your purchase, please provide your address by clicking the &quot;Sign Up&quot; button below to create an account in our store. Then you may select PayPal again when you continue with checkout. We apologize for the inconvenience. If you have any trouble with checkout, please click the Contact Us link to explain the details to us so we can help you with your purchase and prevent the problem in the future. Thanks.
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

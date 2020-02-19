@@ -1,0 +1,143 @@
+May-04-2014 12:12:23 (1399205543)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 108.2
+    [ITEMAMT] => 108.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 108.2
+    [ITEMAMT] => 108.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.2
+)
+
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 108.20
+    [AMT] => 108.20
+    [ITEMAMT] => 108.20
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 5b3c3ff4cab86394b4d735344fd66f90
+    [customers_host_address] => 197.9.40.120.broad.fz.fj.dynamic.163data.com.cn
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1440] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 108.2
+            [weight] => 0
+            [cartID] => 10115
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-04
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 120.40.9.197
+    [new_products_id_in_cart] => 1440
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-04-2014 12:12:23 (1399205543)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 108.20
+    [ITEMAMT] => 108.20
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.20
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

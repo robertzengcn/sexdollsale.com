@@ -1,0 +1,145 @@
+Apr-01-2014 16:00:55 (1396368055)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 21.04
+    [ITEMAMT] => 21.04
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 21.04
+    [ITEMAMT] => 21.04
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SP001
+    [L_NAME0] => cheap price sex pillow doll [1460]
+    [L_QTY0] => 1
+    [L_AMT0] => 21.04
+)
+
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 21.04
+    [AMT] => 21.04
+    [ITEMAMT] => 21.04
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 09b526ba1b9f7ebd39a226c82ba37e1d
+    [customers_host_address] => 87.117.197.59
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1460] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 21.04
+            [weight] => 1
+            [cartID] => 71287
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-04-01
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 87.117.197.59
+    [new_products_id_in_cart] => 
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+)
+
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Apr-01-2014 16:00:55 (1396368055)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 21.04
+    [ITEMAMT] => 21.04
+    [L_NUMBER0] => SP001
+    [L_NAME0] => cheap price sex pillow doll [1460]
+    [L_QTY0] => 1
+    [L_AMT0] => 21.04
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1
+)
+
+=================================
+

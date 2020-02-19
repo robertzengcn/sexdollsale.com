@@ -1,0 +1,212 @@
+Apr-30-2014 15:00:05 (1398870005)
+ec_step2 
+Re-instantiating $order object.
+=================================
+
+Apr-30-2014 15:00:05 (1398870005)
+ec_step2 
+Instantiated $order object contents: order Object
+(
+    [info] => Array
+        (
+            [order_status] => 2
+            [currency] => GBP
+            [currency_value] => 1.00000000
+            [payment_method] => PayPal
+            [payment_module_code] => paypalwpp
+            [coupon_code] => 
+            [shipping_method] => 
+            [shipping_module_code] => 
+            [shipping_cost] => 
+            [subtotal] => 59.5089
+            [shipping_tax] => 0
+            [tax] => 0
+            [total] => 59.5089
+            [tax_groups] => Array
+                (
+                    [0] => 0
+                )
+
+            [comments] => 
+            [ip_address] => 27.156.119.130 - 27.156.119.130
+        )
+
+    [totals] => Array
+        (
+        )
+
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [qty] => 1
+                    [name] => New Eastern beautiful face Sex dolls
+                    [model] => SD91
+                    [tax] => 0
+                    [tax_groups] => Array
+                        (
+                            [0] => Sales Tax
+                        )
+
+                    [tax_description] => Sales Tax
+                    [price] => 59.5089
+                    [final_price] => 59.5089
+                    [onetime_charges] => 0
+                    [weight] => 2.8
+                    [products_priced_by_attribute] => 0
+                    [product_is_free] => 0
+                    [products_discount_type] => 0
+                    [products_discount_type_from] => 0
+                    [id] => 1394
+                    [rowClass] => rowEven
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [format_id] => 0
+            [telephone] => 
+            [email_address] => 
+        )
+
+    [delivery] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+    [content_type] => physical
+    [email_low_stock] => 
+    [products_ordered_attributes] => 
+    [products_ordered] => 
+    [products_ordered_email] => 
+    [attachArray] => 
+    [billing] => Array
+        (
+            [firstname] => 
+            [lastname] => 
+            [company] => 
+            [street_address] => 
+            [suburb] => 
+            [city] => 
+            [postcode] => 
+            [state] => 
+            [zone_id] => 
+            [country] => Array
+                (
+                    [id] => 
+                    [title] => 
+                    [iso_code_2] => 
+                    [iso_code_3] => 
+                )
+
+            [country_id] => 
+            [format_id] => 0
+        )
+
+)
+
+=================================
+
+Apr-30-2014 15:00:05 (1398870005)
+ec_step2_finish - 1
+START: paypal_ec_payer_info= Array
+(
+    [payer_id] => QVYKHWYNWPZUY
+    [payer_email] => amigatoy@gmail.com
+    [payer_salutation] => 
+    [payer_gender] => 
+    [payer_firstname] => JianZe
+    [payer_lastname] => Zeng
+    [payer_business] => 
+    [payer_status] => verified
+    [ship_country_code] => CN
+    [ship_address_status] => Unconfirmed
+    [ship_phone] => +86 18059949858
+    [order_comment] => 
+    [ship_name] => Zeng JianZe
+    [ship_street_1] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [ship_street_2] => 
+    [ship_city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [ship_state] => Fujian
+    [ship_postal_code] => 350000
+    [ship_country_name] => China
+)
+
+=================================
+
+Apr-30-2014 15:00:06 (1398870006)
+ec_step2_finish - 2
+country_id = 44 China CN
+address_format_id = 1
+state_id = 0 (original state tested: Fujian)
+country1->fields['countries_id'] = 44
+country2->fields['countries_id'] = 44
+$order->customer = Array
+(
+    [firstname] => 
+    [lastname] => 
+    [company] => 
+    [street_address] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [suburb] => 
+    [city] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [postcode] => 350000
+    [state] => Fujian
+    [zone_id] => 0
+    [country] => Array
+        (
+            [id] => 44
+            [title] => China
+            [iso_code_2] => CN
+            [iso_code_3] => CHN
+        )
+
+    [format_id] => 1
+    [telephone] => +86 18059949858
+    [email_address] => amigatoy@gmail.com
+    [name] => JianZe Zeng
+)
+
+=================================
+
+Apr-30-2014 15:00:06 (1398870006)
+ec_step2_finish - 4
+Not logged in. Looking for account.
+1 matching customer records found.
+=================================
+

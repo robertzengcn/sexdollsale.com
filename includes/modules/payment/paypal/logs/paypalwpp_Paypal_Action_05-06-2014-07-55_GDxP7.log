@@ -1,0 +1,364 @@
+May-06-2014 07:55:23 (1399362923)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 2789.16
+    [ITEMAMT] => 2789.16
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 2789.16
+    [ITEMAMT] => 2789.16
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD094
+    [L_NAME0] => Blow-up Sex Doll With Vagina for male Masturbation [1402]
+    [L_QTY0] => 1
+    [L_AMT0] => 92.57
+    [L_NUMBER1] => SP001
+    [L_NAME1] => cheap price sex pillow doll [1460]
+    [L_QTY1] => 1
+    [L_AMT1] => 21.04
+    [L_NUMBER2] => SD033
+    [L_NAME2] => Beautiful face blow up korean sex doll [1391]
+    [L_QTY2] => 1
+    [L_AMT2] => 53.5
+    [L_NUMBER3] => SD106
+    [L_NAME3] => Cheap price inflatable Sex dolls [1492]
+    [L_QTY3] => 1
+    [L_AMT3] => 51.1
+    [L_NUMBER4] => SD003
+    [L_NAME4] => Cyberskin stockings girl sex doll [1356]
+    [L_QTY4] => 1
+    [L_AMT4] => 1081.38
+    [L_NUMBER5] => LS005
+    [L_NAME5] => Sex Lingerie for cheep silicon sex dolls in uk [1507]
+    [L_QTY5] => 1
+    [L_AMT5] => 10
+    [L_NUMBER6] => LS006
+    [L_NAME6] => Sexy Lingeie for sex doll in UK [1508]
+    [L_QTY6] => 1
+    [L_AMT6] => 10
+    [L_NUMBER7] => LS001
+    [L_NAME7] => Sexy Lingerie for adult fuck sex doll [1503]
+    [L_QTY7] => 1
+    [L_AMT7] => 10
+    [L_NUMBER8] => VM148
+    [L_NAME8] => ,G Spot Vibrator,Clit Vibe,Vibration Massage,Adult Sex Toys [1338]
+    [L_QTY8] => 1
+    [L_AMT8] => 57.95
+    [L_NUMBER9] => VM095
+    [L_NAME9] => 100* Silicon, 10 Speed Waterproof G Spot Vibrator [1285]
+    [L_QTY9] => 1
+    [L_AMT9] => 35.77
+    [L_NUMBER10] => VM118
+    [L_NAME10] => 100* Waterproof, 12 frequece Vibrating G Spot Massager [1308]
+    [L_QTY10] => 1
+    [L_AMT10] => 35.04
+    [L_NUMBER11] => SDW101
+    [L_NAME11] => inflated strong male sex doll for women [1501]
+    [L_QTY11] => 1
+    [L_AMT11] => 54.1
+    [L_NUMBER12] => SDW005
+    [L_NAME12] => sex doll for female with Clitoris [1423]
+    [L_QTY12] => 1
+    [L_AMT12] => 59.51
+    [L_NUMBER13] => SDM004
+    [L_NAME13] => strong silicon sex doll for woman [1461]
+    [L_QTY13] => 1
+    [L_AMT13] => 239.84
+    [L_NUMBER14] => SD100
+    [L_NAME14] => inflatable Chinese sex doll [1448]
+    [L_QTY14] => 1
+    [L_AMT14] => 61.3
+    [L_NUMBER15] => BB073
+    [L_NAME15] => 1:1 real girl size big boobs sex doll [1458]
+    [L_QTY15] => 1
+    [L_AMT15] => 89.56
+    [L_NUMBER16] => SSD003
+    [L_NAME16] => 3d sexy doll for male [1409]
+    [L_QTY16] => 1
+    [L_AMT16] => 113.6
+    [L_NUMBER17] => SSD007
+    [L_NAME17] => 3d silicone sexy leg doll [1421]
+    [L_QTY17] => 1
+    [L_AMT17] => 712.9
+)
+
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 2,789.16
+    [AMT] => 2,789.16
+    [ITEMAMT] => 2,789.16
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 7272e4e130b1fe1c0b9b12882f07b807
+    [customers_host_address] => cf-173-245-48-220.cloudflare.com
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1402] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1460] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1391] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1492] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1356] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1507] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1508] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1503] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1338] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1285] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1308] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1501] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1423] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1461] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1448] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1458] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1409] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1421] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 2789.16
+            [weight] => 63
+            [cartID] => 80669
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-06
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 173.245.48.220
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [new_products_id_in_cart] => 1421
+    [payment] => paypalwpp
+)
+
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-06-2014 07:55:23 (1399362923)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 2,789.16
+    [ITEMAMT] => 2,789.16
+    [L_NUMBER0] => SD094
+    [L_NAME0] => Blow-up Sex Doll With Vagina for male Masturbation [1402]
+    [L_QTY0] => 1
+    [L_AMT0] => 92.57
+    [L_NUMBER1] => SP001
+    [L_NAME1] => cheap price sex pillow doll [1460]
+    [L_QTY1] => 1
+    [L_AMT1] => 21.04
+    [L_NUMBER2] => SD033
+    [L_NAME2] => Beautiful face blow up korean sex doll [1391]
+    [L_QTY2] => 1
+    [L_AMT2] => 53.50
+    [L_NUMBER3] => SD106
+    [L_NAME3] => Cheap price inflatable Sex dolls [1492]
+    [L_QTY3] => 1
+    [L_AMT3] => 51.10
+    [L_NUMBER4] => SD003
+    [L_NAME4] => Cyberskin stockings girl sex doll [1356]
+    [L_QTY4] => 1
+    [L_AMT4] => 1,081.38
+    [L_NUMBER5] => LS005
+    [L_NAME5] => Sex Lingerie for cheep silicon sex dolls in uk [1507]
+    [L_QTY5] => 1
+    [L_AMT5] => 10.00
+    [L_NUMBER6] => LS006
+    [L_NAME6] => Sexy Lingeie for sex doll in UK [1508]
+    [L_QTY6] => 1
+    [L_AMT6] => 10.00
+    [L_NUMBER7] => LS001
+    [L_NAME7] => Sexy Lingerie for adult fuck sex doll [1503]
+    [L_QTY7] => 1
+    [L_AMT7] => 10.00
+    [L_NUMBER8] => VM148
+    [L_NAME8] => ,G Spot Vibrator,Clit Vibe,Vibration Massage,Adult Sex Toys [1338]
+    [L_QTY8] => 1
+    [L_AMT8] => 57.95
+    [L_NUMBER9] => VM095
+    [L_NAME9] => 100* Silicon, 10 Speed Waterproof G Spot Vibrator [1285]
+    [L_QTY9] => 1
+    [L_AMT9] => 35.77
+    [L_NUMBER10] => VM118
+    [L_NAME10] => 100* Waterproof, 12 frequece Vibrating G Spot Massager [1308]
+    [L_QTY10] => 1
+    [L_AMT10] => 35.04
+    [L_NUMBER11] => SDW101
+    [L_NAME11] => inflated strong male sex doll for women [1501]
+    [L_QTY11] => 1
+    [L_AMT11] => 54.10
+    [L_NUMBER12] => SDW005
+    [L_NAME12] => sex doll for female with Clitoris [1423]
+    [L_QTY12] => 1
+    [L_AMT12] => 59.51
+    [L_NUMBER13] => SDM004
+    [L_NAME13] => strong silicon sex doll for woman [1461]
+    [L_QTY13] => 1
+    [L_AMT13] => 239.84
+    [L_NUMBER14] => SD100
+    [L_NAME14] => inflatable Chinese sex doll [1448]
+    [L_QTY14] => 1
+    [L_AMT14] => 61.30
+    [L_NUMBER15] => BB073
+    [L_NAME15] => 1:1 real girl size big boobs sex doll [1458]
+    [L_QTY15] => 1
+    [L_AMT15] => 89.56
+    [L_NUMBER16] => SSD003
+    [L_NAME16] => 3d sexy doll for male [1409]
+    [L_QTY16] => 1
+    [L_AMT16] => 113.60
+    [L_NUMBER17] => SSD007
+    [L_NAME17] => 3d silicone sexy leg doll [1421]
+    [L_QTY17] => 1
+    [L_AMT17] => 712.90
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec&zenid=964bb5bf184fe0c995f70aa783dc314c
+    [CANCELURL] => http://www.ebayst.com/shopping_cart?ec_cancel=1&zenid=964bb5bf184fe0c995f70aa783dc314c
+)
+
+=================================
+

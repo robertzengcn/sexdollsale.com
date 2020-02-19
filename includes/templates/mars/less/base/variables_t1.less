@@ -1,0 +1,374 @@
+//
+// Variables
+// --------------------------------------------------
+// Global values
+// --------------------------------------------------
+@page_width:           				1218px;
+@site_bg:  							#ffffff;		
+@anim_speed:						450ms;
+@radius:							2px;
+@spacing_1:							15px;
+@spacing_2:							3px;
+@spacing_3:							10px;
+//@element_align_1
+
+
+// Colors
+// -------------------------
+@white:                 			#ffffff;
+@red:								#ff6666; //FFABAB - FF8C8C #08cbc4
+@red_2:								#ff8585;
+
+@green: 							#1bbc9b;
+@green_2: 							#1ead90;
+@light_green: 						#1abc9c;
+
+@light_blue:            			#ecf0f1; // Bg	
+@light_gray_2:          			#b7b7b7; // Text
+@light_gray_3:            			#f2f2f2; // Bg	
+@light_gray_4:            			#ededed; // Bg	
+@light_gray_5:            			#e8e8e8; // Bg	
+@light_gray_6:            			#e3e3e3; // Bg	
+
+// @middle_gray:           			#bdc3c7; // Bg
+@middle_gray:           			#d6dadd; // Bg
+@middle_gray_2:						#686868; // Text
+@middle_gray_3:						#dfdfdf; // Border
+@middle_gray_4:						#efefef; // Bg
+@middle_gray_5:						#e0e0e0; // Border
+@middle_gray_6:						#cbcbcc; // Border
+
+
+@error: 							#b94a48;
+@success: 							#468847;
+@caution: 							#c09853;
+// @dark_grey:            			#333333; // Text, Separator 
+@dark_blue:            				#34495e; // Text, Separator 
+@dark_blue_2:            			#2c3e50; 
+@dark_green:            			#16a085; 
+
+@black:                             #000000;
+
+// Link
+// -------------------------
+@linkColor:             			@dark_blue;
+@linkColorHover:        			@green;
+@linkColorActive:       			@dark_blue;
+
+// Headers
+// -------------------------
+@headerColor:           			@dark_blue;
+@headerSpacing:                     @spacing_3;
+@headerBg:                          @white;
+//@linkColorHover:        darken(@linkColor, 15%);
+
+// General Button
+// -------------------------
+@btnColor:      					@white;
+@btnSoldOutColor:      				@dark_blue;
+@btnBgColor:      					@green;
+@btnBgHoverColor:      				@dark_blue;
+
+// Forms
+// -------------------------
+@formSpacing:                       @spacing_3;						
+@formColor:      					@middle_gray_2;
+@formBorderColor: 					@light_gray_4;
+@formBgColor:                       @light_blue;
+@formBgHoverColor:                  @light_gray_4;
+@formBgFocusColor:                  @light_gray_6;
+
+// Border
+// -------------------------
+@borderColorThick:      			@dark_blue;
+@borderColorThin:       			@middle_gray;
+@borderColorElements:   			@green;
+@borderColorSections:               @black;
+
+// Background
+// -------------------------
+@headerBgColor:         			@light_blue;
+@menuBgColor:         				@light_blue;
+@breadcrumpBgColor:     			@light_blue;
+@footerBgColor:         			@light_blue;
+
+// Header search
+// -------------------------
+@mainSearchColor:        			@middle_gray_2;
+@mainSearchBgColor:        			@light_blue;
+@mainSearchBorderColor:     		@middle_gray;
+@mainSearchColorHover:        		@dark_blue;
+@mainSearchBgColorHover:        	@light_gray_3;
+@mainSearchBorderColorHover:     	@green;
+@mainSearchSpacing:                 @spacing_3;
+
+// Header Cart
+// -------------------------
+@mainCartHoverColor: 				@green;
+@mainCartBgColor: 					@light_blue;
+@mainCartBorderColor:     			@middle_gray;
+@mainProductBgColor:                @white;
+@mainProductBgHoverColor:           @light_blue;
+@mainCartImgPadding: 				@spacing_2;
+
+// Sidebox Cart and Slider
+// -------------------------
+@sideboxColor: 					    @white;
+@sideboxColor_2: 					@dark_blue;
+@sideboxHoverColor:                 @green;
+@sideboxCartBorderColor:     		@middle_gray;
+@sideboxProductBgColor:             @white;
+@sideboxCartImgPadding:				@spacing_2;
+@sideboxCartNewItem:				@white;
+@sideBoxSliderActiveColor:          @green;
+
+// Bestseller
+// -------------------------
+@bestsellerImgPadding: 				@spacing_2;
+@bestsellerTitlePadding: 			@spacing_2;
+@bestsellerHoverColor:          	@green;
+@bestsellerPriceColor:              @green;
+
+// Menu
+// -------------------------
+@menuLinkColor:         			@dark_blue;
+@menuLinkColorHover:    			@white;
+@menuLinkBgColorHover:  			@green;
+@menuBorderColor:                   @middle_gray;
+@menuBorderColorHover:              @green;
+@menuBorderBottomColor:             @green;
+@menuBgColor:                       @light_blue;
+@menuActiveBgColor:                 @green;
+
+// Homepage
+// -------------------------
+@homepageSpacing:                   @spacing_3;
+@homepageBorderColor:               @middle_gray;
+
+// Sub Menu
+// -------------------------
+@subMenuLinkColor:      			@middle_gray_2;
+@subMenuLinkColorHover: 			@green;
+
+// Sidebox
+// -------------------------
+@sideboxHeadingColor:   			@dark_blue;
+@sideboxHeadingBorderColor: 		@middle_gray;
+@sideboxBgColor:        			@light_blue;
+@sideboxSpacing:         			@spacing_3;
+@sideboxColor:      				@dark_blue;
+@sideboxColorHover:      			@white;
+@sideboxBgColorHover: 				@green;
+@sideboxSubMnBgColor_2: 			@light_gray_3;
+@sideboxSubMnBgColor_3: 			@light_gray_4;
+@sideboxSubMnBgColor_4: 			@light_gray_5;
+@sideboxSubMnBgColor_5: 			@light_gray_6;
+@sideboxBorderColor: 				@middle_gray;
+@sideboxImgSpacing:                 @spacing_2;
+@sideboxImgBorderColor:             @middle_gray;
+@sideboxImgBorderColorHover:        @green;
+@sideboxImgBgColor:             	@white;
+
+@sideBoxSelectHoverColor:           @green;
+@sideBoxSelectHoverBgColor:         @light_gray_3;
+@sideBoxReviewHoverColor:           @green;
+@sideBoxReorderHoverColor:          @green;
+@sideBoxProductPriceBgColor:        @green;
+
+@categoryLinksColor:                @dark_blue;
+@sideboxSepColor:                   @green_2;
+@sideboxSepColor_2:                 @middle_gray;
+
+// CenterBox
+// -------------------------
+@centerboxHeadingColor:         	@dark_blue;
+@centerboxSpacing:         			@spacing_3;
+
+// Bread Crumb
+// -------------------------
+@breadCrumbLinkColor:      			@middle_gray_2;
+@breadCrumbLinkColorHover: 			@green;
+
+// EZ-Pages Header
+// -------------------------
+@ezPagesLinkColor:      			@middle_gray_2;
+@ezPagesLinkColorHover: 			@green;
+
+// Product Listing
+// -------------------------
+@prdListHeadingColor:           	@dark_blue;
+@prdListHeadingSpacing:         	@spacing_3;
+@prdListBorderColor:     			@middle_gray;
+@prdListBorderHoverColor:     		@green;
+@prdListCatDescriptionColor:        @middle_gray_2;
+@prdListPaginationSpacing:          @spacing_3; 
+@prdListPaginationColor:          	@dark_blue; 
+@prdListPaginationActiveColor:      @white; 
+@prdListItemHoverBgColor:      		@light_blue;
+@prdListProductSpacing:         	@spacing_3; 	
+@prdListSectionBorderColor:     	@green;
+
+// Product Info
+// -------------------------
+@prdInfoPriceColor:         		@green;
+@prdInfoSpacing:         			@spacing_3;
+@prdInfoBorderColor:     			@middle_gray;
+@prdInfoBorderColor_2:     			@middle_gray;
+@prdTabBgColor:                     @light_blue;
+@prdTabBgColorHover:                @middle_gray;
+@prdImgBgColor:                     @white;
+@prdHeadingColor:                   @dark_blue;
+@prdTabsBgColor:                    @white;
+
+// Login
+// -------------------------
+@loginSpacing:      			 	@spacing_3;
+@loginSepColor:                 	@green;
+
+// Warnings, Errors, Messages 
+// -------------------------
+@messageSpacing:      			 	@spacing_3;
+
+// Reviews
+// -------------------------
+@reviewSpacing:      			 	@spacing_3;
+@reviewBorderColor:     			@middle_gray;
+@reviewBorderHoverColor:     		@green;
+@reviewBgColor:                     @white;
+@reviewBgHoverColor:      			@light_blue;
+@reviewPrice:                       @green;
+@reviewSectionBorderColor:     		@green;
+
+// Contact us
+// -------------------------
+@contactSpacing:      			 	@spacing_3;
+@contactBorderColor:     			@middle_gray;
+
+// FAQ´s
+// -------------------------
+@faqSpacing:      			 		@spacing_3;
+@faqBorderColor:     				@middle_gray;
+
+// Shopping Cart
+// -------------------------
+@shoppingSpacing:      			 	@spacing_3;
+@shoppingBorderColor:     			@middle_gray;
+@checkoutBorderColor:     			@light_gray_4;
+@checkoutBgColor:                   @light_blue;
+
+// Account Info
+// -------------------------
+@accountSpacing:      			 	@spacing_3;
+@accountBorderColor:     			@middle_gray;
+
+// TimeOut
+// -------------------------
+@timeoutSpacing:      			 	@spacing_3;
+@timeoutBorderColor:     			@middle_gray;
+
+// Manufacturer Info
+// -------------------------
+@manufacturerSpacing:      			@spacing_3;
+@manufacturerBorderColor:     		@middle_gray;
+@manufacturerBgColor:     			@white;
+
+// PageNotFound
+// -------------------------
+@pagenotfoundSpacing:      			@spacing_3;
+@pagenotfoundBorderColor:     		@middle_gray;
+
+// Sideblock
+// -------------------------
+@sideblockSpacing:      			@spacing_3;
+@sideblockBorderColor:     			@middle_gray;
+@sideblockBorderColor_2:     		@green;
+@sideblockBgColor:     				@white;
+@sideblockIconBgColor:     			@white;
+@sideblockIconBgColor_2:     		@light_blue;
+
+// Banner Box
+// -------------------------
+@bannerboxSpacing:      			@spacing_3;
+@bannerboxBorderColor:     			@middle_gray;
+@bannerboxBorderHoverColor:     	@green;
+@bannerboxBgColor:     				@white;
+
+// Footer
+// -------------------------
+@footerSpacing:      			 	@spacing_3;
+@footerHeaderColor:      			@middle_gray_3;
+@footerTogglerBg:                   @white;
+@footerTogglerOnBg:                 @middle_gray_4;
+@footerTogglerBorder:               @light_gray_6;
+
+// Misc.
+// -------------------------
+@userHeaderColor: 					@green;
+@userHeaderColorHover:  			@dark_blue;
+@active:                			@green;
+@selectinColor:                     @white;
+@selectinBgColor:                   @green;
+@socialBorderColor: 			    @middle_gray_3;
+@footerAboutUsListStyle:            @green;
+@footerAboutUsListColor:            @dark_blue;
+@twitterLinkColor:                  @green;
+@twitterTimeago:                  	@middle_gray_2;
+@whoIsOnlineColor:                  @green;
+@productPriceColor:                 @green;
+@productNormalPriceColor:           @middle_gray_2;
+
+
+// Separator
+// -------------------------
+@separator_1:                       @dark_blue;
+@separator_2:                       @middle_gray;
+@separator_3:                       @middle_gray;
+@separator_4:                       @green;
+
+// FlexSlider Nav Button Colors
+// -------------------------
+@flexNavBgColor:      			    @white;
+@flexNavBorderColor: 			    @light_gray_6;
+@flexNavBgColorHover:      			@green;
+@flexNavBorderColorHover: 			@white;
+
+// HomeProductSlider Nav Button Colors
+// -------------------------
+@homeProductBgColor:      			@light_blue;
+@homeProductBorderColor: 			@middle_gray;
+@homeProductBgColorHover:      		@green;
+@homeProductBgColorDisabledHover:   @white;
+@homeProductBorderColorHover: 		@green_2;
+
+// Tooltip
+// -------------------------
+@tooltipColor:                		@light_blue;
+@tooltipBorderColor:              	@green;
+@tooltipBgColor:                	@dark_blue;
+
+// Boxed Version
+// -------------------------
+@boxedBg:                           @light_blue;
+@boxedWrapperBg:                    @white;
+@boxedSpacing:      			 	@spacing_3;
+
+// Font family
+// -------------------------
+// Avaible custom fonts: 
+// 	OpenSansLight, 
+// 	OpenSansRegular, 
+// 	OpenSansSemibold, 
+// 	OpenSansBold;
+
+@body:           					'OpenSansRegular',arial, helvetica, sans-serif;
+@heading:           				'OpenSansRegular',arial, helvetica, sans-serif;
+@navigation:           				'OpenSansRegular',arial, helvetica, sans-serif;
+@textarea:           				'OpenSansRegular',arial, helvetica, sans-serif;
+@breadcrumb:           				'OpenSansLight',arial, helvetica, sans-serif;
+@ezpages:           				'OpenSansLight',arial, helvetica, sans-serif;
+@sliderText:           				'OpenSansLight',arial, helvetica, sans-serif;
+@legend:           					'OpenSansRegular',arial, helvetica, sans-serif;
+@imp:                        		'OpenSansSemibold',arial, helvetica, sans-serif;
+
+// Responsive Sizes
+// -------------------------

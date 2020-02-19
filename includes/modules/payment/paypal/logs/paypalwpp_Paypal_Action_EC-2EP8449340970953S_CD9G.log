@@ -1,0 +1,161 @@
+May-04-2014 13:10:44 (1399209044)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 128.2
+    [ITEMAMT] => 108.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 128.2
+    [ITEMAMT] => 108.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 20
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.2
+)
+
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 128.20
+    [AMT] => 128.20
+    [ITEMAMT] => 108.20
+    [SHIPPINGAMT] => 20.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+before_process - EC-1
+Beginning EC mode
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+before_process - EC-2
+address overrides added:
+Array
+(
+    [AMT] => 128.20
+    [ITEMAMT] => 108.20
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.20
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOSTREET2] => 
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+)
+
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+before_process - EC-3
+address info added:
+Array
+(
+    [AMT] => 128.20
+    [ITEMAMT] => 108.20
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.20
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOSTREET2] => 
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+)
+
+=================================
+
+May-04-2014 13:10:44 (1399209044)
+before_process - EC-4
+info being submitted:
+EC-2EP8449340970953S QVYKHWYNWPZUY 128.20
+Array
+(
+    [AMT] => 128.20
+    [ITEMAMT] => 108.20
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.20
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+    [BUTTONSOURCE] => ZenCart-EC_us
+    [RETURNFMFDETAILS] => 0
+    [CUSTOM] => EC-430-1399209044
+    [INVNUM] => 430-1399209044-[AnigaDollOnlineStore]
+    [CURRENCY] => GBP
+)
+
+=================================
+
+May-04-2014 13:10:47 (1399209047)
+before_process - EC-5
+resultset:
+Array
+(
+    [TOKEN] => EC-2EP8449340970953S
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2014-05-04T13:10:47Z
+    [CORRELATIONID] => e523bc803232b
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10850615
+    [TRANSACTIONID] => 8375513225915721D
+    [TRANSACTIONTYPE] => cart
+    [PAYMENTTYPE] => instant
+    [ORDERTIME] => 2014-05-04T13:10:47Z
+    [AMT] => 128.20
+    [TAXAMT] => 0.00
+    [CURRENCYCODE] => GBP
+    [PAYMENTSTATUS] => Pending
+    [PENDINGREASON] => multicurrency
+    [REASONCODE] => None
+    [PROTECTIONELIGIBILITY] => Eligible
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [CURL_ERRORS] => 
+)
+
+=================================
+

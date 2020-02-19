@@ -1,0 +1,77 @@
+2016-02-12 02:06:27
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {DoExpressCheckoutPayment} 
+Array
+(
+    [AMT] => 95.00
+    [ITEMAMT] => 95.00
+    [L_NUMBER0] => SD001
+    [L_NAME0] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY0] => 1
+    [L_AMT0] => 95.00
+    [SHIPTONAME] => achyut mohan
+    [SHIPTOSTREET] => 13102 fallsview lane apt#5015
+    [SHIPTOCITY] => houston
+    [SHIPTOSTATE] => TX
+    [SHIPTOZIP] => 77077
+    [SHIPTOCOUNTRYCODE] => US
+    [BUTTONSOURCE] => ZenCart-EC_us
+    [RETURNFMFDETAILS] => 0
+    [CUSTOM] => EC-447-1455311185
+    [INVNUM] => 447-1455311185-[NitelandAdultToyOnlineStore]
+    [TOKEN] => EC-2DM18796AE1747205
+    [PAYERID] => 4KS98EZLV9H9E
+    [PAYMENTACTION] => Sale
+    [NOTIFYURL] => http://www.sexdollsale.com/ipn_main_handler.php
+    [METHOD] => DoExpressCheckoutPayment
+    [CURRENCYCODE] => USD
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-2DM18796AE1747205
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2016-02-12T21:06:27Z
+    [CORRELATIONID] => c33166ec6ff97
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [TRANSACTIONID] => 3LX16043AA7311111
+    [RECEIPTID] => 2536908102585273
+    [TRANSACTIONTYPE] => cart
+    [PAYMENTTYPE] => instant
+    [ORDERTIME] => 2016-02-12T21:06:26Z
+    [AMT] => 95.00
+    [FEEAMT] => 4.48
+    [TAXAMT] => 0.00
+    [CURRENCYCODE] => USD
+    [PAYMENTSTATUS] => Completed
+    [PENDINGREASON] => None
+    [REASONCODE] => None
+    [PROTECTIONELIGIBILITY] => Ineligible
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [CURL_ERRORS] => 
+)
+
+
+DoExpressCheckoutPayment, Elapsed: 1817ms -- Success
+

@@ -1,0 +1,145 @@
+May-21-2015 11:19:56 (1432228796)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 113.6
+    [ITEMAMT] => 113.6
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 113.6
+    [ITEMAMT] => 113.6
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SSD003
+    [L_NAME0] => 3d half body sex doll [1409]
+    [L_QTY0] => 1
+    [L_AMT0] => 113.6
+)
+
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 113.60
+    [AMT] => 113.60
+    [ITEMAMT] => 113.60
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => c961465470d4c279b0f178d92a38bb62
+    [customers_host_address] => gprs-user-137.21.149.83.in-addr.arpa
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1409] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 113.6
+            [weight] => 16
+            [cartID] => 45400
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-05-21
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 83.149.21.137
+    [new_products_id_in_cart] => 1409
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 16
+    [total_count] => 1
+)
+
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-21-2015 11:19:56 (1432228796)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 113.60
+    [ITEMAMT] => 113.60
+    [L_NUMBER0] => SSD003
+    [L_NAME0] => 3d half body sex doll [1409]
+    [L_QTY0] => 1
+    [L_AMT0] => 113.60
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

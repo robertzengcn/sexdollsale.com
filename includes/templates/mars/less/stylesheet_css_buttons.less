@@ -1,0 +1,47 @@
+/**
+ * CSS Buttons Stylesheet
+ *
+ * Thanks to paulm for much of the content of the CSS buttons code
+ *
+ * @package templateSystem
+ * @copyright Copyright 2003-2005 Zen Cart Development Team
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: stylesheet_css_buttons.css 4567 2006-09-20 01:55:24Z birdbrain $
+ */
+
+
+// Core variables and mixins
+@import "base/variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "base/mixins.less";
+
+/* css buttons */
+.cssButton, .cssButtonHover {
+	cursor: pointer;
+	color:@btnColor;	
+	display: inline-block;		
+	text-align: center;
+	padding: 10px 20px;
+	line-height: 1;
+	border:none;
+	.gradient(rgba(0,0,0,.08), transparent, #f66);
+	.box-shadow(0 1px 2px rgba(0,0,0,.4));
+	.transition(all, 300ms);
+	.border-radius;	
+}
+
+.cssButtonHover {
+	color:@btnColor;				
+	.gradient(rgba(0,0,0,.08), transparent, #333);		
+	.box-shadow(inset 0 2px 5px #2c2c2c);
+}
+/* adding the styles below might be needed if the default button width is changed */
+/* .button_continue_shopping, .button_shipping_estimator {width: 150px;} */
+.small_delete, .button_prev, .button_next, .button_search  {width: 7em;}
+.button_sold_out_sm, .button_sold_out, .button_update_cart, .button_checkout, .button_login {width: 10em;}
+.button_return_to_product_list, .button_add_selected {width: 22em;}
+.button_in_cart{width: 19em;}  
+.button_submit {width: 18em;}
+.button_update_cart {color: red;}
+.button_update_cartHover {color: #003D00;}
+/*.innerbox#headernavcenter .boxtext .button_search {display:inline;}*/

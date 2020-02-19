@@ -1,0 +1,143 @@
+Dec-05-2015 21:27:20 (1449376040)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 549
+    [ITEMAMT] => 549
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 549
+    [ITEMAMT] => 549
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD001
+    [L_NAME0] => half body D cup silicon sex doll [1523]
+    [L_QTY0] => 1
+    [L_AMT0] => 549
+)
+
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 549.00
+    [AMT] => 549.00
+    [ITEMAMT] => 549.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 8f8a1ca39fbe76f46b6b8640238bd442
+    [customers_host_address] => modemcable093.125-22-96.mc.videotron.ca
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1523] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 549
+            [weight] => 0
+            [cartID] => 79888
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-12-05
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 96.22.125.93
+    [new_products_id_in_cart] => 1523
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Dec-05-2015 21:27:20 (1449376040)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 549.00
+    [ITEMAMT] => 549.00
+    [L_NUMBER0] => SD001
+    [L_NAME0] => half body D cup silicon sex doll [1523]
+    [L_QTY0] => 1
+    [L_AMT0] => 549.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

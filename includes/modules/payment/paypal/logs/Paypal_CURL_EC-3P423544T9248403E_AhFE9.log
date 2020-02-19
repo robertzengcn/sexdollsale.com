@@ -1,0 +1,71 @@
+2014-05-06 08:09:35
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 3,396.20
+    [ITEMAMT] => 3,396.20
+    [L_NUMBER0] => SD1181
+    [L_NAME0] => 3D real girl silicon sex doll [1499]
+    [L_QTY0] => 1
+    [L_AMT0] => 330.00
+    [L_NUMBER1] => SJK001
+    [L_NAME1] => Big boobs*fat ass silicon love doll [1417]
+    [L_QTY1] => 1
+    [L_AMT1] => 3,004.90
+    [L_NUMBER2] => SD100
+    [L_NAME2] => inflatable Chinese sex doll [1448]
+    [L_QTY2] => 1
+    [L_AMT2] => 61.30
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec&zenid=66ea5850aa39edc6c885fdfbdf26efe0
+    [CANCELURL] => http://www.ebayst.com/shopping_cart?ec_cancel=1&zenid=66ea5850aa39edc6c885fdfbdf26efe0
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-3P423544T9248403E
+    [TIMESTAMP] => 2014-05-06T08:09:34Z
+    [CORRELATIONID] => 2c06063694c14
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10850615
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 767ms -- Success
+

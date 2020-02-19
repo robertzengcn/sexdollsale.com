@@ -1,0 +1,148 @@
+Jul-21-2015 21:22:17 (1437535337)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 1
+    [ITEMAMT] => 1
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 1
+    [ITEMAMT] => 1
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => VM046
+    [L_NAME0] => 8.5mm Multi Speed vibrator massager [1237] colour: Pink
+    [L_QTY0] => 1
+    [L_AMT0] => 1
+)
+
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 1.00
+    [AMT] => 1.00
+    [ITEMAMT] => 1.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => e65c2dd43197acc3d2112bd46efdcff7
+    [customers_host_address] => 220.160.54.132
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1237:1837ac3d7f8054aff5f368d42df4e13c] => Array
+                        (
+                            [qty] => 1
+                            [attributes] => Array
+                                (
+                                    [3] => 30
+                                )
+
+                        )
+
+                )
+
+            [total] => 1
+            [weight] => 1
+            [cartID] => 66226
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-07-21
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 220.160.54.132
+    [new_products_id_in_cart] => 1237:1837ac3d7f8054aff5f368d42df4e13c
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Jul-21-2015 21:22:17 (1437535337)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 1.00
+    [ITEMAMT] => 1.00
+    [L_NUMBER0] => VM046
+    [L_NAME0] => 8.5mm Multi Speed vibrator massager [1237] colour: Pink
+    [L_QTY0] => 1
+    [L_AMT0] => 1.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

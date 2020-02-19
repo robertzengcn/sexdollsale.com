@@ -1,0 +1,157 @@
+Apr-30-2014 15:03:08 (1398870188)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+)
+
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 59.51
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+before_process - EC-1
+Beginning EC mode
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+before_process - EC-2
+address overrides added:
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOSTREET2] => 
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+)
+
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+before_process - EC-3
+address info added:
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOSTREET2] => 
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+)
+
+=================================
+
+Apr-30-2014 15:03:08 (1398870188)
+before_process - EC-4
+info being submitted:
+EC-23X243243K666124F QVYKHWYNWPZUY 59.51
+Array
+(
+    [AMT] => 59.51
+    [ITEMAMT] => 59.51
+    [L_NUMBER0] => SD91
+    [L_NAME0] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY0] => 1
+    [L_AMT0] => 59.51
+    [DESC] => 
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+    [BUTTONSOURCE] => ZenCart-EC_us
+    [RETURNFMFDETAILS] => 0
+    [CUSTOM] => EC-430-1398870188
+    [INVNUM] => 430-1398870188-[AnigaDollOnlineStore]
+    [CURRENCY] => GBP
+)
+
+=================================
+
+Apr-30-2014 15:03:12 (1398870192)
+before_process - EC-5
+resultset:
+Array
+(
+    [TOKEN] => EC-23X243243K666124F
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2014-04-30T15:03:11Z
+    [CORRELATIONID] => 207a62bab2447
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10800277
+    [TRANSACTIONID] => 9XM08968VB076584L
+    [TRANSACTIONTYPE] => cart
+    [PAYMENTTYPE] => instant
+    [ORDERTIME] => 2014-04-30T15:03:11Z
+    [AMT] => 59.51
+    [TAXAMT] => 0.00
+    [CURRENCYCODE] => GBP
+    [PAYMENTSTATUS] => Pending
+    [PENDINGREASON] => multicurrency
+    [REASONCODE] => None
+    [PROTECTIONELIGIBILITY] => Eligible
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [CURL_ERRORS] => 
+)
+
+=================================
+

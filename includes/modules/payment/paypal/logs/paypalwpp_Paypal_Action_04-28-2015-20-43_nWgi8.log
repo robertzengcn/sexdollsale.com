@@ -1,0 +1,259 @@
+Apr-28-2015 20:43:41 (1430275421)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 130
+    [ITEMAMT] => 130
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 130
+    [ITEMAMT] => 130
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SDT002
+    [L_NAME0] => Lifelike 3D inflated sex doll [1465]
+    [L_QTY0] => 1
+    [L_AMT0] => 130
+)
+
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 130.00
+    [AMT] => 130.00
+    [ITEMAMT] => 130.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 075b986ce7fb9896e15ccdb0ad96ca9e
+    [customers_host_address] => 72.52.116.241
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1465] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 130
+            [weight] => 3
+            [cartID] => 05359
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-04-28
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 72.52.116.241
+    [new_products_id_in_cart] => 1465
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+)
+
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Apr-28-2015 20:43:41 (1430275421)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 130.00
+    [ITEMAMT] => 130.00
+    [L_NUMBER0] => SDT002
+    [L_NAME0] => Lifelike 3D inflated sex doll [1465]
+    [L_QTY0] => 1
+    [L_AMT0] => 130.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+
+Apr-28-2015 20:43:45 (1430275425)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Apr-28-2015 20:43:45 (1430275425)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Apr-28-2015 20:43:45 (1430275425)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Apr-28-2015 20:43:45 (1430275425)
+termEC-9
+We are NOT logged in, so set snapshot to Shipping page, and redirect to login
+=================================
+
+Apr-28-2015 20:43:45 (1430275425)
+termEC-10
+Redirecting to login - Stack: login
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+Session Data: Array
+(
+    [securityToken] => 075b986ce7fb9896e15ccdb0ad96ca9e
+    [customers_host_address] => 72.52.116.241
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1465] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 130
+            [weight] => 3
+            [cartID] => 05359
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                    [page] => index
+                    [mode] => NONSSL
+                    [get] => Array
+                        (
+                            [type] => ec
+                        )
+
+                    [post] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-04-28
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 72.52.116.241
+    [new_products_id_in_cart] => 1465
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => login
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. ()    -  (35) error:14094410:SSL routines:SSL3_READ_BYTES:sslv3 alert handshake failure
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

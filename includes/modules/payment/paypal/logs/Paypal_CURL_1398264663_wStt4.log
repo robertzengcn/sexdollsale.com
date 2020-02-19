@@ -1,0 +1,81 @@
+2014-04-23 02:51:03
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 384.11
+    [ITEMAMT] => 384.11
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 3
+    [L_AMT0] => 108.20
+    [L_NUMBER1] => SD91
+    [L_NAME1] => New Eastern beautiful face Sex dolls [1394]
+    [L_QTY1] => 1
+    [L_AMT1] => 59.51
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => james zeng
+    [SHIPTOSTREET] => nanjing road
+    [SHIPTOCITY] => Newyork
+    [SHIPTOZIP] => NY1028
+    [SHIPTOSTATE] => NY
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => s1@test.com
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TIMESTAMP] => 2014-04-23T14:51:02Z
+    [CORRELATIONID] => b42b7f448c3d4
+    [ACK] => Failure
+    [VERSION] => 61.0
+    [BUILD] => 10567876
+    [L_ERRORCODE0] => 10736
+    [L_SHORTMESSAGE0] => Shipping Address Invalid City State Postal Code
+    [L_LONGMESSAGE0] => A match of the Shipping Address City, State, and Postal Code failed.
+    [L_SEVERITYCODE0] => Error
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 856ms -- Failure
+
+TIMESTAMP=2014%2d04%2d23T14%3a51%3a02Z&CORRELATIONID=b42b7f448c3d4&ACK=Failure&VERSION=61%2e0&BUILD=10567876&L_ERRORCODE0=10736&L_SHORTMESSAGE0=Shipping%20Address%20Invalid%20City%20State%20Postal%20Code&L_LONGMESSAGE0=A%20match%20of%20the%20Shipping%20Address%20City%2c%20State%2c%20and%20Postal%20Code%20failed%2e&L_SEVERITYCODE0=Error&CURL_ERRORS=
+

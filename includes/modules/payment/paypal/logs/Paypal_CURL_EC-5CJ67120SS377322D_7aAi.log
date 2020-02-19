@@ -1,0 +1,131 @@
+2014-05-06 07:55:24
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 2,789.16
+    [ITEMAMT] => 2,789.16
+    [L_NUMBER0] => SD094
+    [L_NAME0] => Blow-up Sex Doll With Vagina for male Masturbation [1402]
+    [L_QTY0] => 1
+    [L_AMT0] => 92.57
+    [L_NUMBER1] => SP001
+    [L_NAME1] => cheap price sex pillow doll [1460]
+    [L_QTY1] => 1
+    [L_AMT1] => 21.04
+    [L_NUMBER2] => SD033
+    [L_NAME2] => Beautiful face blow up korean sex doll [1391]
+    [L_QTY2] => 1
+    [L_AMT2] => 53.50
+    [L_NUMBER3] => SD106
+    [L_NAME3] => Cheap price inflatable Sex dolls [1492]
+    [L_QTY3] => 1
+    [L_AMT3] => 51.10
+    [L_NUMBER4] => SD003
+    [L_NAME4] => Cyberskin stockings girl sex doll [1356]
+    [L_QTY4] => 1
+    [L_AMT4] => 1,081.38
+    [L_NUMBER5] => LS005
+    [L_NAME5] => Sex Lingerie for cheep silicon sex dolls in uk [1507]
+    [L_QTY5] => 1
+    [L_AMT5] => 10.00
+    [L_NUMBER6] => LS006
+    [L_NAME6] => Sexy Lingeie for sex doll in UK [1508]
+    [L_QTY6] => 1
+    [L_AMT6] => 10.00
+    [L_NUMBER7] => LS001
+    [L_NAME7] => Sexy Lingerie for adult fuck sex doll [1503]
+    [L_QTY7] => 1
+    [L_AMT7] => 10.00
+    [L_NUMBER8] => VM148
+    [L_NAME8] => ,G Spot Vibrator,Clit Vibe,Vibration Massage,Adult Sex Toys [1338]
+    [L_QTY8] => 1
+    [L_AMT8] => 57.95
+    [L_NUMBER9] => VM095
+    [L_NAME9] => 100* Silicon, 10 Speed Waterproof G Spot Vibrator [1285]
+    [L_QTY9] => 1
+    [L_AMT9] => 35.77
+    [L_NUMBER10] => VM118
+    [L_NAME10] => 100* Waterproof, 12 frequece Vibrating G Spot Massager [1308]
+    [L_QTY10] => 1
+    [L_AMT10] => 35.04
+    [L_NUMBER11] => SDW101
+    [L_NAME11] => inflated strong male sex doll for women [1501]
+    [L_QTY11] => 1
+    [L_AMT11] => 54.10
+    [L_NUMBER12] => SDW005
+    [L_NAME12] => sex doll for female with Clitoris [1423]
+    [L_QTY12] => 1
+    [L_AMT12] => 59.51
+    [L_NUMBER13] => SDM004
+    [L_NAME13] => strong silicon sex doll for woman [1461]
+    [L_QTY13] => 1
+    [L_AMT13] => 239.84
+    [L_NUMBER14] => SD100
+    [L_NAME14] => inflatable Chinese sex doll [1448]
+    [L_QTY14] => 1
+    [L_AMT14] => 61.30
+    [L_NUMBER15] => BB073
+    [L_NAME15] => 1:1 real girl size big boobs sex doll [1458]
+    [L_QTY15] => 1
+    [L_AMT15] => 89.56
+    [L_NUMBER16] => SSD003
+    [L_NAME16] => 3d sexy doll for male [1409]
+    [L_QTY16] => 1
+    [L_AMT16] => 113.60
+    [L_NUMBER17] => SSD007
+    [L_NAME17] => 3d silicone sexy leg doll [1421]
+    [L_QTY17] => 1
+    [L_AMT17] => 712.90
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec&zenid=964bb5bf184fe0c995f70aa783dc314c
+    [CANCELURL] => http://www.ebayst.com/shopping_cart?ec_cancel=1&zenid=964bb5bf184fe0c995f70aa783dc314c
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-5CJ67120SS377322D
+    [TIMESTAMP] => 2014-05-06T07:55:24Z
+    [CORRELATIONID] => 9204facd20062
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10850615
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 897ms -- Success
+

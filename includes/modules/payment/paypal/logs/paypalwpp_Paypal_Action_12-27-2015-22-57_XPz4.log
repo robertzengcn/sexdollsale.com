@@ -1,0 +1,469 @@
+Dec-27-2015 22:57:07 (1451282227)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 70
+    [ITEMAMT] => 70
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 70
+    [ITEMAMT] => 70
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => MEIR061
+    [L_NAME0] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY0] => 1
+    [L_AMT0] => 70
+)
+
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 70.00
+    [AMT] => 70.00
+    [ITEMAMT] => 70.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 444
+Session Data: Array
+(
+    [securityToken] => fa5ff489b48ac6627254307d4487f81f
+    [customers_host_address] => 8.37.231.36
+    [cartID] => 05673
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1621] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 70
+            [weight] => 1
+            [cartID] => 05673
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1621
+    [today_is] => 2015-12-27
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 8.37.231.36
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [cart_country_id] => 223
+    [country_info] => Array
+        (
+            [countries_name] => United States Of America
+            [countries_iso_code_2] => US
+            [countries_iso_code_3] => USA
+        )
+
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+    [action] => process
+    [email_format] => TEXT
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => veer 
+    [lastname] => saini
+    [street_address] => agarwal farm new sanganer road jaipur 
+    [city] => jaipur 
+    [zone_country_id] => 99
+    [zone_id] => 
+    [state] =>  
+    [postcode] => 302020 
+    [telephone] => 9509307348 
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => veersaini7549@gmail.com 
+    [password] => 77007700
+    [confirmation] => 77007700
+    [customer_id] => 444
+    [cart_address_id] => 491
+    [sendto] => 491
+    [customer_first_name] => veer
+    [customer_default_address_id] => 491
+    [customer_country_id] => 99
+    [customer_zone_id] => 
+    [customers_authorization] => 0
+    [billto] => 491
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+        )
+
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 491
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => veer
+    [entry_lastname] => saini
+    [entry_company] => 
+    [entry_street_address] => agarwal farm new sanganer road jaipur
+    [entry_suburb] => 
+    [entry_city] => jaipur
+    [entry_postcode] => 302020
+    [entry_country_id] => 99
+    [entry_zone_id] => 0
+    [entry_state] =>  
+    [zone_code] =>  
+    [countries_iso_code_2] => IN
+)
+
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => veer
+    [entry_lastname] => saini
+    [entry_company] => 
+    [entry_street_address] => agarwal farm new sanganer road jaipur
+    [entry_suburb] => 
+    [entry_city] => jaipur
+    [entry_postcode] => 302020
+    [entry_country_id] => 99
+    [entry_zone_id] => 0
+    [entry_state] =>  
+    [zone_code] =>  
+    [countries_iso_code_2] => IN
+)
+
+=================================
+
+Dec-27-2015 22:57:07 (1451282227)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 70.00
+    [ITEMAMT] => 70.00
+    [L_NUMBER0] => MEIR061
+    [L_NAME0] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY0] => 1
+    [L_AMT0] => 70.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => veer saini
+    [SHIPTOSTREET] => agarwal farm new sanganer road jaipur
+    [SHIPTOCITY] => jaipur
+    [SHIPTOZIP] => 302020
+    [SHIPTOSTATE] =>  
+    [SHIPTOCOUNTRYCODE] => IN
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => veersaini7549@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+
+Dec-27-2015 22:57:12 (1451282232)
+termEC-1
+Killed the session vars as requested
+=================================
+
+Dec-27-2015 22:57:12 (1451282232)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:
+=================================
+
+Dec-27-2015 22:57:12 (1451282232)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Dec-27-2015 22:57:12 (1451282232)
+termEC-8
+$this->showPaymentPage NOT true, and NO custom page selected ... using SHIPPING as default
+=================================
+
+Dec-27-2015 22:57:12 (1451282232)
+termEC-10
+Redirecting to checkout_shipping - Stack: checkout_shipping
+Message: An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. (10729) 10729  Shipping Address State Empty - The field Shipping Address State is required
+Session Data: Array
+(
+    [securityToken] => fa5ff489b48ac6627254307d4487f81f
+    [customers_host_address] => 8.37.231.36
+    [cartID] => 05673
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1621] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 70
+            [weight] => 1
+            [cartID] => 05673
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => product_info
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [products_id] => 1621
+                                    [action] => add_product
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [page] => shopping_cart
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [product_id] => 1496
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [page] => checkout_shipping
+                            [mode] => NONSSL
+                            [get] => 
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [page] => checkout
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [fecaction] => null
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [page] => fec_confirmation
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [fecaction] => process
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [markflow] => 1
+                                    [clearSess] => 1
+                                    [stage] => final
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1621
+    [today_is] => 2015-12-27
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 8.37.231.36
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [cart_country_id] => 223
+    [country_info] => Array
+        (
+            [countries_name] => United States Of America
+            [countries_iso_code_2] => US
+            [countries_iso_code_3] => USA
+        )
+
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+    [action] => process
+    [email_format] => TEXT
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => veer 
+    [lastname] => saini
+    [street_address] => agarwal farm new sanganer road jaipur 
+    [city] => jaipur 
+    [zone_country_id] => 99
+    [zone_id] => 
+    [state] =>  
+    [postcode] => 302020 
+    [telephone] => 9509307348 
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => veersaini7549@gmail.com 
+    [password] => 77007700
+    [confirmation] => 77007700
+    [customer_id] => 444
+    [cart_address_id] => 491
+    [sendto] => 491
+    [customer_first_name] => veer
+    [customer_default_address_id] => 491
+    [customer_country_id] => 99
+    [customer_zone_id] => 
+    [customers_authorization] => 0
+    [billto] => 491
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+        )
+
+    [comments] => 
+    [messageToStack] => Array
+        (
+            [0] => Array
+                (
+                    [class] => checkout_shipping
+                    [text] => An error occurred when we tried to contact the payment processor. Please try again, select an alternate payment method, or contact the store owner for assistance. (10729) 10729  Shipping Address State Empty - The field Shipping Address State is required
+                    [type] => error
+                )
+
+        )
+
+)
+
+=================================
+

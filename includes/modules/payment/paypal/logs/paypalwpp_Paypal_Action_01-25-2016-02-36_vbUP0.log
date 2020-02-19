@@ -1,0 +1,678 @@
+Jan-25-2016 02:36:05 (1453714565)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 12432.2
+    [ITEMAMT] => 12432.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 12432.2
+    [ITEMAMT] => 12432.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => MEIR102
+    [L_NAME0] => probe ridicule clitoral stimulation + sex + delay + Nanhuannvai [1662]
+    [L_QTY0] => 1
+    [L_AMT0] => 26
+    [L_NUMBER1] => MEIR103
+    [L_NAME1] => hollow penis sleeve with vibration can shake the invisible man d [1663]
+    [L_QTY1] => 1
+    [L_AMT1] => 30
+    [L_NUMBER2] => MEIR104
+    [L_NAME2] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY2] => 2
+    [L_AMT2] => 15
+    [L_NUMBER3] => MEIR105
+    [L_NAME3] => couple flirting finger Zen crystal collar [1665]
+    [L_QTY3] => 1
+    [L_AMT3] => 15
+    [L_NUMBER4] => MEIR106
+    [L_NAME4] => Lashoucuihua penis ring delay sets four treasures delay stimulat [1666]
+    [L_QTY4] => 1
+    [L_AMT4] => 16
+    [L_NUMBER5] => MEIR107
+    [L_NAME5] => love dance artifact erection time to speed up the female orgasm [1667]
+    [L_QTY5] => 1
+    [L_AMT5] => 28
+    [L_NUMBER6] => MEIR108
+    [L_NAME6] => love love artifacterection time to speed up the female orgasm [1668]
+    [L_QTY6] => 1
+    [L_AMT6] => 28
+    [L_NUMBER7] => MEIR109
+    [L_NAME7] => Coed shock shock holster male penis enlargement increases vibrat [1669]
+    [L_QTY7] => 1
+    [L_AMT7] => 21
+    [L_NUMBER8] => MEIR002
+    [L_NAME8] => sensuality entrance lifelike masturbation aircraft cup [1562]
+    [L_QTY8] => 1
+    [L_AMT8] => 45
+    [L_NUMBER9] => MEIR007
+    [L_NAME9] => oral sex anal sex drive aircraft cup cup high simulation design [1567]
+    [L_QTY9] => 1
+    [L_AMT9] => 43
+    [L_NUMBER10] => SDL002
+    [L_NAME10] => footjob sex doll [1431]
+    [L_QTY10] => 1
+    [L_AMT10] => 1199
+    [L_NUMBER11] => SD050
+    [L_NAME11] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY11] => 1
+    [L_AMT11] => 1999
+    [L_NUMBER12] => SZXR001
+    [L_NAME12] => secretary real love doll [1442]
+    [L_QTY12] => 1
+    [L_AMT12] => 2999
+    [L_NUMBER13] => SKY001
+    [L_NAME13] => Sexy Asian girl sex doll [1440]
+    [L_QTY13] => 1
+    [L_AMT13] => 108.2
+    [L_NUMBER14] => MEIR045
+    [L_NAME14] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY14] => 2
+    [L_AMT14] => 70
+    [L_NUMBER15] => MEIR030
+    [L_NAME15] => 2015 aircraft Cup [1590]
+    [L_QTY15] => 1
+    [L_AMT15] => 60
+    [L_NUMBER16] => MEIR052
+    [L_NAME16] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY16] => 2
+    [L_AMT16] => 60
+    [L_NUMBER17] => MEIR065
+    [L_NAME17] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY17] => 1
+    [L_AMT17] => 2972
+    [L_NUMBER18] => MEIR061
+    [L_NAME18] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY18] => 2
+    [L_AMT18] => 70
+    [L_NUMBER19] => MEIR013
+    [L_NAME19] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY19] => 1
+    [L_AMT19] => 58
+    [L_NUMBER20] => MEIR015
+    [L_NAME20] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY20] => 1
+    [L_AMT20] => 53
+    [L_NUMBER21] => MEIR085
+    [L_NAME21] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY21] => 1
+    [L_AMT21] => 35
+    [L_NUMBER22] => MEIR086
+    [L_NAME22] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY22] => 1
+    [L_AMT22] => 38
+    [L_NUMBER23] => MEIR084
+    [L_NAME23] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY23] => 1
+    [L_AMT23] => 33
+    [L_NUMBER24] => MEIR022
+    [L_NAME24] => automatic line and pipe machine beer [1582]
+    [L_QTY24] => 1
+    [L_AMT24] => 252
+    [L_NUMBER25] => MEIR016
+    [L_NAME25] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY25] => 1
+    [L_AMT25] => 77
+    [L_NUMBER26] => MEIR018
+    [L_NAME26] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY26] => 1
+    [L_AMT26] => 118
+    [L_NUMBER27] => MEIR043
+    [L_NAME27] => AV Actress Amber sex toy [1603]
+    [L_QTY27] => 2
+    [L_AMT27] => 85
+    [L_NUMBER28] => MEIR033
+    [L_NAME28] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY28] => 1
+    [L_AMT28] => 172
+    [L_NUMBER29] => MEIR041
+    [L_NAME29] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY29] => 1
+    [L_AMT29] => 222
+    [L_NUMBER30] => MEIR042
+    [L_NAME30] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY30] => 1
+    [L_AMT30] => 38
+    [L_NUMBER31] => MEIR037
+    [L_NAME31] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY31] => 1
+    [L_AMT31] => 51
+    [L_NUMBER32] => MEIR025
+    [L_NAME32] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY32] => 1
+    [L_AMT32] => 65
+    [L_NUMBER33] => MEIR098
+    [L_NAME33] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY33] => 1
+    [L_AMT33] => 25
+    [L_NUMBER34] => MEIR091
+    [L_NAME34] => big man penis enlargement [1651]
+    [L_QTY34] => 1
+    [L_AMT34] => 72
+    [L_NUMBER35] => MEIR049
+    [L_NAME35] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY35] => 1
+    [L_AMT35] => 285
+    [L_NUMBER36] => MEIR051
+    [L_NAME36] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY36] => 1
+    [L_AMT36] => 270
+    [L_NUMBER37] => MEIR039
+    [L_NAME37] => effort ecstasy automatic high-speed piston aircraft cup refill d [1599]
+    [L_QTY37] => 1
+    [L_AMT37] => 80
+    [L_NUMBER38] => MEIR050
+    [L_NAME38] => hip reverse mold double cavity heatable shock rocker [1610]
+    [L_QTY38] => 1
+    [L_AMT38] => 72
+    [L_NUMBER39] => MEIR053
+    [L_NAME39] => hands breaking down mold cavity pussy drunk [1613]
+    [L_QTY39] => 1
+    [L_AMT39] => 67
+    [L_NUMBER40] => MEIR056
+    [L_NAME40] => realistic pussy pussy Jia Yin buttock reverse mold rocking vibra [1616]
+    [L_QTY40] => 1
+    [L_AMT40] => 88
+    [L_NUMBER41] => MEIR062
+    [L_NAME41] => sexy way D cup leggy blonde blowjob can be Jiaochuang vaginal an [1622]
+    [L_QTY41] => 1
+    [L_AMT41] => 72
+)
+
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 12,432.20
+    [AMT] => 12,432.20
+    [ITEMAMT] => 12,432.20
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 9e5682b84d362d13088f9b3bda734ea4
+    [customers_host_address] => h2424659.stratoserver.net
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1662] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1663] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1664] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1665] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1666] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1667] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1668] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1669] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1562] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1567] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1431] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1397] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1442] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1440] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1605] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1590] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1612] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1625] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1621] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1573] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1575] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1645] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1646] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1644] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1582] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1576] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1578] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1603] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1593] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1601] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1602] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1597] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1585] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1658] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1651] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1609] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1611] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1599] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1610] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1613] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1616] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1622] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 12432.2
+            [weight] => 66.5
+            [cartID] => 86629
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2016-01-25
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 85.214.46.185
+    [new_products_id_in_cart] => 1622
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 66.5
+    [total_count] => 47
+)
+
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Jan-25-2016 02:36:05 (1453714565)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 12,432.20
+    [ITEMAMT] => 12,432.20
+    [L_NUMBER0] => MEIR102
+    [L_NAME0] => probe ridicule clitoral stimulation + sex + delay + Nanhuannvai [1662]
+    [L_QTY0] => 1
+    [L_AMT0] => 26.00
+    [L_NUMBER1] => MEIR103
+    [L_NAME1] => hollow penis sleeve with vibration can shake the invisible man d [1663]
+    [L_QTY1] => 1
+    [L_AMT1] => 30.00
+    [L_NUMBER2] => MEIR104
+    [L_NAME2] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY2] => 2
+    [L_AMT2] => 15.00
+    [L_NUMBER3] => MEIR105
+    [L_NAME3] => couple flirting finger Zen crystal collar [1665]
+    [L_QTY3] => 1
+    [L_AMT3] => 15.00
+    [L_NUMBER4] => MEIR106
+    [L_NAME4] => Lashoucuihua penis ring delay sets four treasures delay stimulat [1666]
+    [L_QTY4] => 1
+    [L_AMT4] => 16.00
+    [L_NUMBER5] => MEIR107
+    [L_NAME5] => love dance artifact erection time to speed up the female orgasm [1667]
+    [L_QTY5] => 1
+    [L_AMT5] => 28.00
+    [L_NUMBER6] => MEIR108
+    [L_NAME6] => love love artifacterection time to speed up the female orgasm [1668]
+    [L_QTY6] => 1
+    [L_AMT6] => 28.00
+    [L_NUMBER7] => MEIR109
+    [L_NAME7] => Coed shock shock holster male penis enlargement increases vibrat [1669]
+    [L_QTY7] => 1
+    [L_AMT7] => 21.00
+    [L_NUMBER8] => MEIR002
+    [L_NAME8] => sensuality entrance lifelike masturbation aircraft cup [1562]
+    [L_QTY8] => 1
+    [L_AMT8] => 45.00
+    [L_NUMBER9] => MEIR007
+    [L_NAME9] => oral sex anal sex drive aircraft cup cup high simulation design [1567]
+    [L_QTY9] => 1
+    [L_AMT9] => 43.00
+    [L_NUMBER10] => SDL002
+    [L_NAME10] => footjob sex doll [1431]
+    [L_QTY10] => 1
+    [L_AMT10] => 1,199.00
+    [L_NUMBER11] => SD050
+    [L_NAME11] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY11] => 1
+    [L_AMT11] => 1,999.00
+    [L_NUMBER12] => SZXR001
+    [L_NAME12] => secretary real love doll [1442]
+    [L_QTY12] => 1
+    [L_AMT12] => 2,999.00
+    [L_NUMBER13] => SKY001
+    [L_NAME13] => Sexy Asian girl sex doll [1440]
+    [L_QTY13] => 1
+    [L_AMT13] => 108.20
+    [L_NUMBER14] => MEIR045
+    [L_NAME14] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY14] => 2
+    [L_AMT14] => 70.00
+    [L_NUMBER15] => MEIR030
+    [L_NAME15] => 2015 aircraft Cup [1590]
+    [L_QTY15] => 1
+    [L_AMT15] => 60.00
+    [L_NUMBER16] => MEIR052
+    [L_NAME16] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY16] => 2
+    [L_AMT16] => 60.00
+    [L_NUMBER17] => MEIR065
+    [L_NAME17] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY17] => 1
+    [L_AMT17] => 2,972.00
+    [L_NUMBER18] => MEIR061
+    [L_NAME18] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY18] => 2
+    [L_AMT18] => 70.00
+    [L_NUMBER19] => MEIR013
+    [L_NAME19] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY19] => 1
+    [L_AMT19] => 58.00
+    [L_NUMBER20] => MEIR015
+    [L_NAME20] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY20] => 1
+    [L_AMT20] => 53.00
+    [L_NUMBER21] => MEIR085
+    [L_NAME21] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY21] => 1
+    [L_AMT21] => 35.00
+    [L_NUMBER22] => MEIR086
+    [L_NAME22] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY22] => 1
+    [L_AMT22] => 38.00
+    [L_NUMBER23] => MEIR084
+    [L_NAME23] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY23] => 1
+    [L_AMT23] => 33.00
+    [L_NUMBER24] => MEIR022
+    [L_NAME24] => automatic line and pipe machine beer [1582]
+    [L_QTY24] => 1
+    [L_AMT24] => 252.00
+    [L_NUMBER25] => MEIR016
+    [L_NAME25] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY25] => 1
+    [L_AMT25] => 77.00
+    [L_NUMBER26] => MEIR018
+    [L_NAME26] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY26] => 1
+    [L_AMT26] => 118.00
+    [L_NUMBER27] => MEIR043
+    [L_NAME27] => AV Actress Amber sex toy [1603]
+    [L_QTY27] => 2
+    [L_AMT27] => 85.00
+    [L_NUMBER28] => MEIR033
+    [L_NAME28] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY28] => 1
+    [L_AMT28] => 172.00
+    [L_NUMBER29] => MEIR041
+    [L_NAME29] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY29] => 1
+    [L_AMT29] => 222.00
+    [L_NUMBER30] => MEIR042
+    [L_NAME30] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY30] => 1
+    [L_AMT30] => 38.00
+    [L_NUMBER31] => MEIR037
+    [L_NAME31] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY31] => 1
+    [L_AMT31] => 51.00
+    [L_NUMBER32] => MEIR025
+    [L_NAME32] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY32] => 1
+    [L_AMT32] => 65.00
+    [L_NUMBER33] => MEIR098
+    [L_NAME33] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY33] => 1
+    [L_AMT33] => 25.00
+    [L_NUMBER34] => MEIR091
+    [L_NAME34] => big man penis enlargement [1651]
+    [L_QTY34] => 1
+    [L_AMT34] => 72.00
+    [L_NUMBER35] => MEIR049
+    [L_NAME35] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY35] => 1
+    [L_AMT35] => 285.00
+    [L_NUMBER36] => MEIR051
+    [L_NAME36] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY36] => 1
+    [L_AMT36] => 270.00
+    [L_NUMBER37] => MEIR039
+    [L_NAME37] => effort ecstasy automatic high-speed piston aircraft cup refill d [1599]
+    [L_QTY37] => 1
+    [L_AMT37] => 80.00
+    [L_NUMBER38] => MEIR050
+    [L_NAME38] => hip reverse mold double cavity heatable shock rocker [1610]
+    [L_QTY38] => 1
+    [L_AMT38] => 72.00
+    [L_NUMBER39] => MEIR053
+    [L_NAME39] => hands breaking down mold cavity pussy drunk [1613]
+    [L_QTY39] => 1
+    [L_AMT39] => 67.00
+    [L_NUMBER40] => MEIR056
+    [L_NAME40] => realistic pussy pussy Jia Yin buttock reverse mold rocking vibra [1616]
+    [L_QTY40] => 1
+    [L_AMT40] => 88.00
+    [L_NUMBER41] => MEIR062
+    [L_NAME41] => sexy way D cup leggy blonde blowjob can be Jiaochuang vaginal an [1622]
+    [L_QTY41] => 1
+    [L_AMT41] => 72.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

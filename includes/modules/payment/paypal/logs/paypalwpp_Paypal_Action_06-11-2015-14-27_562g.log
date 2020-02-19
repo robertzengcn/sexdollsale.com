@@ -1,0 +1,270 @@
+Jun-11-2015 14:27:00 (1434054420)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 396
+    [ITEMAMT] => 356
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 40
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 396
+    [ITEMAMT] => 356
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 40
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SDT002
+    [L_NAME0] => Lifelike 3D inflated sex doll [1465]
+    [L_QTY0] => 1
+    [L_AMT0] => 130
+    [L_NUMBER1] => LS004
+    [L_NAME1] => Lingerie women for all kinds of life dolls [1506]
+    [L_QTY1] => 1
+    [L_AMT1] => 10
+    [L_NUMBER2] => SD077
+    [L_NAME2] => Nancy greedy girl sex doll [1405]
+    [L_QTY2] => 1
+    [L_AMT2] => 126
+    [L_NUMBER3] => SD078
+    [L_NAME3] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY3] => 1
+    [L_AMT3] => 90
+)
+
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 396.00
+    [AMT] => 396.00
+    [ITEMAMT] => 356.00
+    [SHIPPINGAMT] => 40.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 435
+Session Data: Array
+(
+    [securityToken] => 761cd6d8ee6b37d5ca4c93a5a5ac238d
+    [customers_host_address] => static-173-54-21-10.nwrknj.fios.verizon.net
+    [cartID] => 33784
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1465] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1506] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1405] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1401] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 356
+            [weight] => 5.5
+            [cartID] => 33784
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-06-11
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 173.54.21.10
+    [new_products_id_in_cart] => 1401
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 5.5
+    [total_count] => 4
+    [sendto] => 479
+    [billto] => 478
+    [action] => process
+    [email_pref_html] => email_format
+    [gender] => m
+    [firstname] => Antonio
+    [lastname] => Romanovski
+    [street_address] => 896 Heritage rd
+    [city] => Moorestown
+    [zone_country_id] => 223
+    [zone_id] => 41
+    [postcode] => 08057
+    [firstname_shipping] => Antonio
+    [lastname_shipping] => Romanovski
+    [street_address_shipping] => 165 Amboy Rd unit 200, apt.26989
+    [city_shipping] => Morganville
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 41
+    [postcode_shipping] => 07751
+    [email_address] => joythemail01@gmail.com
+    [email_format] => TEXT
+    [telephone] => 7274980275
+    [gender_shipping] => m
+    [COWOA] => 1
+    [customer_id] => 435
+    [shipping] => Array
+        (
+            [id] => dhlzones_dhlzones
+            [title] => DHL Rates (Shipping to US)
+            [cost] => 40
+        )
+
+    [customer_first_name] => Antonio
+    [customer_default_address_id] => 478
+    [customer_country_id] => 223
+    [customer_zone_id] => 41
+    [customers_authorization] => 0
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 479
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => Antonio
+    [entry_lastname] => Romanovski
+    [entry_company] => 
+    [entry_street_address] => 165 Amboy Rd unit 200, apt.26989
+    [entry_suburb] => 
+    [entry_city] => Morganville
+    [entry_postcode] => 07751
+    [entry_country_id] => 223
+    [entry_zone_id] => 41
+    [entry_state] => 
+    [zone_code] => NJ
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => Antonio
+    [entry_lastname] => Romanovski
+    [entry_company] => 
+    [entry_street_address] => 165 Amboy Rd unit 200, apt.26989
+    [entry_suburb] => 
+    [entry_city] => Morganville
+    [entry_postcode] => 07751
+    [entry_country_id] => 223
+    [entry_zone_id] => 41
+    [entry_state] => 
+    [zone_code] => NJ
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Jun-11-2015 14:27:00 (1434054420)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 396.00
+    [ITEMAMT] => 356.00
+    [SHIPPINGAMT] => 40.00
+    [L_NUMBER0] => SDT002
+    [L_NAME0] => Lifelike 3D inflated sex doll [1465]
+    [L_QTY0] => 1
+    [L_AMT0] => 130.00
+    [L_NUMBER1] => LS004
+    [L_NAME1] => Lingerie women for all kinds of life dolls [1506]
+    [L_QTY1] => 1
+    [L_AMT1] => 10.00
+    [L_NUMBER2] => SD077
+    [L_NAME2] => Nancy greedy girl sex doll [1405]
+    [L_QTY2] => 1
+    [L_AMT2] => 126.00
+    [L_NUMBER3] => SD078
+    [L_NAME3] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY3] => 1
+    [L_AMT3] => 90.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => Antonio Romanovski
+    [SHIPTOSTREET] => 165 Amboy Rd unit 200, apt.26989
+    [SHIPTOCITY] => Morganville
+    [SHIPTOZIP] => 07751
+    [SHIPTOSTATE] => NJ
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => joythemail01@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+

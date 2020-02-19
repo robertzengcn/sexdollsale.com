@@ -1,0 +1,145 @@
+May-16-2015 23:50:18 (1431841818)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 60
+    [ITEMAMT] => 60
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 60
+    [ITEMAMT] => 60
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => mv045
+    [L_NAME0] => wireless remote control massage vibrators [1524]
+    [L_QTY0] => 1
+    [L_AMT0] => 60
+)
+
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 60.00
+    [AMT] => 60.00
+    [ITEMAMT] => 60.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => d3ad4d1e096e3bd69f5c1b2c904dd77c
+    [customers_host_address] => c-71-232-33-29.hsd1.ma.comcast.net
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1524] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 60
+            [weight] => 1
+            [cartID] => 15318
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-05-16
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 71.232.33.29
+    [new_products_id_in_cart] => 1524
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+)
+
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-16-2015 23:50:18 (1431841818)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 60.00
+    [ITEMAMT] => 60.00
+    [L_NUMBER0] => mv045
+    [L_NAME0] => wireless remote control massage vibrators [1524]
+    [L_QTY0] => 1
+    [L_AMT0] => 60.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

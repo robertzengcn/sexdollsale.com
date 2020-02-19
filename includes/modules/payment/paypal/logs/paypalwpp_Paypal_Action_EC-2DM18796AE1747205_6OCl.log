@@ -1,0 +1,454 @@
+Feb-12-2016 14:06:24 (1455311184)
+ec_step2 
+Re-instantiating $order object.
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+ec_step2 
+Instantiated $order object contents: order Object
+(
+    [info] => Array
+        (
+            [order_status] => 2
+            [currency] => USD
+            [currency_value] => 1.00000000
+            [payment_method] => PayPal
+            [payment_module_code] => paypalwpp
+            [coupon_code] => 
+            [shipping_method] => Free Shipping Options (Free Shipping)
+            [shipping_module_code] => freeoptions_freeoptions
+            [shipping_cost] => 0
+            [subtotal] => 95
+            [shipping_tax] => 0
+            [tax] => 0
+            [total] => 95
+            [tax_groups] => Array
+                (
+                    [0] => 0
+                )
+
+            [comments] => 
+            [ip_address] => 73.232.101.130 - 73.232.101.130
+        )
+
+    [totals] => Array
+        (
+        )
+
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [qty] => 1
+                    [name] => Anna 3 holes blow up sex doll for male
+                    [model] => SD001
+                    [tax] => 0
+                    [tax_groups] => Array
+                        (
+                            [0] => Sales Tax
+                        )
+
+                    [tax_description] => Sales Tax
+                    [price] => 95.0000
+                    [final_price] => 95
+                    [onetime_charges] => 0
+                    [weight] => 2.5
+                    [products_priced_by_attribute] => 0
+                    [product_is_free] => 0
+                    [products_discount_type] => 0
+                    [products_discount_type_from] => 0
+                    [id] => 1435
+                    [rowClass] => rowEven
+                )
+
+        )
+
+    [customer] => Array
+        (
+            [firstname] => achyut
+            [lastname] => mohan
+            [company] => 
+            [street_address] => 13102 fallsview lane apt#5015
+            [suburb] => 
+            [city] => houston
+            [postcode] => 77077
+            [state] => Texas
+            [zone_id] => 57
+            [country] => Array
+                (
+                    [id] => 223
+                    [title] => United States Of America
+                    [iso_code_2] => US
+                    [iso_code_3] => USA
+                )
+
+            [format_id] => 2
+            [telephone] => 8326912256
+            [email_address] => achyut.maddur@gmail.com
+        )
+
+    [delivery] => Array
+        (
+            [firstname] => achyut
+            [lastname] => mohan
+            [company] => 
+            [street_address] => 13102 fallsview lane apt#5015
+            [suburb] => 
+            [city] => houston
+            [postcode] => 77077
+            [state] => Texas
+            [zone_id] => 57
+            [country] => Array
+                (
+                    [id] => 223
+                    [title] => United States Of America
+                    [iso_code_2] => US
+                    [iso_code_3] => USA
+                )
+
+            [country_id] => 223
+            [format_id] => 2
+        )
+
+    [content_type] => physical
+    [email_low_stock] => 
+    [products_ordered_attributes] => 
+    [products_ordered] => 
+    [products_ordered_email] => 
+    [attachArray] => 
+    [billing] => Array
+        (
+            [firstname] => achyut
+            [lastname] => mohan
+            [company] => 
+            [street_address] => 13102 fallsview lane apt#5015
+            [suburb] => 
+            [city] => houston
+            [postcode] => 77077
+            [state] => Texas
+            [zone_id] => 57
+            [country] => Array
+                (
+                    [id] => 223
+                    [title] => United States Of America
+                    [iso_code_2] => US
+                    [iso_code_3] => USA
+                )
+
+            [country_id] => 223
+            [format_id] => 2
+        )
+
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+ec_step2_finish - 1
+START: paypal_ec_payer_info= Array
+(
+    [payer_id] => 4KS98EZLV9H9E
+    [payer_email] => achyut.maddur@gmail.com
+    [payer_salutation] => 
+    [payer_gender] => 
+    [payer_firstname] => achyut
+    [payer_lastname] => mohan
+    [payer_business] => 
+    [payer_status] => unverified
+    [ship_country_code] => US
+    [ship_address_status] => Confirmed
+    [ship_phone] => 832-691-2256
+    [order_comment] => 
+    [ship_name] => achyut mohan
+    [ship_street_1] => 13102 fallsview lane apt#5015
+    [ship_street_2] => 
+    [ship_city] => houston
+    [ship_state] => TX
+    [ship_postal_code] => 77077
+    [ship_country_name] => United States
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+ec_step2_finish - 2
+country_id = 223 United States US
+address_format_id = 2
+state_id = 57 (original state tested: TX)
+country1->fields['countries_id'] = 
+country2->fields['countries_id'] = 223
+$order->customer = Array
+(
+    [firstname] => achyut
+    [lastname] => mohan
+    [company] => 
+    [street_address] => 13102 fallsview lane apt#5015
+    [suburb] => 
+    [city] => houston
+    [postcode] => 77077
+    [state] => TX
+    [zone_id] => 57
+    [country] => Array
+        (
+            [id] => 223
+            [title] => United States
+            [iso_code_2] => US
+            [iso_code_3] => USA
+        )
+
+    [format_id] => 2
+    [telephone] => 832-691-2256
+    [email_address] => achyut.maddur@gmail.com
+    [name] => achyut mohan
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+findMatchingAddressBookEntry - 1-stats
+lookups:
+Array
+(
+    [countries_id] => 223
+    [address_format_id] => 2
+    [zone_country_id] => 1
+    [zone_id] => 57
+)
+
+check_zone: 1
+zone:57
+SubmittedAddress:Array
+(
+    [firstname] => achyut
+    [lastname] => mohan
+    [company] => achyut mohan
+    [street_address] => 13102 fallsview lane apt#5015
+    [suburb] => 
+    [city] => houston
+    [postcode] => 77077
+    [state] => TX
+    [zone_id] => 57
+    [country] => Array
+        (
+            [id] => 223
+            [title] => United States
+            [iso_code_2] => US
+            [iso_code_3] => USA
+        )
+
+    [country_id] => 223
+    [format_id] => 2
+    [name] => achyut mohan
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+findMatchingAddressBookEntry - 2-read for match
+
+Lookup RecordCount = 1
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+findMatchingAddressBookEntry - 3a
+From PayPal:
+13102fallsviewlaneapt#5015houston
+
+From DB:
+13102fallsviewlaneapt#5015houston
+Array
+(
+    [address_book_id] => 494
+    [entry_street_address] => 13102 fallsview lane apt#5015
+    [entry_suburb] => 
+    [entry_city] => houston
+    [entry_company] => 
+    [entry_firstname] => achyut
+    [entry_lastname] => mohan
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+findMatchingAddressBookEntry - 3b
+Exact match:
+Array
+(
+    [address_book_id] => 494
+    [entry_street_address] => 13102 fallsview lane apt#5015
+    [entry_suburb] => 
+    [entry_city] => houston
+    [entry_company] => 
+    [entry_firstname] => achyut
+    [entry_lastname] => mohan
+)
+
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+ec_step2_finish - 3
+Exiting ec_step2_finish logged-in mode.
+Selected address: 494
+Original was: 494
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+termEC-2
+BEFORE: $this->showPaymentPage = 0
+Token Data:EC-2DM18796AE1747205
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+termEC-3
+AFTER: $this->showPaymentPage = 0
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+termEC-7
+$this->showPaymentPage NOT true, and have custom page parameter: checkout_process
+=================================
+
+Feb-12-2016 14:06:24 (1455311184)
+termEC-10
+Redirecting to checkout_process - Stack: header
+Message: 
+Session Data: Array
+(
+    [securityToken] => 0e92c4a203b674a5f8153bcbf361b06c
+    [customers_host_address] => c-73-232-101-130.hsd1.tx.comcast.net
+    [cartID] => 27358
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1435] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 95
+            [weight] => 2.5
+            [cartID] => 27358
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [navigation] => navigationHistory Object
+        (
+            [path] => Array
+                (
+                    [0] => Array
+                        (
+                            [page] => index
+                            [mode] => NONSSL
+                            [get] => Array
+                                (
+                                    [type] => ec
+                                    [token] => EC-2DM18796AE1747205
+                                    [PayerID] => 4KS98EZLV9H9E
+                                )
+
+                            [post] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [snapshot] => Array
+                (
+                )
+
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2016-02-12
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 73.232.101.130
+    [new_products_id_in_cart] => 1435
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 2.5
+    [total_count] => 1
+    [action] => process
+    [email_format] => TEXT
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => achyut
+    [lastname] => mohan
+    [street_address] => 13102 fallsview lane apt#5015
+    [city] => houston
+    [zone_country_id] => 223
+    [zone_id] => 57
+    [postcode] => 77077
+    [telephone] => 8326912256
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => achyut.maddur@gmail.com
+    [password] => ultachappal
+    [confirmation] => ultachappal
+    [messageToStack] => 
+    [customer_id] => 447
+    [cart_address_id] => 494
+    [sendto] => 494
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+        )
+
+    [customer_first_name] => achyut
+    [customer_default_address_id] => 494
+    [customer_country_id] => 223
+    [customer_zone_id] => 57
+    [customers_authorization] => 0
+    [billto] => 494
+    [comments] => 
+    [paypal_ec_markflow] => 1
+    [paypal_ec_token] => EC-2DM18796AE1747205
+    [paypal_ec_payer_id] => 4KS98EZLV9H9E
+    [paypal_ec_payer_info] => Array
+        (
+            [payer_id] => 4KS98EZLV9H9E
+            [payer_email] => achyut.maddur@gmail.com
+            [payer_salutation] => 
+            [payer_gender] => 
+            [payer_firstname] => achyut
+            [payer_lastname] => mohan
+            [payer_business] => 
+            [payer_status] => unverified
+            [ship_country_code] => US
+            [ship_address_status] => Confirmed
+            [ship_phone] => 832-691-2256
+            [order_comment] => 
+            [ship_name] => achyut mohan
+            [ship_street_1] => 13102 fallsview lane apt#5015
+            [ship_street_2] => 
+            [ship_city] => houston
+            [ship_state] => TX
+            [ship_postal_code] => 77077
+            [ship_country_name] => United States
+        )
+
+    [paypal_ec_temp] => 
+)
+
+=================================
+

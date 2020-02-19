@@ -1,0 +1,36 @@
+/**
+ * No account CSS Stylesheet
+ *
+ * @package easy signup and login
+ * @copyright Copyright 2007 Numinix Technology http://www.numinix.com
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ * @version $Id: login.css 62 2009-07-12 21:43:34Z numinix $
+ */
+
+.fec-cl-left,
+.fec-cl-right {
+    margin-top: 3px
+}
+
+.fec-cl-right .fec-cl-right {
+    width: 100%
+}
+
+
+#checkoutButtons {
+    clear: left;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+    width: 63.5102%
+}
+
+#createAcctDefaultLoginLink {
+	font-size: 12px;
+	margin: 0 0 30px;
+	padding: 0
+}
+
+
+.fec-easy-sing-up .fec-col-left {width: 100% !important;}

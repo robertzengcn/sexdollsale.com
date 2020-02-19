@@ -1,0 +1,231 @@
+Aug-31-2015 06:58:32 (1441025912)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 209
+    [ITEMAMT] => 169
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 40
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 209
+    [ITEMAMT] => 169
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 40
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SH222
+    [L_NAME0] => Big ass sexy girl doll for male [1468]
+    [L_QTY0] => 1
+    [L_AMT0] => 169
+)
+
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 209.00
+    [AMT] => 209.00
+    [ITEMAMT] => 169.00
+    [SHIPPINGAMT] => 40.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 436
+Session Data: Array
+(
+    [securityToken] => e38bd7f94183f7d22263424b542f4388
+    [customers_host_address] => pool-72-89-133-85.nycmny.fios.verizon.net
+    [cartID] => 65166
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1468] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 169
+            [weight] => 5
+            [cartID] => 65166
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-08-31
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 72.89.133.85
+    [new_products_id_in_cart] => 1468
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 5
+    [total_count] => 1
+    [sendto] => 480
+    [billto] => 480
+    [action] => process
+    [email_pref_html] => email_format
+    [shippingAddress] => 1
+    [gender] => m
+    [firstname] => john
+    [lastname] => kenneth
+    [street_address] => 3800 219th carpenter apt 1
+    [city] => bronx 
+    [zone_country_id] => 223
+    [zone_id] => 43
+    [postcode] => 10467
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => xxjohnbobbyxx678@gmail.com
+    [email_format] => TEXT
+    [telephone] => 6462322191
+    [COWOA] => 1
+    [customer_id] => 436
+    [shipping] => Array
+        (
+            [id] => dhlzones_dhlzones
+            [title] => DHL Rates (Shipping to US)
+            [cost] => 40
+        )
+
+    [customer_first_name] => john
+    [customer_default_address_id] => 480
+    [customer_country_id] => 223
+    [customer_zone_id] => 43
+    [customers_authorization] => 0
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 480
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => john
+    [entry_lastname] => kenneth
+    [entry_company] => 
+    [entry_street_address] => 3800 219th carpenter apt 1
+    [entry_suburb] => 
+    [entry_city] => bronx
+    [entry_postcode] => 10467
+    [entry_country_id] => 223
+    [entry_zone_id] => 43
+    [entry_state] => 
+    [zone_code] => NY
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => john
+    [entry_lastname] => kenneth
+    [entry_company] => 
+    [entry_street_address] => 3800 219th carpenter apt 1
+    [entry_suburb] => 
+    [entry_city] => bronx
+    [entry_postcode] => 10467
+    [entry_country_id] => 223
+    [entry_zone_id] => 43
+    [entry_state] => 
+    [zone_code] => NY
+    [countries_iso_code_2] => US
+)
+
+=================================
+
+Aug-31-2015 06:58:32 (1441025912)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 209.00
+    [ITEMAMT] => 169.00
+    [SHIPPINGAMT] => 40.00
+    [L_NUMBER0] => SH222
+    [L_NAME0] => Big ass sexy girl doll for male [1468]
+    [L_QTY0] => 1
+    [L_AMT0] => 169.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => john kenneth
+    [SHIPTOSTREET] => 3800 219th carpenter apt 1
+    [SHIPTOCITY] => bronx
+    [SHIPTOZIP] => 10467
+    [SHIPTOSTATE] => NY
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => xxjohnbobbyxx678@gmail.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+

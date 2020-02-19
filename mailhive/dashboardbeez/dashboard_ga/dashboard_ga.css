@@ -1,0 +1,25 @@
+
+.ga .stat-infoline {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    color: #3F3F38;
+    padding: 3px;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    z-index: 100;
+}
+
+.ga_pie_legend_outer {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    color: #3F3F38;
+    padding: 3px;
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    z-index: 100;
+    opacity: 1;
+}
+.ga_pie_legend_outer:hover {
+    opacity: 0.75;
+    z-index: 0;
+}

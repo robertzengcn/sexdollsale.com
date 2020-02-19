@@ -1,0 +1,76 @@
+2014-05-04 01:10:47
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {DoExpressCheckoutPayment} 
+Array
+(
+    [AMT] => 128.20
+    [ITEMAMT] => 108.20
+    [SHIPPINGAMT] => 20.00
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => inflated asian girl face sex doll [1440]
+    [L_QTY0] => 1
+    [L_AMT0] => 108.20
+    [SHIPTONAME] => Zeng JianZe
+    [SHIPTOSTREET] => 冯宅村28号(No.28 Fengzhai Village)Cell No:15705910133
+    [SHIPTOCITY] => 福州市仓山区建新镇(Jianxin Town,fuzhou city)
+    [SHIPTOSTATE] => Fujian
+    [SHIPTOZIP] => 350000
+    [SHIPTOCOUNTRYCODE] => CN
+    [BUTTONSOURCE] => ZenCart-EC_us
+    [RETURNFMFDETAILS] => 0
+    [CUSTOM] => EC-430-1399209044
+    [INVNUM] => 430-1399209044-[AnigaDollOnlineStore]
+    [TOKEN] => EC-2EP8449340970953S
+    [PAYERID] => QVYKHWYNWPZUY
+    [PAYMENTACTION] => Sale
+    [NOTIFYURL] => http://www.ebayst.com/ipn_main_handler.php
+    [METHOD] => DoExpressCheckoutPayment
+    [CURRENCYCODE] => GBP
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-2EP8449340970953S
+    [SUCCESSPAGEREDIRECTREQUESTED] => false
+    [TIMESTAMP] => 2014-05-04T13:10:47Z
+    [CORRELATIONID] => e523bc803232b
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10850615
+    [TRANSACTIONID] => 8375513225915721D
+    [TRANSACTIONTYPE] => cart
+    [PAYMENTTYPE] => instant
+    [ORDERTIME] => 2014-05-04T13:10:47Z
+    [AMT] => 128.20
+    [TAXAMT] => 0.00
+    [CURRENCYCODE] => GBP
+    [PAYMENTSTATUS] => Pending
+    [PENDINGREASON] => multicurrency
+    [REASONCODE] => None
+    [PROTECTIONELIGIBILITY] => Eligible
+    [INSURANCEOPTIONSELECTED] => false
+    [SHIPPINGOPTIONISDEFAULT] => false
+    [CURL_ERRORS] => 
+)
+
+
+DoExpressCheckoutPayment, Elapsed: 3048ms -- Success
+

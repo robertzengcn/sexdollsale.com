@@ -1,0 +1,145 @@
+May-16-2015 23:50:30 (1431841830)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 29
+    [ITEMAMT] => 29
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 29
+    [ITEMAMT] => 29
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SP001
+    [L_NAME0] => Pillow love doll for comfortable sleep and sex [1460]
+    [L_QTY0] => 1
+    [L_AMT0] => 29
+)
+
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 29.00
+    [AMT] => 29.00
+    [ITEMAMT] => 29.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 7a6c732f8187e0eed1a183d51f436503
+    [customers_host_address] => 200.93.151.27.broad.fz.fj.dynamic.163data.com.cn
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1460] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 29
+            [weight] => 1
+            [cartID] => 42151
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-05-16
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 27.151.93.200
+    [new_products_id_in_cart] => 1460
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+)
+
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-16-2015 23:50:30 (1431841830)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 29.00
+    [ITEMAMT] => 29.00
+    [L_NUMBER0] => SP001
+    [L_NAME0] => Pillow love doll for comfortable sleep and sex [1460]
+    [L_QTY0] => 1
+    [L_AMT0] => 29.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

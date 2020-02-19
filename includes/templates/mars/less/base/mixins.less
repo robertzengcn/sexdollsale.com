@@ -1,0 +1,106 @@
+//
+// Mixins
+// --------------------------------------------------
+
+// ----- Clearfix -----
+.group(){
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// ----- Hide Text -----
+.hide_text(){
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hide_text_2(){
+  text-indent: -9999px;  
+  overflow: hidden;
+}
+
+// ----- Border Radius -----
+.border-radius(@radius:@radius) when (@radius > 0) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+.border-radius(){ }
+
+
+.opacity(@op:1, @op_ie:100) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=@{op_ie})";
+  opacity:@op; 
+}
+
+
+// ----- Opacity -----
+
+// ----- Drop shadows -----
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+// ----- Text shadows -----
+.text-shadow(@shadow) {
+  -webkit-text-shadow: @shadow;
+     -moz-text-shadow: @shadow;
+          text-shadow: @shadow;
+}
+
+// ----- Transition -----
+.transition(@property, @speed: @anim_speed){
+  -webkit-transition: @property @speed ease;
+  -moz-transition: @property @speed ease;
+  -ms-transition: @property @speed ease;
+  -o-transition: @property @speed ease;
+  transition: @property @speed ease;
+}
+
+.transition2(@property_1, @property_2, @speed_1: @anim_speed,  @speed_2: @anim_speed){
+  -webkit-transition: @property_1 @speed_1 ease, @property_2 @speed_2 ease;
+  -moz-transition: @property_1 @speed_1 ease, @property_2 @speed_2 ease;
+  -ms-transition: @property_1 @speed_1 ease, @property_2 @speed_2 ease;
+  -o-transition: @property_1 @speed_1 ease, @property_2 @speed_2 ease;
+  transition: @property_1 @speed_1 ease, @property_2 @speed_2 ease;
+}
+
+
+// ----- Gradient -----
+.gradient(@color_1, @color_2, @color_3) when (iscolor(@color_3)) { background: @color_3; }
+
+.gradient(@color_1, @color_2){
+  background: @color_1;
+  background: -moz-linear-gradient(top,  @color_1 0%, @color_2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@color_1), color-stop(100%,@color_2));
+  background: -webkit-linear-gradient(top,  @color_1 0%,@color_2 100%);
+  background: -o-linear-gradient(top,  @color_1 0%,@color_2 100%);
+  background: -ms-linear-gradient(top,  @color_1 0%,@color_2 100%);
+  background: linear-gradient(to bottom,  @color_1 0%,@color_2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=@color_1, endColorstr=@color_2,GradientType=0 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

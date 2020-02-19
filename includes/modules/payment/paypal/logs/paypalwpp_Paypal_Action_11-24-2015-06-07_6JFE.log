@@ -1,0 +1,730 @@
+Nov-24-2015 06:07:40 (1448370460)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 52253.2
+    [ITEMAMT] => 52253.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 52253.2
+    [ITEMAMT] => 52253.2
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => Sexy Asian girl sex doll [1440]
+    [L_QTY0] => 3
+    [L_AMT0] => 108.2
+    [L_NUMBER1] => SDL002
+    [L_NAME1] => footjob sex doll [1431]
+    [L_QTY1] => 3
+    [L_AMT1] => 1199
+    [L_NUMBER2] => SZXR001
+    [L_NAME2] => secretary real love doll [1442]
+    [L_QTY2] => 3
+    [L_AMT2] => 2999
+    [L_NUMBER3] => SD050
+    [L_NAME3] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY3] => 3
+    [L_AMT3] => 1999
+    [L_NUMBER4] => SD199
+    [L_NAME4] => Chinese girl realistic dolls [1502]
+    [L_QTY4] => 3
+    [L_AMT4] => 3999
+    [L_NUMBER5] => SD003
+    [L_NAME5] => inflatable Mandy semi solid real love doll [1448]
+    [L_QTY5] => 3
+    [L_AMT5] => 95
+    [L_NUMBER6] => SD079
+    [L_NAME6] => Japanese inflated sex doll [1399]
+    [L_QTY6] => 3
+    [L_AMT6] => 135
+    [L_NUMBER7] => SD140
+    [L_NAME7] => Lucy barbie Realistic inflated Sex doll [1496]
+    [L_QTY7] => 3
+    [L_AMT7] => 95
+    [L_NUMBER8] => SSD003
+    [L_NAME8] => 3d half body sex doll [1409]
+    [L_QTY8] => 1
+    [L_AMT8] => 113.6
+    [L_NUMBER9] => SD107
+    [L_NAME9] => Real silicone sex dolls [1493]
+    [L_QTY9] => 1
+    [L_AMT9] => 7999
+    [L_NUMBER10] => SD039
+    [L_NAME10] => Lisa Drop Shipping Beautiful real sex doll [1498]
+    [L_QTY10] => 1
+    [L_AMT10] => 3399
+    [L_NUMBER11] => SDT001
+    [L_NAME11] => HongKong VNA blow up sexy doll [1418]
+    [L_QTY11] => 1
+    [L_AMT11] => 90
+    [L_NUMBER12] => SP001
+    [L_NAME12] => Pillow love doll for comfortable sleep and sex [1460]
+    [L_QTY12] => 1
+    [L_AMT12] => 29
+    [L_NUMBER13] => SD001
+    [L_NAME13] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY13] => 1
+    [L_AMT13] => 95
+    [L_NUMBER14] => SD074
+    [L_NAME14] => Big size silicone sex love doll [1478]
+    [L_QTY14] => 1
+    [L_AMT14] => 2699
+    [L_NUMBER15] => SD078
+    [L_NAME15] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY15] => 1
+    [L_AMT15] => 90
+    [L_NUMBER16] => MEIR045
+    [L_NAME16] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY16] => 2
+    [L_AMT16] => 70
+    [L_NUMBER17] => MEIR030
+    [L_NAME17] => 2015 aircraft Cup [1590]
+    [L_QTY17] => 1
+    [L_AMT17] => 60
+    [L_NUMBER18] => MEIR052
+    [L_NAME18] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY18] => 2
+    [L_AMT18] => 60
+    [L_NUMBER19] => MEIR065
+    [L_NAME19] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY19] => 1
+    [L_AMT19] => 2972
+    [L_NUMBER20] => MEIR061
+    [L_NAME20] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY20] => 1
+    [L_AMT20] => 70
+    [L_NUMBER21] => MEIR104
+    [L_NAME21] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY21] => 1
+    [L_AMT21] => 15
+    [L_NUMBER22] => MEIR013
+    [L_NAME22] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY22] => 1
+    [L_AMT22] => 58
+    [L_NUMBER23] => MEIR015
+    [L_NAME23] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY23] => 1
+    [L_AMT23] => 53
+    [L_NUMBER24] => MEIR085
+    [L_NAME24] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY24] => 1
+    [L_AMT24] => 35
+    [L_NUMBER25] => MEIR086
+    [L_NAME25] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY25] => 1
+    [L_AMT25] => 38
+    [L_NUMBER26] => MEIR084
+    [L_NAME26] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY26] => 1
+    [L_AMT26] => 33
+    [L_NUMBER27] => MEIR022
+    [L_NAME27] => automatic line and pipe machine beer [1582]
+    [L_QTY27] => 1
+    [L_AMT27] => 252
+    [L_NUMBER28] => MEIR016
+    [L_NAME28] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY28] => 1
+    [L_AMT28] => 77
+    [L_NUMBER29] => MEIR018
+    [L_NAME29] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY29] => 1
+    [L_AMT29] => 118
+    [L_NUMBER30] => MEIR043
+    [L_NAME30] => AV Actress Amber sex toy [1603]
+    [L_QTY30] => 2
+    [L_AMT30] => 85
+    [L_NUMBER31] => MEIR033
+    [L_NAME31] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY31] => 1
+    [L_AMT31] => 172
+    [L_NUMBER32] => MEIR041
+    [L_NAME32] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY32] => 1
+    [L_AMT32] => 222
+    [L_NUMBER33] => MEIR042
+    [L_NAME33] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY33] => 1
+    [L_AMT33] => 38
+    [L_NUMBER34] => MEIR037
+    [L_NAME34] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY34] => 2
+    [L_AMT34] => 51
+    [L_NUMBER35] => MEIR025
+    [L_NAME35] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY35] => 1
+    [L_AMT35] => 65
+    [L_NUMBER36] => MEIR098
+    [L_NAME36] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY36] => 1
+    [L_AMT36] => 25
+    [L_NUMBER37] => MEIR091
+    [L_NAME37] => big man penis enlargement [1651]
+    [L_QTY37] => 1
+    [L_AMT37] => 72
+    [L_NUMBER38] => MEIR049
+    [L_NAME38] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY38] => 1
+    [L_AMT38] => 285
+    [L_NUMBER39] => MEIR051
+    [L_NAME39] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY39] => 1
+    [L_AMT39] => 270
+    [L_NUMBER40] => MEIR036
+    [L_NAME40] => masturbation cup aircraft sex exercise enhances 12-speed automat [1596]
+    [L_QTY40] => 1
+    [L_AMT40] => 72
+    [L_NUMBER41] => MEIR038
+    [L_NAME41] => mermaid aircraft Cup portable hand-held [1598]
+    [L_QTY41] => 1
+    [L_AMT41] => 45
+    [L_NUMBER42] => MEIR039
+    [L_NAME42] => effort ecstasy automatic high-speed piston aircraft cup refill d [1599]
+    [L_QTY42] => 1
+    [L_AMT42] => 80
+    [L_NUMBER43] => MEIR048
+    [L_NAME43] => sensual beauty girl pink hole 3d mold [1608]
+    [L_QTY43] => 1
+    [L_AMT43] => 53
+    [L_NUMBER44] => MEIR050
+    [L_NAME44] => hip reverse mold double cavity heatable shock rocker [1610]
+    [L_QTY44] => 1
+    [L_AMT44] => 72
+    [L_NUMBER45] => MEIR053
+    [L_NAME45] => hands breaking down mold cavity pussy drunk [1613]
+    [L_QTY45] => 1
+    [L_AMT45] => 67
+)
+
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 52,253.20
+    [AMT] => 52,253.20
+    [ITEMAMT] => 52,253.20
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 0
+Session Data: Array
+(
+    [securityToken] => 81bea8686965fb547b2abf9a19577a60
+    [customers_host_address] => 64.34.70.118
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1440] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1431] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1442] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1397] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1502] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1448] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1399] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1496] => Array
+                        (
+                            [qty] => 3
+                        )
+
+                    [1409] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1493] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1498] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1418] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1460] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1435] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1478] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1401] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1605] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1590] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1612] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1625] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1621] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1664] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1573] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1575] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1645] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1646] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1644] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1582] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1576] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1578] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1603] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1593] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1601] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1602] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1597] => Array
+                        (
+                            [qty] => 2
+                        )
+
+                    [1585] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1658] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1651] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1609] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1611] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1596] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1598] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1599] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1608] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1610] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                    [1613] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 52253.2
+            [weight] => 260.3
+            [cartID] => 80024
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [today_is] => 2015-11-24
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 64.34.70.118
+    [new_products_id_in_cart] => 1613
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 260.3
+    [total_count] => 66
+)
+
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+Nov-24-2015 06:07:40 (1448370460)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 52,253.20
+    [ITEMAMT] => 52,253.20
+    [L_NUMBER0] => SKY001
+    [L_NAME0] => Sexy Asian girl sex doll [1440]
+    [L_QTY0] => 3
+    [L_AMT0] => 108.20
+    [L_NUMBER1] => SDL002
+    [L_NAME1] => footjob sex doll [1431]
+    [L_QTY1] => 3
+    [L_AMT1] => 1,199.00
+    [L_NUMBER2] => SZXR001
+    [L_NAME2] => secretary real love doll [1442]
+    [L_QTY2] => 3
+    [L_AMT2] => 2,999.00
+    [L_NUMBER3] => SD050
+    [L_NAME3] => Full Silicone japanese real sexy doll [1397]
+    [L_QTY3] => 3
+    [L_AMT3] => 1,999.00
+    [L_NUMBER4] => SD199
+    [L_NAME4] => Chinese girl realistic dolls [1502]
+    [L_QTY4] => 3
+    [L_AMT4] => 3,999.00
+    [L_NUMBER5] => SD003
+    [L_NAME5] => inflatable Mandy semi solid real love doll [1448]
+    [L_QTY5] => 3
+    [L_AMT5] => 95.00
+    [L_NUMBER6] => SD079
+    [L_NAME6] => Japanese inflated sex doll [1399]
+    [L_QTY6] => 3
+    [L_AMT6] => 135.00
+    [L_NUMBER7] => SD140
+    [L_NAME7] => Lucy barbie Realistic inflated Sex doll [1496]
+    [L_QTY7] => 3
+    [L_AMT7] => 95.00
+    [L_NUMBER8] => SSD003
+    [L_NAME8] => 3d half body sex doll [1409]
+    [L_QTY8] => 1
+    [L_AMT8] => 113.60
+    [L_NUMBER9] => SD107
+    [L_NAME9] => Real silicone sex dolls [1493]
+    [L_QTY9] => 1
+    [L_AMT9] => 7,999.00
+    [L_NUMBER10] => SD039
+    [L_NAME10] => Lisa Drop Shipping Beautiful real sex doll [1498]
+    [L_QTY10] => 1
+    [L_AMT10] => 3,399.00
+    [L_NUMBER11] => SDT001
+    [L_NAME11] => HongKong VNA blow up sexy doll [1418]
+    [L_QTY11] => 1
+    [L_AMT11] => 90.00
+    [L_NUMBER12] => SP001
+    [L_NAME12] => Pillow love doll for comfortable sleep and sex [1460]
+    [L_QTY12] => 1
+    [L_AMT12] => 29.00
+    [L_NUMBER13] => SD001
+    [L_NAME13] => Anna 3 holes blow up sex doll for male [1435]
+    [L_QTY13] => 1
+    [L_AMT13] => 95.00
+    [L_NUMBER14] => SD074
+    [L_NAME14] => Big size silicone sex love doll [1478]
+    [L_QTY14] => 1
+    [L_AMT14] => 2,699.00
+    [L_NUMBER15] => SD078
+    [L_NAME15] => Flesh happy Lucy sexy real love doll [1401]
+    [L_QTY15] => 1
+    [L_AMT15] => 90.00
+    [L_NUMBER16] => MEIR045
+    [L_NAME16] => 2-generation vaginal reverse mold sex toy [1605]
+    [L_QTY16] => 2
+    [L_AMT16] => 70.00
+    [L_NUMBER17] => MEIR030
+    [L_NAME17] => 2015 aircraft Cup [1590]
+    [L_QTY17] => 1
+    [L_AMT17] => 60.00
+    [L_NUMBER18] => MEIR052
+    [L_NAME18] => 36D Haoru bimodal clip female reverse mold 36D [1612]
+    [L_QTY18] => 2
+    [L_AMT18] => 60.00
+    [L_NUMBER19] => MEIR065
+    [L_NAME19] => 39D burst milk entity doll Anne high fidelity full entity sex do [1625]
+    [L_QTY19] => 1
+    [L_AMT19] => 2,972.00
+    [L_NUMBER20] => MEIR061
+    [L_NAME20] => 3P female hip reverse mold big ass double double vagina [1621]
+    [L_QTY20] => 1
+    [L_AMT20] => 70.00
+    [L_NUMBER21] => MEIR104
+    [L_NAME21] => 7-frequency vibration fine delay lock loop clitoral stimulation [1664]
+    [L_QTY21] => 1
+    [L_AMT21] => 15.00
+    [L_NUMBER22] => MEIR013
+    [L_NAME22] => aircraft cup handsfree wireless connection female anchor planes [1573]
+    [L_QTY22] => 1
+    [L_AMT22] => 58.00
+    [L_NUMBER23] => MEIR015
+    [L_NAME23] => aircraft Cup second-generation interactive Choucha waves [1575]
+    [L_QTY23] => 1
+    [L_AMT23] => 53.00
+    [L_NUMBER24] => MEIR085
+    [L_NAME24] => Anal pleasure maximum diameter of 2.6cm elastic material [1645]
+    [L_QTY24] => 1
+    [L_AMT24] => 35.00
+    [L_NUMBER25] => MEIR086
+    [L_NAME25] => Anal pleasure maximum diameter of 4.7cm elastic material [1646]
+    [L_QTY25] => 1
+    [L_AMT25] => 38.00
+    [L_NUMBER26] => MEIR084
+    [L_NAME26] => Anal pleasure SM supplies a maximum diameter of 3.9cm elastic ma [1644]
+    [L_QTY26] => 1
+    [L_AMT26] => 33.00
+    [L_NUMBER27] => MEIR022
+    [L_NAME27] => automatic line and pipe machine beer [1582]
+    [L_QTY27] => 1
+    [L_AMT27] => 252.00
+    [L_NUMBER28] => MEIR016
+    [L_NAME28] => automatic pipe line and electric aircraft Cup dual stimulation a [1576]
+    [L_QTY28] => 1
+    [L_AMT28] => 77.00
+    [L_NUMBER29] => MEIR018
+    [L_NAME29] => automatic sucking handsfree aircraft retractable cup [1578]
+    [L_QTY29] => 1
+    [L_AMT29] => 118.00
+    [L_NUMBER30] => MEIR043
+    [L_NAME30] => AV Actress Amber sex toy [1603]
+    [L_QTY30] => 2
+    [L_AMT30] => 85.00
+    [L_NUMBER31] => MEIR033
+    [L_NAME31] => AV Actress Hatano Yui planes privates name bowl [1593]
+    [L_QTY31] => 1
+    [L_AMT31] => 172.00
+    [L_NUMBER32] => MEIR041
+    [L_NAME32] => AV Actress limited edition luxury expensive [1601]
+    [L_QTY32] => 1
+    [L_AMT32] => 222.00
+    [L_NUMBER33] => MEIR042
+    [L_NAME33] => beast video Guomo 2015 the new sex toy [1602]
+    [L_QTY33] => 1
+    [L_AMT33] => 38.00
+    [L_NUMBER34] => MEIR037
+    [L_NAME34] => beauty messenger insert more cool shade more realistic interacti [1597]
+    [L_QTY34] => 2
+    [L_AMT34] => 51.00
+    [L_NUMBER35] => MEIR025
+    [L_NAME35] => beyond real aircraft cup automatic shrink [1585]
+    [L_QTY35] => 1
+    [L_AMT35] => 65.00
+    [L_NUMBER36] => MEIR098
+    [L_NAME36] => big man hollow sleeve ultra-realistic penis increases effective [1658]
+    [L_QTY36] => 1
+    [L_AMT36] => 25.00
+    [L_NUMBER37] => MEIR091
+    [L_NAME37] => big man penis enlargement [1651]
+    [L_QTY37] => 1
+    [L_AMT37] => 72.00
+    [L_NUMBER38] => MEIR049
+    [L_NAME38] => Boba babes high simulation entity dolls bust three-channel 3D si [1609]
+    [L_QTY38] => 1
+    [L_AMT38] => 285.00
+    [L_NUMBER39] => MEIR051
+    [L_NAME39] => Bottom Princess kneeling hip shake [1611]
+    [L_QTY39] => 1
+    [L_AMT39] => 270.00
+    [L_NUMBER40] => MEIR036
+    [L_NAME40] => masturbation cup aircraft sex exercise enhances 12-speed automat [1596]
+    [L_QTY40] => 1
+    [L_AMT40] => 72.00
+    [L_NUMBER41] => MEIR038
+    [L_NAME41] => mermaid aircraft Cup portable hand-held [1598]
+    [L_QTY41] => 1
+    [L_AMT41] => 45.00
+    [L_NUMBER42] => MEIR039
+    [L_NAME42] => effort ecstasy automatic high-speed piston aircraft cup refill d [1599]
+    [L_QTY42] => 1
+    [L_AMT42] => 80.00
+    [L_NUMBER43] => MEIR048
+    [L_NAME43] => sensual beauty girl pink hole 3d mold [1608]
+    [L_QTY43] => 1
+    [L_AMT43] => 53.00
+    [L_NUMBER44] => MEIR050
+    [L_NAME44] => hip reverse mold double cavity heatable shock rocker [1610]
+    [L_QTY44] => 1
+    [L_AMT44] => 72.00
+    [L_NUMBER45] => MEIR053
+    [L_NAME45] => hands breaking down mold cavity pussy drunk [1613]
+    [L_QTY45] => 1
+    [L_AMT45] => 67.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/shopping_cart?ec_cancel=1
+)
+
+=================================
+

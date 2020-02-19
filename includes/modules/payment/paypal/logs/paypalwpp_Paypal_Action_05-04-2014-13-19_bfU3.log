@@ -1,0 +1,171 @@
+May-04-2014 13:19:40 (1399209580)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 17.43
+    [ITEMAMT] => 17.43
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 17.43
+    [ITEMAMT] => 17.43
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => MS019
+    [L_NAME0] => Medical Silicon material pussy stroker [1383]
+    [L_QTY0] => 1
+    [L_AMT0] => 17.43
+)
+
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 17.43
+    [AMT] => 17.43
+    [ITEMAMT] => 17.43
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 430
+Session Data: Array
+(
+    [securityToken] => 5b3c3ff4cab86394b4d735344fd66f90
+    [customers_host_address] => 197.9.40.120.broad.fz.fj.dynamic.163data.com.cn
+    [cartID] => 
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1383] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 17.43
+            [weight] => 2
+            [cartID] => 06360
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => GBP
+    [today_is] => 2014-05-04
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 120.40.9.197
+    [new_products_id_in_cart] => 1383
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [customer_id] => 430
+    [customer_default_address_id] => 473
+    [customer_first_name] => JianZe
+    [customer_country_id] => 44
+    [customer_zone_id] => 0
+    [total_weight] => 0
+    [total_count] => 0
+    [order_number_created] => 371
+    [order_summary] => Array
+        (
+            [order_number] => 371
+            [order_subtotal] => 108.2
+            [credits_applied] => 0
+            [order_total] => 128.2
+            [commissionable_order] => 108.2
+            [commissionable_order_formatted] => &pound;108.20
+            [coupon_code] => 
+            [currency_code] => GBP
+            [currency_value] => 1.00000000
+            [payment_module_code] => paypalwpp
+            [shipping_method] => DHL Rates (Shipping to CN)
+            [orders_status] => 
+            [tax] => 
+            [shipping] => 20
+        )
+
+    [payment] => paypalwpp
+)
+
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+getOverrideAddress - 4
+not logged in and not in markflow mode - nothing to override
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+ec-step1-addr_check3
+address details from override check: <NONE FOUND>
+=================================
+
+May-04-2014 13:19:40 (1399209580)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 17.43
+    [ITEMAMT] => 17.43
+    [L_NUMBER0] => MS019
+    [L_NAME0] => Medical Silicon material pussy stroker [1383]
+    [L_QTY0] => 1
+    [L_AMT0] => 17.43
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => CN
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [EMAIL] => amigatoy@gmail.com
+    [SHIPTOPHONENUM] => +86 18059949858
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+

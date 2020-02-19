@@ -1,0 +1,159 @@
+2014-04-30 07:34:58
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 7,967.69
+    [ITEMAMT] => 7,967.69
+    [L_NUMBER0] => SSD003
+    [L_NAME0] => 3d sexy doll for male [1409]
+    [L_QTY0] => 1
+    [L_AMT0] => 113.60
+    [L_NUMBER1] => SBD001
+    [L_NAME1] => 3D Buccone hot girl sexy love doll [1433]
+    [L_QTY1] => 1
+    [L_AMT1] => 2,403.80
+    [L_NUMBER2] => SD1181
+    [L_NAME2] => 3D real girl silicon sex doll [1499]
+    [L_QTY2] => 1
+    [L_AMT2] => 330.00
+    [L_NUMBER3] => SJK001
+    [L_NAME3] => Big boobs*fat ass silicon love doll [1417]
+    [L_QTY3] => 1
+    [L_AMT3] => 3,004.90
+    [L_NUMBER4] => SD077
+    [L_NAME4] => Blow up 18-years old girl sexy doll for men [1405]
+    [L_QTY4] => 1
+    [L_AMT4] => 99.78
+    [L_NUMBER5] => SD094
+    [L_NAME5] => Blow-up Sex Doll With Vagina for male Masturbation [1402]
+    [L_QTY5] => 1
+    [L_AMT5] => 92.57
+    [L_NUMBER6] => SP001
+    [L_NAME6] => cheap price sex pillow doll [1460]
+    [L_QTY6] => 1
+    [L_AMT6] => 21.04
+    [L_NUMBER7] => AS220
+    [L_NAME7] => automatic realistic vagina pocket pussy for masturbation [1466]
+    [L_QTY7] => 1
+    [L_AMT7] => 53.50
+    [L_NUMBER8] => DS221
+    [L_NAME8] => Dumbbell realistic vagina stroker [1467]
+    [L_QTY8] => 1
+    [L_AMT8] => 35.46
+    [L_NUMBER9] => SRV001
+    [L_NAME9] => Fleshlight Realistic Vagina stroker [1426]
+    [L_QTY9] => 1
+    [L_AMT9] => 12.62
+    [L_NUMBER10] => SD033
+    [L_NAME10] => Beautiful face blow up korean sex doll [1391]
+    [L_QTY10] => 1
+    [L_AMT10] => 53.50
+    [L_NUMBER11] => SD106
+    [L_NAME11] => Cheap price inflatable Sex dolls [1492]
+    [L_QTY11] => 1
+    [L_AMT11] => 51.10
+    [L_NUMBER12] => SD003
+    [L_NAME12] => Cyberskin stockings girl sex doll [1356]
+    [L_QTY12] => 1
+    [L_AMT12] => 1,081.38
+    [L_NUMBER13] => LS005
+    [L_NAME13] => Sex Lingerie for cheep silicon sex dolls in uk [1507]
+    [L_QTY13] => 1
+    [L_AMT13] => 10.00
+    [L_NUMBER14] => LS006
+    [L_NAME14] => Sexy Lingeie for sex doll in UK [1508]
+    [L_QTY14] => 1
+    [L_AMT14] => 10.00
+    [L_NUMBER15] => LS001
+    [L_NAME15] => Sexy Lingerie for adult fuck sex doll [1503]
+    [L_QTY15] => 1
+    [L_AMT15] => 10.00
+    [L_NUMBER16] => VM095
+    [L_NAME16] => 100* Silicon, 10 Speed Waterproof G Spot Vibrator [1285]
+    [L_QTY16] => 1
+    [L_AMT16] => 35.77
+    [L_NUMBER17] => VM118
+    [L_NAME17] => 100* Waterproof, 12 frequece Vibrating G Spot Massager [1308]
+    [L_QTY17] => 1
+    [L_AMT17] => 35.04
+    [L_NUMBER18] => SDW101
+    [L_NAME18] => inflated strong male sex doll for women [1501]
+    [L_QTY18] => 1
+    [L_AMT18] => 54.10
+    [L_NUMBER19] => SDW005
+    [L_NAME19] => sex doll for female with Clitoris [1423]
+    [L_QTY19] => 1
+    [L_AMT19] => 59.51
+    [L_NUMBER20] => SDM004
+    [L_NAME20] => strong silicon sex doll for woman [1461]
+    [L_QTY20] => 1
+    [L_AMT20] => 239.84
+    [L_NUMBER21] => STM102
+    [L_NAME21] => 3d vibratring Realistic ass stroker [1491]
+    [L_QTY21] => 1
+    [L_AMT21] => 39.67
+    [L_NUMBER22] => MS006
+    [L_NAME22] => 4D realistic vagina for male masturbator [1370]
+    [L_QTY22] => 1
+    [L_AMT22] => 36.67
+    [L_NUMBER23] => MS103
+    [L_NAME23] => An Awesome Pocket Pussy [1486]
+    [L_QTY23] => 1
+    [L_AMT23] => 22.54
+    [L_NUMBER24] => SD100
+    [L_NAME24] => inflatable Chinese sex doll [1448]
+    [L_QTY24] => 1
+    [L_AMT24] => 61.30
+    [CURRENCYCODE] => GBP
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Aniga Doll Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [RETURNURL] => http://www.ebayst.com/ipn_main_handler.php?type=ec&zenid=993715ba2108c819bdce4898f74288f9
+    [CANCELURL] => http://www.ebayst.com/index.php?main_page=shopping_cart&ec_cancel=1&zenid=993715ba2108c819bdce4898f74288f9
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-18575538U6528194H
+    [TIMESTAMP] => 2014-04-30T07:34:58Z
+    [CORRELATIONID] => 294d51c66c315
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 10800277
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 940ms -- Success
+

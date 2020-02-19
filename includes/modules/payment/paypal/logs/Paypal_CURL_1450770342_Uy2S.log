@@ -1,0 +1,80 @@
+2015-12-22 12:45:42
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [AMT] => 1,149.00
+    [ITEMAMT] => 1,149.00
+    [L_NUMBER0] => SDL002
+    [L_NAME0] => footjob sex doll [1431]
+    [L_QTY0] => 1
+    [L_AMT0] => 1,199.00
+    [L_NAME1] => Credits applied, including discount coupons, gift certificates, etc
+    [L_AMT1] => -50.00
+    [L_QTY1] => 1
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => james cheng
+    [SHIPTOSTREET] => lala sdff
+    [SHIPTOCITY] => jdkfj
+    [SHIPTOZIP] => 356487
+    [SHIPTOSTATE] => FM
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => lalal@gjs.com
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+    [PAGESTYLE] => Primary
+    [METHOD] => SetExpressCheckout
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TIMESTAMP] => 2015-12-22T07:45:42Z
+    [CORRELATIONID] => 16a4315dc4577
+    [ACK] => Failure
+    [VERSION] => 61.0
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 10736
+    [L_SHORTMESSAGE0] => Shipping Address Invalid City State Postal Code
+    [L_LONGMESSAGE0] => A match of the Shipping Address City, State, and Postal Code failed.
+    [L_SEVERITYCODE0] => Error
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 602ms -- Failure
+
+TIMESTAMP=2015%2d12%2d22T07%3a45%3a42Z&CORRELATIONID=16a4315dc4577&ACK=Failure&VERSION=61%2e0&BUILD=18308778&L_ERRORCODE0=10736&L_SHORTMESSAGE0=Shipping%20Address%20Invalid%20City%20State%20Postal%20Code&L_LONGMESSAGE0=A%20match%20of%20the%20Shipping%20Address%20City%2c%20State%2c%20and%20Postal%20Code%20failed%2e&L_SEVERITYCODE0=Error&CURL_ERRORS=
+

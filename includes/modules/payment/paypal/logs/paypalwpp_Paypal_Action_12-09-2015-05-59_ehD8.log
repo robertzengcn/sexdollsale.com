@@ -1,0 +1,231 @@
+Dec-09-2015 05:59:20 (1449665960)
+getLineItemDetails 7 - subtotal comparisons
+BEFORE line-item calcs: Array
+(
+    [AMT] => 60
+    [ITEMAMT] => 60
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+)
+AFTER doing line-item calcs: Array
+(
+    [AMT] => 60
+    [ITEMAMT] => 60
+    [TAXAMT] => 0
+    [SHIPPINGAMT] => 0
+    [SHIPDISCAMT] => 0
+    [HANDLINGAMT] => 0
+    [INSURANCEAMT] => 0
+    [L_NUMBER0] => MEIR030
+    [L_NAME0] => 2015 aircraft Cup [1590]
+    [L_QTY0] => 1
+    [L_AMT0] => 60
+)
+
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+getLineItemDetails 8
+checking subtotals... 
+Array
+(
+    [calculated total] => 60.00
+    [AMT] => 60.00
+    [ITEMAMT] => 60.00
+)
+
+-------------------
+difference: 0  (abs+rounded: 0)
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+getLineItemDetails 10
+subtotals balance - okay
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+ec_step1 - 1
+Checking to see if we are in markflow
+cart contents: physical
+
+NOTE: $this->showPaymentPage = 0
+Customer ID: 441
+Session Data: Array
+(
+    [securityToken] => 592b48ba8dea2143aabb7f01f5ef21c9
+    [customers_host_address] => 101.212.65.238
+    [cartID] => 08650
+    [cart] => shoppingCart Object
+        (
+            [contents] => Array
+                (
+                    [1590] => Array
+                        (
+                            [qty] => 1
+                        )
+
+                )
+
+            [total] => 60
+            [weight] => 1
+            [cartID] => 08650
+            [content_type] => physical
+            [free_shipping_item] => 0
+            [free_shipping_weight] => 0
+            [free_shipping_price] => 0
+        )
+
+    [check_valid] => true
+    [language] => english
+    [languages_id] => 1
+    [languages_code] => en
+    [currency] => USD
+    [new_products_id_in_cart] => 1590
+    [today_is] => 2015-12-09
+    [updateExpirations] => 1
+    [session_counter] => 1
+    [customers_ip_address] => 101.212.65.238
+    [valid_to_checkout] => 1
+    [cart_errors] => 
+    [payment] => paypalwpp
+    [total_weight] => 1
+    [total_count] => 1
+    [sendto] => 488
+    [billto] => 488
+    [action] => process
+    [email_pref_html] => email_format
+    [shippingAddress] => 1
+    [firstname] => hgfg
+    [lastname] => fgh
+    [street_address] => gfhggfdd
+    [city] => gfhf
+    [zone_country_id] => 99
+    [zone_id] => 
+    [postcode] => 225678
+    [firstname_shipping] => 
+    [lastname_shipping] => 
+    [street_address_shipping] => 
+    [city_shipping] => 
+    [zone_country_id_shipping] => 223
+    [zone_id_shipping] => 
+    [postcode_shipping] => 
+    [email_address] => dgf@gmail.con
+    [email_format] => TEXT
+    [telephone] => 9807788999
+    [gender] => m
+    [state] =>  up
+    [state_shipping] =>  
+    [COWOA] => 1
+    [customer_id] => 441
+    [shipping] => Array
+        (
+            [id] => freeoptions_freeoptions
+            [title] => Free Shipping Options (Free Shipping)
+            [cost] => 0
+        )
+
+    [customer_first_name] => hgfg
+    [customer_default_address_id] => 488
+    [customer_country_id] => 99
+    [customer_zone_id] => 
+    [customers_authorization] => 0
+    [comments] => 
+    [paypal_ec_markflow] => 1
+)
+
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+ec-step1-addr_check
+cart content is not all virtual (or customer is not logged in) ... therefore will be submitting address details
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+getOverrideAddress - 1
+Now in markflow mode.
+SESSION[sendto] = 488
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+getOverrideAddress - 2
+$address_arr->fields = Array
+(
+    [entry_firstname] => hgfg
+    [entry_lastname] => fgh
+    [entry_company] => 
+    [entry_street_address] => gfhggfdd
+    [entry_suburb] => 
+    [entry_city] => gfhf
+    [entry_postcode] => 225678
+    [entry_country_id] => 99
+    [entry_zone_id] => 0
+    [entry_state] =>  up
+    [zone_code] =>  up
+    [countries_iso_code_2] => IN
+)
+
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+ec-step1-addr_check3
+address details from override check:Array
+(
+    [entry_firstname] => hgfg
+    [entry_lastname] => fgh
+    [entry_company] => 
+    [entry_street_address] => gfhggfdd
+    [entry_suburb] => 
+    [entry_city] => gfhf
+    [entry_postcode] => 225678
+    [entry_country_id] => 99
+    [entry_zone_id] => 0
+    [entry_state] =>  up
+    [zone_code] =>  up
+    [countries_iso_code_2] => IN
+)
+
+=================================
+
+Dec-09-2015 05:59:20 (1449665960)
+ec_step1 - 2 -submit
+Array
+(
+    [AMT] => 60.00
+    [ITEMAMT] => 60.00
+    [L_NUMBER0] => MEIR030
+    [L_NAME0] => 2015 aircraft Cup [1590]
+    [L_QTY0] => 1
+    [L_AMT0] => 60.00
+    [CURRENCYCODE] => USD
+    [LOCALECODE] => US
+    [GIFTMESSAGEENABLE] => 0
+    [GIFTRECEIPTEENABLE] => 0
+    [GIFTWRAPENABLE] => 0
+    [GIFTWRAPNAME] => 
+    [GIFTWRAPAMOUNT] => 0
+    [BUYEREMAILOPTINENABLE] => 0
+    [CUSTOMERSERVICENUMBER] => 
+    [BRANDNAME] => Niteland Adult Toy Online Store
+    [PAYMENTACTION] => Sale
+    [ALLOWNOTE] => 1
+    [SOLUTIONTYPE] => Sole
+    [LANDINGPAGE] => Billing
+    [NOSHIPPING] => 0
+    [ADDROVERRIDE] => 1
+    [SHIPTONAME] => hgfg fgh
+    [SHIPTOSTREET] => gfhggfdd
+    [SHIPTOCITY] => gfhf
+    [SHIPTOZIP] => 225678
+    [SHIPTOSTATE] =>  up
+    [SHIPTOCOUNTRYCODE] => IN
+    [SHIPTOPHONENUM] => 
+    [EMAIL] => dgf@gmail.con
+    [RETURNURL] => http://www.sexdollsale.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.sexdollsale.com/index.php?main_page=checkout_shipping&ec_cancel=1
+)
+
+=================================
+

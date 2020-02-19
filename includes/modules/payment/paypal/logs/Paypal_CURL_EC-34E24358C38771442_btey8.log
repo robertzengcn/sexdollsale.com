@@ -1,0 +1,75 @@
+2015-05-16 11:53:49
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 90
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart(R) - PayPal/NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.5.1
+)
+
+
+Request Parameters: {GetExpressCheckoutDetails} 
+Array
+(
+    [TOKEN] => EC-34E24358C38771442
+    [METHOD] => GetExpressCheckoutDetails
+    [USER] => amigasexdoll_api1.gmail.com
+    [PWD] => ****************
+    [VERSION] => 61.0
+    [SIGNATURE] => ****************************************************xHcT
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-34E24358C38771442
+    [PHONENUM] => 646-404-0945
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [CHECKOUTSTATUS] => PaymentActionNotInitiated
+    [TIMESTAMP] => 2015-05-17T05:53:49Z
+    [CORRELATIONID] => 9a480068496aa
+    [ACK] => Success
+    [VERSION] => 61.0
+    [BUILD] => 16684246
+    [EMAIL] => jmww123123@gmail.com
+    [PAYERID] => 5H252Y2PKBSYE
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => ANPING
+    [LASTNAME] => LIN
+    [COUNTRYCODE] => US
+    [SHIPTONAME] => ANPING LIN
+    [SHIPTOSTREET] => 1669 E Trenton ave
+    [SHIPTOCITY] => Fresno
+    [SHIPTOSTATE] => CA
+    [SHIPTOZIP] => 93720
+    [SHIPTOCOUNTRYCODE] => US
+    [SHIPTOCOUNTRYNAME] => United States
+    [ADDRESSSTATUS] => Confirmed
+    [CURRENCYCODE] => USD
+    [AMT] => 60.00
+    [ITEMAMT] => 60.00
+    [SHIPPINGAMT] => 0.00
+    [HANDLINGAMT] => 0.00
+    [TAXAMT] => 0.00
+    [INSURANCEAMT] => 0.00
+    [SHIPDISCAMT] => 0.00
+    [L_NAME0] => wireless remote control massage vibrators [1524]
+    [L_NUMBER0] => mv045
+    [L_QTY0] => 1
+    [L_TAXAMT0] => 0.00
+    [L_AMT0] => 60.00
+    [L_ITEMWEIGHTVALUE0] =>    0.00000
+    [L_ITEMLENGTHVALUE0] =>    0.00000
+    [L_ITEMWIDTHVALUE0] =>    0.00000
+    [L_ITEMHEIGHTVALUE0] =>    0.00000
+    [CURL_ERRORS] => 
+)
+
+
+GetExpressCheckoutDetails, Elapsed: 587ms -- Success
+
